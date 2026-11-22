@@ -62,6 +62,48 @@ flowchart LR
 
 Future additions: sensors, double-feed detection, motor control and error recovery.
 
+## Reference images
+
+### Pacific Image PowerFilm Plus
+
+![Overhead view of the open PowerFilm Plus feed chute](../images/powerfilm-plus-feed-chute-top-view.png)
+
+*Feed chute from above. The guide channel leads toward several rollers mounted on parallel shafts.*
+
+![PowerFilm Plus pickup assembly lowered over the feed entrance](../images/powerfilm-plus-pickup-assembly-closed.png)
+
+*Pickup assembly in the lowered position. Its black cover sits over the feed entrance, beside two gray rollers on parallel shafts.*
+
+![PowerFilm Plus pickup assembly partly tilted upward](../images/powerfilm-plus-pickup-assembly-opening.png)
+
+*Pickup assembly partway open. Lifting the cover exposes part of the white pad and the guides beneath it.*
+
+![Raised PowerFilm Plus assembly with the upper roller visible](../images/powerfilm-plus-pickup-assembly-raised.png)
+
+*Pickup assembly raised farther. The upper gray roller is visible beneath the cover, above the white pad in the feed path.*
+
+![Open PowerFilm Plus assembly exposing the upper and lower rollers](../images/powerfilm-plus-pickup-rollers-exposed.png)
+
+*Pickup assembly upright. The upper and lower gray rollers are both visible, along with gears at their right ends.*
+
+![Close-up of the PowerFilm Plus feed entrance and two felt-like strips](../images/powerfilm-plus-feed-entrance-close-up.png)
+
+*Feed entrance close-up. Two felt-like strips sit on the entrance guides beside a white pad below the rollers.*
+
+![Blue arrows highlighting two felt-like strips at the PowerFilm Plus entrance](../images/powerfilm-plus-felt-supports-annotated.png)
+
+*Annotated crop of the feed entrance. Blue arrows highlight the two felt-like strips discussed in the passive separation hypothesis. Their material and mechanical role remain unverified.*
+
+### Film transport and gates
+
+![Close-up of the Filmomat Autocarrier motor and its terminals](../images/filmomat-autocarrier-motor-close-up.png)
+
+*Filmomat Autocarrier motor. The motor is mounted on a dark plate, with two electrical terminals visible above the housing.*
+
+![Film gate plates with rectangular apertures and red clamp frames](../images/film-gate-holders-with-red-clamps.png)
+
+*Film gate holders. Several plates have red clamp frames around the scanning aperture. Bare plates show the cutouts and mounting holes.*
+
 ## Illustration guidelines
 
 - Use SVG for editable mechanical diagrams.
