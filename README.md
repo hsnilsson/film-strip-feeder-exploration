@@ -16,6 +16,10 @@ Collecting ideas for automatically feeding **loose 35 mm film strips, including 
 
 All carriers currently have some amount of stray light, or Non Image Forming Light, i.e. light that bounces into the walls of something after hitting the film and before entering the camera sensor. Autocarrier seems to have the least of this.
 
+## Independent and DIY scanning projects
+
+The [project survey](INDEPENDENT_PROJECTS.md) compares crowdfunded carriers, prototypes and DIY builds by transport mechanism, minimum strip length and loading method. It also links to a Gretag Imaging patent that describes feeding loose negative strips from a stack into a camera-scanning path.
+
 ## Concepts to investigate
 
 ### 1. Two-stage pickup (initial manual experiment)
@@ -51,7 +55,5 @@ Related: [SlideSnap Strip](https://slidesnap.com/product/slidesnap-strip/) · [K
 - [Brother scanner separation pad](https://store.brother.se/accessories/scanners/sp2001c)
 - [MakerBeamXL modular framing](https://www.makerbeam.com/makerbeamxl/)
 - [Pololu micro gearmotors](https://www.pololu.com/category/60/micro-metal-gearmotors)
-- [Open-source automatic film scanning](https://github.com/techcakelab/Auto-film-scanning)
-- [DIY negative scanner](https://github.com/FruitieX/negative_scanner)
 
 Feedback, experiments, corrections, and alternative designs are welcome. See [planned diagrams](assets/README.md).
