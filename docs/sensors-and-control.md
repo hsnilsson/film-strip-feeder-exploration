@@ -12,7 +12,7 @@ Sensor choices and the motorized control sequence are proposals. Control spans t
 | [Flattening & capture](4-flattening-and-capture.md) | Gate capture on transport stopped and film clamped. Resume after release. |
 | [Output](5-output.md) | Confirm the previous strip cleared before admitting the next. |
 
-Perforation sensing provides a movement reference. Camera-based detection can look for the image boundary directly, including where spacing varies. Reliability on single frames, curled pieces and different films needs testing. Double-feed sensing can be handled by .
+Perforation sensing provides a movement reference. Camera-based detection can look for the image boundary directly, including where spacing varies. Reliability on single frames, curled pieces and different films needs testing. An ultrasonic double-sheet sensor is one option to test for double feeds. [microsonic dbk+4/3CDD/M18 E+S](https://www.microsonic.de/en/sensordetail/dbk+4-3CDD-M18%20E+S)
 
 ## Open questions and experiments
 
