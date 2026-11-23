@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="305" viewBox="0 0 720 305" role="img" aria-labelledby="title desc">
+  <title id="title">Two-stage roller pickup</title>
+  <desc id="desc">Two conceptual side views. The tilted stack rests on a flat guide surface. The primary roller advances the outer strip downward onto the surface. A proposed secondary roller takes over and moves the film along the surface. The departing strip's trailing edge may scrape the next strip.</desc>
+  <defs>
+    <marker id="feed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0l8 4-8 4z" fill="#00756e"/>
+    </marker>
+    <path id="stack" d="M97.5 88L162.2 221M93 88L157.7 221M88.5 88L153.2 221" fill="none" stroke="#617587" stroke-width="2"/>
+    <rect id="guide" x="77" y="221" width="256" height="14" fill="#dce5ee" stroke="#40566b" stroke-width="1.5"/>
+    <circle id="primary" cx="151" cy="119" r="22" fill="#dce5ee" stroke="#40566b" stroke-width="3"/>
+  </defs>
+  <rect x="1" y="1" width="718" height="303" rx="12" fill="#f7fafc" stroke="#bccbd7"/>
+  <path d="M360 20v265" stroke="#bccbd7"/>
+  <g font-family="Arial, sans-serif" fill="#182c3e" font-size="16">
+    <text x="24" y="31" font-weight="700" font-size="20">A. Advance the outer strip</text>
+    <text x="24" y="56">Initial pickup · side view</text>
+    <g>
+      <use href="#stack" x="6.1"/>
+      <use href="#guide"/>
+      <use href="#primary"/>
+      <path d="M108.1 88L128.5 130C144.5 163 177 219 210 219" fill="none" stroke="#00756e" stroke-width="3"/>
+      <path d="M171 155q13 23 31 39" fill="none" stroke="#00756e" stroke-width="2.5" marker-end="url(#feed)"/>
+      <path d="M172 111l17-7h8M105 195l34-15M269 235l-9 16" fill="none" stroke="#617587"/>
+      <text x="203" y="110">Primary roller</text>
+      <text x="24" y="201">Tilted stack</text>
+      <text x="257" y="272" text-anchor="middle">Guide surface</text>
+    </g>
+    <g transform="translate(360)">
+      <text x="24" y="31" font-weight="700" font-size="20">B. Take over at the leading edge</text>
+      <text x="24" y="56">Proposed extension · side view</text>
+      <use href="#stack" x="11"/>
+      <use href="#guide"/>
+      <use href="#primary"/>
+      <circle cx="183" cy="180" r="22" fill="#dce5ee" stroke="#40566b" stroke-width="3" stroke-dasharray="5 3"/>
+      <path d="M159 192C177 208 185 219 210 219H315" fill="none" stroke="#00756e" stroke-width="3"/>
+      <path d="M281 201h45" fill="none" stroke="#00756e" stroke-width="2.5" marker-end="url(#feed)"/>
+      <path d="M194 159l13-17m62 93l-9 16" fill="none" stroke="#617587"/>
+      <text x="246" y="133" text-anchor="middle">Secondary roller</text>
+      <text x="257" y="272" text-anchor="middle">Guide surface</text>
+      <circle cx="159" cy="192" r="5" fill="none" stroke="#934c18" stroke-width="2"/>
+      <path d="M155 195l-40 56" fill="none" stroke="#934c18"/>
+      <text x="27" y="272" fill="#804015">Possible scrape point</text>
+    </g>
+  </g>
+</svg>

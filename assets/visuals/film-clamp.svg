@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="282" viewBox="0 0 720 282" role="img" aria-labelledby="title desc">
+  <title id="title">Edge clamping and lateral tension</title>
+  <desc id="desc">Cross-section across the film width. Plates press down onto the film edges over belts. While clamped, the opposing assemblies move outward, leaving the middle optically clear for capture.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0l8 4-8 4z" fill="#00756e"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="718" height="280" rx="12" fill="#f7fafc" stroke="#bccbd7"/>
+  <g font-family="Arial, sans-serif" fill="#182c3e" font-size="16">
+    <text x="25" y="32" font-weight="700" font-size="20">Edge clamping and lateral tension</text>
+    <text x="25" y="55">Proposed concept · cross-section across film width</text>
+    <g fill="#dce5ee" stroke="#40566b" stroke-width="2">
+      <rect x="165" y="133" width="83" height="28" rx="3"/>
+      <rect x="472" y="133" width="83" height="28" rx="3"/>
+      <rect x="165" y="168" width="83" height="20" rx="6"/>
+      <rect x="472" y="168" width="83" height="20" rx="6"/>
+    </g>
+    <path d="M180 164h360" stroke="#00756e" stroke-width="4"/>
+    <g fill="none" stroke="#00756e" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M206 92v33"/>
+      <path d="M514 92v33"/>
+      <path d="M151 161H80"/>
+      <path d="M569 161h71"/>
+    </g>
+    <text x="206" y="83" text-anchor="middle" fill="#006660">Press</text>
+    <text x="514" y="83" text-anchor="middle" fill="#006660">Press</text>
+    <text x="112" y="148" text-anchor="middle" fill="#006660">Outward</text>
+    <text x="607" y="148" text-anchor="middle" fill="#006660">Outward</text>
+    <path d="M256 146h31m177 32h-28" stroke="#617587"/>
+    <text x="295" y="151">Clamp plates</text>
+    <text x="381" y="184">Belts</text>
+    <path d="M258 216v6h204v-6" fill="none" stroke="#617587"/>
+    <text x="360" y="246" text-anchor="middle">Clear image area</text>
+  </g>
+</svg>

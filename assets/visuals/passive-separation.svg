@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="270" viewBox="0 0 720 270" role="img" aria-labelledby="title desc">
+  <title id="title">Passive separation hypothesis</title>
+  <desc id="desc">Conceptual side view. The stack and felt-like support form a shallow U. The support joins the top of the retaining edge, and the stacked strips meet the rising support in order from bottom to top. The support may press the stack into the upper roller as it advances the top strip.</desc>
+  <defs>
+    <marker id="feed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0l8 4-8 4z" fill="#00756e"/>
+    </marker>
+    <marker id="force" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0l8 4-8 4z" fill="#934c18"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="718" height="268" rx="12" fill="#f7fafc" stroke="#bccbd7"/>
+  <g font-family="Arial, sans-serif" fill="#182c3e" font-size="16">
+    <text x="25" y="32" font-weight="700" font-size="20">Passive separation hypothesis</text>
+    <text x="25" y="55">Pickup zone · side view · schematic</text>
+    <text x="264" y="101" text-anchor="end">Upper pickup roller</text>
+    <path d="M274 96h29" stroke="#617587"/>
+    <circle cx="340" cy="105" r="34" fill="#dce5ee" stroke="#40566b" stroke-width="3"/>
+    <circle cx="340" cy="105" r="5" fill="#40566b"/>
+    <text x="43" y="148">Stack</text>
+    <path d="M92 142h21" stroke="#617587"/>
+    <path d="M412 178L439 140.6 467 178H618" fill="none" stroke="#40566b" stroke-width="3"/>
+    <path d="M119 148L230 156Q248 157.3 266 155.7L439 140.6 431 152 266 166.7Q248 168.3 230 167L119 159Z" fill="#dce5ee" stroke="#40566b" stroke-width="2"/>
+    <g fill="none" stroke="#617587" stroke-width="1.4">
+      <path d="M119 139.3L246 148.2Q272 150.02 304 148.34L420.1 142.25"/>
+      <path d="M119 141.4L246 150.3Q272 152.12 304 150.44L359.8 147.51"/>
+      <path d="M119 143.5L246 152.4Q270.3 154.1 299.9 152.74"/>
+    </g>
+    <path d="M119 134.5L242 143.1Q268 144.9 299 143.2C317 142.2 326 140 340 140S401 136.5 439 136.5H586" fill="none" stroke="#00756e" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#feed)"/>
+    <text x="483" y="124" fill="#006660">Proposed strip motion</text>
+    <path d="M238 224V173" fill="none" stroke="#934c18" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#force)"/>
+    <text x="43" y="212">Felt-like support</text>
+    <path d="M147 194l18-32" stroke="#617587"/>
+    <text x="183" y="246" fill="#804015">Possible upward force</text>
+    <path d="M452 158l25 46h5" fill="none" stroke="#617587"/>
+    <text x="488" y="209">Retaining edge</text>
+    <text x="488" y="234" fill="#804015">Retaining action unverified</text>
+  </g>
+</svg>

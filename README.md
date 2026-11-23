@@ -1,59 +1,67 @@
 # Film Strip Feeder Exploration
 
-**WIP · Research and concepts — not a working or validated design.**
+## Introduction
 
-Collecting ideas for automatically feeding **loose 35 mm film strips, including single-frame negatives**, from a stack into a camera-scanning transport. The priorities are reliable separation, no double-feeding, and no film damage.
+This is an exploration of automatic film scanning and a collection ideas for how to build something like "the best possible automatic batch film strip feeder and autocarrier for cut and uncut strips". It is my very informal braindump of how to possibly solve some shortcomings of the current intents.
+
+The film scanning workflow is often seen from two slightly different perspectives; one from people shooting new film and scan rolls, and another from people scanning and archiving film in the form of cut strips.
+
+Many people have been custructing parts of this flow, but there are always shortcomings and prioritizations. The goal with this exploration is that it might help someone realize a potential problem earlier in their design or find a better solution to some part of this flow.
+
+## Wishlist for scanning flow
+
+- batch feeder for cut strips down to singles
+    (this is the most overlooked feature by others so I dive into it deeply here. It could be solved as a separate unit or more proably a built in part of the solution)
+- perfect flatness
+- exchangable light source
+- fast
+- dust detection
+- handles many formats
+- easy to clean and repair
+
 
 ## Current solutions and limitations
 
-| Existing solution | Relevant capability / limitation |
-| --- | --- |
-| [Pacific Image PowerFilm Plus](https://www.scanace.com/) | Only batch feeder out there. Up to 10 strips. Down to 2 frames per strip. Only 24mp, slow CCD scanner. |
-| [SlideSnap Strip](https://slidesnap.com/product/slidesnap-strip/) | Transports single frames, but doesn't provide unattended feeding from a stack of loose strips. Handles many many different film sizes. Struggles against gravity. Cannot garantee flatness. |
-| [toneCarrier 35 mm](https://tonephotographic.com/products/tonecarrier-35-mm) | Synchronized edge rollers; minimum four frames per strip. |
-| [Filmomat Autocarrier](https://shop.filmomat.eu/) | Automated film transport; an independent batch separator is the missing part for this concept. Keeps film very flat. Cannot handle less than three frames. |
-| [Lento Dock 35](https://lento.fun/shop/dock-35/) | Automated film transport and frame detection. Each strip is loaded by hand and must be at least 123 mm long (about four full frames or seven half frames). |
-
-All carriers currently have some amount of stray light, or Non Image Forming Light, i.e. light that bounces into the walls of something after hitting the film and before entering the camera sensor. Autocarrier seems to have the least of this.
+| Existing solution                                                            | Relevant capability                                                                                                | Limitations                                                                                                                                            |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Pacific Image PowerFilm Plus](https://www.scanace.com/product/film-scanners/powerfilm-plus)                     | <ul><li>The only film batch feeder I've found</li><li>Up to 10 strips</li><li>Down to 2 frames per strip</li><li>ICE</li></ul> | <ul><li>24 MP scanner</li><li>Slow (CCD scanner)</li></ul>                                                                                               |
+| [SlideSnap Strip](https://slidesnap.com/product/slidesnap-strip/)            | <ul><li>Transports single frames</li><li>Handles many different film sizes</li></ul>                               | <ul><li>Does not provide unattended feeding from a stack of loose strips</li><li>Cannot guarantee flatness of edge frames</li></ul> |
+| [toneCarrier 35 mm](https://tonephotographic.com/products/tonecarrier-35-mm) | <ul><li>Synchronized edge rollers</li></ul>                                                                        | <ul><li>Minimum four frames per strip</li></ul>                                                                                                        |
+| [Filmomat Autocarrier](https://shop.filmomat.eu/)                            | <ul><li>Keeps film very flat</li><li>IR light</li></ul>                                            | <ul><li>Independent batch separator is missing for this concept</li><li>Cannot handle fewer than three frames</li></ul>                                |
+| [Lento Dock 35](https://lento.fun/shop/dock-35/)                             | <ul><li>Automated film transport</li><li>RGB scanning</li></ul>                                                 | <ul><li>Flatness not confirmed</li><li>Strip length of minimum 123 mm</li></ul>                          |
 
 ## Independent and DIY scanning projects
 
-The [project survey](INDEPENDENT_PROJECTS.md) compares crowdfunded carriers, prototypes and DIY builds by transport mechanism, minimum strip length and loading method. It also links to a Gretag Imaging patent that describes feeding loose negative strips from a stack into a camera-scanning path.
+The [project survey](INDEPENDENT_PROJECTS.md) compares crowdfunded carriers, prototypes and DIY builds by transport mechanism, minimum strip length and loading method. Gretag Imaging patented a mechanism for feeding loose negative strips from a stack into a camera-scanning path. [Published suction pickup design](docs/2-pickup-and-separation.md#closest-published-design-for-loose-strips)
 
-## Concepts to investigate
+## Overview
 
-### 1. Two-stage pickup (initial manual experiment)
+```mermaid
+flowchart LR
+    stack["1. Film stack"] --> pickup["2. Pickup & separation"]
+    pickup --> transport["3. Transport"]
+    transport --> capture["4. Flattening & capture"]
+    capture --> output["5. Output"]
+```
 
-Stand strips roughly vertically, slightly tilted towards the feed direction. A rubber roller contacts the outer strip's glossy base side and advances it; a second roller could take over once its edge protrudes.
+| Stage                                                     | What happens                                              |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| 1. [Film stack](docs/1-film-stack.md)                       | Present loose strips to the pickup point.                 |
+| 2. [Pickup & separation](docs/2-pickup-and-separation.md)   | Extract one strip and hand it off to transport.           |
+| 3. [Transport](docs/3-transport.md)                         | Keep both film edges under drive and position each frame. |
+| 4. [Flattening & capture](docs/4-flattening-and-capture.md) | Stop, clamp, tension, capture, then release.              |
+| 5. [Output](docs/5-output.md)                               | Collect the strip after its final frame.                  |
+| [Sensors & control](docs/sensors-and-control.md)          | Coordinate movement, capture and fault recovery.          |
 
-**Key risk:** the extracted strip's trailing edge scraping the next strip during handoff.
-
-### 2. Passive separation (PowerFilm Plus hypothesis)
-
-Video of the PowerFilm Plus appears to show an upper rubber pickup roller, two felt-like flexible supports under the stack, and an angled retaining lip.
-
-**Unverified hypothesis:** the supports push the stack towards the roller; the lip and friction retain the lower strips while the rubber roller extracts the uppermost. The next strip then moves into position automatically. We have **not confirmed** the components' materials, spring action, or actual separation method.
-
-References: [Feeding footage at 1:22](https://youtu.be/FA9UKOKTuyk?t=82) · [Roller cleaning / internal view](https://www.youtube.com/watch?v=_j4d6bKq0QE)
-
-### 3. Transport and flatten single frames
+## Transport and flatten single frames
 
 Use two narrow, continuously driven rubber belts along the film's perforated edges so even one frame remains under drive inside the gate. At capture, clamp the edges against the belts and apply a **small outward displacement** to reduce transverse curl without touching the image area. Film deformation and longitudinal curl remain open questions.
 
 Related: [SlideSnap Strip](https://slidesnap.com/product/slidesnap-strip/) · [Kodak film-flattening patent](https://patents.google.com/patent/EP0660170A1/en)
 
-## Prototype plan
-
-1. **Manual rig:** adjustable stack angle, roller height/pressure, flexible separator pads and lip; hand-cranked pickup; optional second roller.
-2. **Test separation:** single-frame through multi-frame strips, mixed curl and stack sizes; inspect for scratches and double feeds. Initial target: **100 consecutive successful feeds**.
-3. **Motorize:** independently driven geared motors, adjustable speeds, edge sensing, and double-feed/error detection (e.g. ESP32).
-4. **Integrate:** continuous-belt gate, optional lateral-tension clamps, and connection to an existing carrier or custom imaging stage.
-
 ## References
 
-- [Xerox separator mechanism patent](https://patents.google.com/patent/EP1721846B1/en)
-- [Brother scanner separation pad](https://store.brother.se/accessories/scanners/sp2001c)
 - [MakerBeamXL modular framing](https://www.makerbeam.com/makerbeamxl/)
 - [Pololu micro gearmotors](https://www.pololu.com/category/60/micro-metal-gearmotors)
 
-Feedback, experiments, corrections, and alternative designs are welcome. See [planned diagrams](assets/README.md).
+Feedback, experiments, corrections, and alternative designs are welcome.
