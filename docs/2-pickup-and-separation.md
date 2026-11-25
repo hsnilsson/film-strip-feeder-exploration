@@ -4,6 +4,8 @@
 
 Extract one strip, clear it from the stack and hand it off to transport. A loose single frame has to stay under control through the same transition as longer strips.
 
+[Pickup and separation patent archive](../research/film-pickup-and-separation-patents/index.md)
+
 ## Passive separation inspired by PowerFilm Plus
 
 **Observed in footage.** Two initial rubber rollers rotate through a mechanical link. Their housing lifts for cleaning. The entrance shows two felt-like supports below the stack, an angled entrance with a retaining edge, and further rollers inside near the scanner sensor. [PowerFilm Plus feeding footage at 1:22](https://youtu.be/FA9UKOKTuyk?t=82) · [Roller cleaning and internal view](https://www.youtube.com/watch?v=_j4d6bKq0QE)

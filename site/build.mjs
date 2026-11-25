@@ -7,7 +7,6 @@ import { parseFragment, serialize } from 'parse5';
 
 const root = resolve(import.meta.dirname, '..');
 const out = resolve(root, 'dist');
-const archive = 'research/film-flatness-patents';
 const repository = 'https://github.com/hsnilsson/film-strip-feeder-exploration';
 const markdown = new MarkdownIt({ html: true });
 const exists = async (file) => stat(file).then(() => true, () => false);
@@ -27,20 +26,31 @@ const projectNav = [
   ['Sensors & control', 'docs/sensors-and-control.md'],
   ['Independent projects', 'INDEPENDENT_PROJECTS.md'],
 ];
-const researchNav = [
-  ['Patent gallery', archive + '/index.md'],
-  ['History', archive + '/history.md'],
-  ['Mechanisms', archive + '/mechanisms.md'],
-  ['Research method', archive + '/methodology.md'],
+const archiveDefinitions = [
+  { directory: 'research/film-flatness-patents', title: 'Film-flatness archive', gallery: 'Patent gallery' },
+  { directory: 'research/film-pickup-and-separation-patents', title: 'Pickup & separation archive', gallery: 'Pickup patent gallery' },
 ];
-const catalogFile = archive + '/catalog.json';
-const catalog = await exists(resolve(root, catalogFile))
-  ? JSON.parse(await read(catalogFile))
-  : { patents: [], mechanisms: {} };
-const patents = catalog.patents.sort((a, b) => a.publication.localeCompare(b.publication));
-const patentPage = (entry) => archive + '/patents/' + entry.id + '.md';
-const pages = [...projectNav, ...researchNav].map(([, file]) => file);
-pages.push(...patents.map(patentPage));
+const patentPage = (archive, entry) => archive.directory + '/patents/' + entry.id + '.md';
+const archives = [];
+const archivePages = new Map();
+for (const definition of archiveDefinitions) {
+  const { directory, gallery } = definition;
+  const catalogFile = directory + '/catalog.json';
+  if (!await exists(resolve(root, catalogFile))) continue;
+  const catalog = JSON.parse(await read(catalogFile));
+  catalog.patents.sort((a, b) => a.publication.localeCompare(b.publication));
+  const nav = [
+    [gallery, directory + '/index.md'],
+    ['History', directory + '/history.md'],
+    ['Mechanisms', directory + '/mechanisms.md'],
+    ['Research method', directory + '/methodology.md'],
+  ];
+  const archive = { ...definition, catalogFile, catalog, nav };
+  archives.push(archive);
+  for (const [, file] of nav) archivePages.set(file, archive);
+  for (const entry of catalog.patents) archivePages.set(patentPage(archive, entry), archive);
+}
+const pages = [...projectNav.map(([, file]) => file), ...archivePages.keys()];
 const outputs = new Map();
 for (const file of pages) {
   if (await exists(resolve(root, file))) {
@@ -128,9 +138,10 @@ function select(id, label, options) {
     '</select></div>';
 }
 
-function archiveGallery(file) {
+function archiveGallery(file, archive) {
+  const { directory, catalog: { patents, mechanisms: mechanismLabels } } = archive;
   const distinct = (values) => [...new Set(values)].sort().map((value) => [value, value]);
-  const entries = Object.entries(catalog.mechanisms);
+  const entries = Object.entries(mechanismLabels);
   const years = patents.map((patent) => Number(patent.publication.slice(0, 4)));
   const yearInput = (name, label) => '<div class="filter"><label for="filter-' + name + '">' + label +
     '</label><input id="filter-' + name + '" type="number" name="' + name +
@@ -139,14 +150,16 @@ function archiveGallery(file) {
   const cards = patents.map((patent, index) => {
     const { id, title, company, application, publication, mechanisms, summary, figures, inventors, classifications } = patent;
     const [figure] = figures;
-    const linkToPatent = href(file, patentPage(patent));
+    const linkToPatent = href(file, patentPage(archive, patent));
+    const image = href(file, directory + '/figures/' + figure.file);
     const description = escape([id, title, company, application, summary, ...inventors, ...classifications,
       patent.problem, patent.sequence, patent.contact, patent.transverse, patent.longitudinal,
-      ...mechanisms.map((key) => catalog.mechanisms[key])].join(' '));
+      patent.stack, patent.pickup, patent.separation, patent.handoff,
+      ...mechanisms.map((key) => mechanismLabels[key])].join(' '));
     return `<article class="patent-card" data-year="${publication.slice(0, 4)}" data-company="${escape(company)}"
       data-application="${escape(application)}" data-mechanisms="${mechanisms.join(' ')}" data-search="${description}">
-      <a class="card-image" href="${href(file, archive + '/figures/' + figure.file)}" aria-label="${escape(id + ' · ' + figure.label + ' · open drawing')}">
-        <img src="${href(file, archive + '/figures/' + figure.file)}" alt="${escape(figure.description)}" loading="${index < 4 ? 'eager' : 'lazy'}" decoding="async">
+      <a class="card-image" href="${image}" aria-label="${escape(id + ' · ' + figure.label + ' · open drawing')}">
+        <img src="${image}" alt="${escape(figure.description)}" loading="${index < 4 ? 'eager' : 'lazy'}" decoding="async">
       </a>
       <div class="card-content">
         <div class="card-meta">${escape(publication.slice(0, 4) + ' · ' + id + ' · ' + figure.label)}</div>
@@ -184,10 +197,11 @@ function archiveGallery(file) {
   </section>`;
 }
 
-function patentNavigation(file, index) {
+function patentNavigation(file, archive, index) {
+  const { patents } = archive.catalog;
   const adjacent = [[patents[index - 1], 'Previous'], [patents[index + 1], 'Next']];
   const entries = adjacent.map(([entry, label]) => entry
-    ? link(file, patentPage(entry), label + ' · ' + entry.id + ' · ' + entry.title) : '<span></span>');
+    ? link(file, patentPage(archive, entry), label + ' · ' + entry.id + ' · ' + entry.title) : '<span></span>');
   return '<nav class="patent-adjacent" aria-label="Adjacent patents">' + entries.join('') + '</nav>';
 }
 
@@ -203,27 +217,32 @@ async function filesIn(dir) {
     .map((entry) => resolve(entry.parentPath, entry.name).slice(root.length + 1).split(sep).join('/'));
 }
 
-const imageFiles = new Set(await Promise.all(['images', 'assets', archive + '/figures'].map(filesIn)).then((sets) => sets.flat()));
+const figureDirectories = archives.map(({ directory }) => directory + '/figures');
+const sourceDirectories = archives.map(({ directory }) => directory + '/sources');
+const imageFiles = new Set((await Promise.all(['images', 'assets', ...figureDirectories].map(filesIn))).flat());
 await rm(out, { recursive: true, force: true });
 await mkdir(resolve(out, 'site-assets'), { recursive: true });
 await Promise.all([
-  ...['assets', 'images', archive + '/figures', archive + '/sources'].map(copyDirectory),
+  ...['assets', 'images', ...figureDirectories, ...sourceDirectories].map(copyDirectory),
   ...['style.css', 'site.js', 'film.svg'].map((file) => cp(resolve(root, 'site', file), resolve(out, 'site-assets', file))),
   cp(resolve(dirname(require.resolve('mermaid/package.json')), 'dist/mermaid.min.js'), resolve(out, 'site-assets/mermaid.min.js')),
   writeFile(resolve(out, '.nojekyll'), ''),
 ]);
-if (patents.length) {
+for (const { catalogFile, catalog } of archives) {
+  await mkdir(dirname(resolve(out, catalogFile)), { recursive: true });
   await writeFile(resolve(out, catalogFile), JSON.stringify(catalog, null, 2) + '\n');
 }
 
 for (const [file, output] of outputs) {
   const { content, headings, title, mermaid } = renderMarkdown(file, await read(file));
-  const archiveHome = file === archive + '/index.md';
-  const index = patents.findIndex((entry) => patentPage(entry) === file);
+  const archive = archivePages.get(file);
+  const archiveHome = archive?.nav[0][1] === file;
+  const index = archive?.catalog.patents.findIndex((entry) => patentPage(archive, entry) === file) ?? -1;
   const toc = headings.length > 0 ? '<nav class="toc" aria-label="On this page"><h2>On this page</h2>' +
     headings.map(([id, label]) => '<a href="#' + escape(id) + '">' + escape(label) + '</a>').join('') + '</nav>' : '';
   const asset = (name) => href(file, 'site-assets/' + name);
-  const research = menu(file, researchNav);
+  const research = archives.map(({ title, nav }) => '<h2>' + escape(title) + '</h2>' + menu(file, nav)).join('');
+  const defaultArchive = archives[0]?.nav[0][1];
   const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -241,7 +260,7 @@ for (const [file, output] of outputs) {
   <header class="masthead">
     <div class="masthead-inner">
       <a class="brand" href="${href(file, 'README.md')}"><span class="film-icon" aria-hidden="true"></span> Film Strip Feeder Exploration</a>
-      <div class="header-links">${research ? link(file, archive + '/index.md', 'Patent archive') : ''}<a href="${repository}">GitHub</a></div>
+      <div class="header-links">${defaultArchive ? link(file, defaultArchive, 'Patent archive') : ''}<a href="${repository}">GitHub</a></div>
     </div>
   </header>
   <div class="site-layout${archiveHome ? ' wide' : ''}">
@@ -250,13 +269,13 @@ for (const [file, output] of outputs) {
         <summary>Contents</summary>
         <nav aria-label="Project and research">
           <h2>Project</h2>${menu(file, projectNav)}
-          ${research ? '<h2>Film-flatness archive</h2>' + research : ''}
+          ${research}
         </nav>
       </details>
     </aside>
     <main id="main">${content}
-      ${archiveHome ? archiveGallery(file) : ''}
-      ${index >= 0 ? patentNavigation(file, index) : ''}
+      ${archiveHome ? archiveGallery(file, archive) : ''}
+      ${index >= 0 ? patentNavigation(file, archive, index) : ''}
       <footer class="page-footer"><a href="${sourceLink(file)}">View source on GitHub</a></footer>
     </main>
     ${archiveHome ? '' : toc}
@@ -273,4 +292,5 @@ for (const [file, output] of outputs) {
   await mkdir(dirname(resolve(out, output)), { recursive: true });
   await writeFile(resolve(out, output), html);
 }
-console.log('Built ' + outputs.size + ' documentation pages and ' + patents.length + ' patent records.');
+const patentCount = archives.reduce((total, archive) => total + archive.catalog.patents.length, 0);
+console.log('Built ' + outputs.size + ' documentation pages and ' + patentCount + ' patent records.');

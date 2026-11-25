@@ -1,0 +1,2454 @@
+{
+  "schemaVersion": 1,
+  "mechanisms": {
+    "vacuum": "Vacuum pickup",
+    "air": "Air separation",
+    "peel": "Bending and peeling",
+    "friction": "Friction pickup",
+    "retard": "Retard pad or roller",
+    "gate": "Gate or edge selection",
+    "gripper": "Mechanical grip or pusher",
+    "detect": "Presence or double-feed detection",
+    "combined": "Combined mechanisms"
+  },
+  "patents": [
+    {
+      "id": "US571470A",
+      "application": "Photographic film packs",
+      "mechanisms": [
+        "gate",
+        "gripper"
+      ],
+      "summary": "Alternating notches let offset selector stops release the exposed film sheet while holding the next.",
+      "problem": "A magazine camera needed to discharge one thin, flexible photographic sheet after each exposure and leave the following sheet registered at the focal plane.",
+      "stack": "A light-tight holder receives sheets with two different opposite-edge notch patterns, alternated through the pack. Opaque backing, when supplied separately, can share a sheet's pattern or occupy alternate positions.",
+      "pickup": "Selector stops slide into alignment with the foremost sheet's notch pattern. When the holder is inverted, the freed sheet falls.",
+      "contact": "The stops act at specially notched opposite edges. The drawing specifies the sheet pattern and stack arrangement.",
+      "separation": "Where the foremost sheet has notches, the next sheet has solid projections. Moving the stops to the first pattern leaves them supporting the second. Using the wrong loading order would defeat the prepared alternation.",
+      "handoff": "Gravity clears the released sheet from the inverted holder. The supported next sheet stays ready at the exposure position.",
+      "interpretation": "Geometric keying provides selection without a vacuum head or full-face sliding feed. Factory-cut alternating edge patterns are a different premise from arbitrary processed strips. The alternating support principle could still suggest a carrier or two-stage stop test.",
+      "lengthEvidence": "The specification gives examples of sheets 3¼, 4 and 4¾ inches long with custom notches. Those figures describe the prepared pack.",
+      "commercial": "No model or production history for this particular pack was verified. The US specification reports a British patent numbered 11,891 and dated 29 July 1890. Its US filing date and inventor were transcribed from the original facsimile. A separate priority claim is unrecorded.",
+      "related": [
+        "US735746A",
+        "US3650751A",
+        "US3955092A"
+      ],
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1–3",
+          "description": "Opposite-edge notch patterns and their alternating arrangement in the film pack",
+          "file": "US571470A-p01.png"
+        }
+      ],
+      "title": "Pack of photographic films",
+      "priority": null,
+      "filing": "1890-12-29",
+      "publication": "1896-11-17",
+      "inventors": [
+        "Joseph Thacher Clarke"
+      ],
+      "pages": 3,
+      "recordUrl": "https://patents.google.com/patent/US571470A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/bc/ed/00/2fa55b71c3ac43/US571470.pdf",
+      "company": "Individual",
+      "classifications": [
+        "G03C1/00",
+        "G03C1/76",
+        "G03C1/7614"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US20060023786A1",
+          "USRE30792E"
+        ]
+      },
+      "sourceSha256": "fa6588289055b75ea6c348d9c4a8cc91c6349d67ee0136f6da4c74659b52cb68"
+    },
+    {
+      "id": "US735746A",
+      "application": "Magazine cameras",
+      "mechanisms": [
+        "gate"
+      ],
+      "summary": "Inclined lugs tip the leading plate holder off its shelf and into paired gravity guides after exposure.",
+      "problem": "In plate magazine cameras, exposed plates could refuse to drop or fall out of alignment, obstructing later exposures or breaking glass.",
+      "stack": "Individual upright metal holders run on two side ledges. Their lower flanges space the holders, support each plate, and help shield its lower edge from incident light.",
+      "pickup": "The forward holder is at the exposure point with only the rear part of each projecting tab still supported. When its upper edge is released after exposure, pressure from behind and the inclined stop lugs make it tip forward.",
+      "contact": "The side ledges, upper restraint, lugs and catch chutes interact with the rigid holder. The sensitive plate is supported at its edges by its holder.",
+      "separation": "The transition from the support ledges into the catch chutes is located at the forward holder. The patent describes guided release and stacking of individual carriers, without specifying a detector or a bare-film pickup head.",
+      "handoff": "Projecting tabs enter the paired vertical chutes of a removable tray. The exposed holders settle into a controlled pile.",
+      "interpretation": "The useful precedent is a mechanical constraint that stays engaged as a piece changes direction. Rigid tabs and individual holders make this a carrier analogy. Loose 35 mm negatives would require another way to provide the same constrained handoff.",
+      "commercial": "The specification identifies magazine plate cameras as an established product category. A production camera implementing these exact lugs and holders is unverified.",
+      "related": [
+        "US2423404A",
+        "US5555042A"
+      ],
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1–4",
+          "description": "Section through the magazine camera, a side ledge and stop lug, a plate holder, and the guided receiving tray.",
+          "file": "US735746A-p01.png"
+        }
+      ],
+      "title": "Feeding device for magazine-cameras.",
+      "priority": "1902-11-06",
+      "filing": "1902-11-06",
+      "publication": "1903-08-11",
+      "inventors": [
+        "John C Fyfe",
+        "Victor Odquist"
+      ],
+      "pages": 4,
+      "recordUrl": "https://patents.google.com/patent/US735746A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/18/df/29/855711ab28b6ce/US735746.pdf",
+      "company": "Individual",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/26"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US12098738B2"
+        ]
+      },
+      "sourceSha256": "31223c511992bba623aac2f4fde96372d59f3e53767b6e0fd604e032c39c7314",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US758453A",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "vacuum",
+        "peel",
+        "gripper"
+      ],
+      "summary": "An angled suction mouthpiece lifts and curls the edge of the top sheet for a gripper.",
+      "problem": "Pressure alone could miss the sheet or lift several. The mouthpiece angle and vacuum were adjustable to suit paper stiffness.",
+      "stack": "The patent places the mouthpieces just above an exposed edge of a paper pile. Stack support and advance are left to the host machine.",
+      "pickup": "A spring expands bellows to apply suction through flat-faced mouthpieces. Setting the faces at an incline pulls a flexible top edge up to meet them.",
+      "contact": "The mouthpiece face contacts a narrow area near the sheet edge. A downstream gripper takes hold of the turned-up edge.",
+      "separation": "Curling the captured edge lets the next sheet remain in the pile. Stiffer board can be picked with a parallel face. An adjustable damper limits excessive suction.",
+      "handoff": "Grippers pass between the spaced mouthpieces and seize the raised edge. Their drive is outside the drawings.",
+      "interpretation": "Cup angle and suction provide independent ways to tune pickup. Trials with film should measure how pre-existing curl affects sealing, and how much clearance the gripper requires on a single frame.",
+      "commercial": "The patent identifies printing and paper-handling machine classes. Product adoption remains unverified.",
+      "related": [
+        "US1646681A",
+        "US4979729A",
+        "EP0467203B1"
+      ],
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1-4",
+          "description": "The bellows, suction pipe and adjustable mouthpiece at three inclinations.",
+          "file": "US758453A-p01.png"
+        }
+      ],
+      "title": "Pneumatic sheet-feeder.",
+      "priority": "1903-01-31",
+      "filing": "1903-01-31",
+      "publication": "1904-04-26",
+      "inventors": [
+        "Alexander Lagerman"
+      ],
+      "pages": 3,
+      "recordUrl": "https://patents.google.com/patent/US758453A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/47/18/b1/27ee89379ea0cd/US758453.pdf",
+      "company": "Individual",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/0808",
+        "B65H3/0891"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US3147978A",
+          "US4355797A"
+        ]
+      },
+      "sourceSha256": "345f379dcdefaa6cb901e84d8172bffaa56ed86cb9f79a92cf907bfdc8323f05",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US1646681A",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "vacuum",
+        "air",
+        "combined"
+      ],
+      "summary": "A mechanically timed air manifold fluffs the stack just as a suction carriage approaches.",
+      "problem": "The feeder automates feeding a printing machine while preventing two sheets from being lifted and adjusting for a falling stack surface.",
+      "stack": "A vertically movable table holds a horizontal pile. A height-responsive pawl and screw raise it as sheets are removed.",
+      "pickup": "Two carriage sections slide together and independently. Relative travel between them drives cams that lower and raise adjustable suction nozzles above the top sheet.",
+      "contact": "The moveable suction nozzles touch the upper face. The downstream paper rollers grip the delivered sheet.",
+      "separation": "A carriage-linked manifold turns its jets up toward the upper sheet edges during acquisition. It tips back down while the suction carriage carries the sheet away.",
+      "handoff": "The raised carriage moves toward the host machine's feed rollers. A cam-operated vent reduces suction after the rollers take the sheet.",
+      "interpretation": "Timing air delivery to the head position avoids blowing during the move to the nip. For short film, the usable edge gap and safe roller engagement distance must be measured independently of paper dimensions.",
+      "commercial": "A Multigraph machine is the illustrated host. Production use of the pictured feeder remains unverified.",
+      "related": [
+        "US758453A",
+        "US4451028A",
+        "EP1197450B1"
+      ],
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1-2 and 8-9",
+          "description": "Side elevation of the paper stack, swinging mechanism and Multigraph handoff.",
+          "file": "US1646681A-p01.png"
+        },
+        {
+          "page": 2,
+          "label": "Fig. 3",
+          "description": "Cross-machine arrangement of the nozzles and two-part carriage.",
+          "file": "US1646681A-p02.png"
+        }
+      ],
+      "title": "Automatic suction sheet-feeding machine",
+      "priority": "1926-09-24",
+      "filing": "1926-09-24",
+      "publication": "1927-10-25",
+      "inventors": [
+        "James A Carlton"
+      ],
+      "pages": 8,
+      "recordUrl": "https://patents.google.com/patent/US1646681A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/74/25/92/c97de2c728f215/US1646681.pdf",
+      "company": "Charles S. Russell",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/12",
+        "B65H3/122"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "f4b233abe8af666a87e7bb7794e1b0945cac373ab951471949ca89f63fa4d18b",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US2423404A",
+      "application": "Automatic photographic machines",
+      "mechanisms": [
+        "gripper",
+        "gate",
+        "combined"
+      ],
+      "summary": "A stepped reciprocating slide removes the bottom framed plate while independent rails preserve the one-plate feed geometry.",
+      "problem": "When the earlier pusher and frame plates shared a guide, pusher wear could let the stack drop too far. The moving head could then catch an additional plate and jam.",
+      "stack": "Framed photosensitive plates pile above the withdrawal rails with their sensitive surfaces facing upward. Beveled rail edges support and locate the bottom frame.",
+      "pickup": "A reciprocating member under the magazine has an abutment that drives the bottom frame from its rear edge. It advances the next plate into the camera while a second projection can move the exposed frame onward.",
+      "contact": "The drive features contact frame edges and the independent rails and retaining straps contact matching bevels. The raised frame shields the sensitive plate.",
+      "separation": "The relative height of the pusher and plate paths exposes one frame to the withdrawal feature. Taking actuator wear out of the plate support path helps preserve that clearance.",
+      "handoff": "The first operation positions a plate at the camera. A subsequent stroke transports the exposed plate to the treating chamber along the same frame rails.",
+      "interpretation": "Splitting the wear-bearing actuator guide from the separable-item datum is transferable. A calibrated rigid frame edge is much easier to engage than a thin curved 35 mm film edge. A direct pusher would need compliance, safe edge engagement and a means to handle doubled or damaged film.",
+      "commercial": "The patent names International Mutoscope and an earlier machine design in US2192755A. That supports the equipment family context. Use of this revised guideway in a specific booth is unverified.",
+      "related": [
+        "US735746A",
+        "EP1267203B1"
+      ],
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1–8",
+          "description": "Magazine, camera and treatment chamber in sequence, with both guideways and the beveled frame plate shown in section.",
+          "file": "US2423404A-p01.png"
+        }
+      ],
+      "title": "Plate dispenser for automatic photographic machines",
+      "priority": "1944-10-05",
+      "filing": "1944-10-05",
+      "publication": "1947-07-01",
+      "inventors": [
+        "Pollack Daniel"
+      ],
+      "pages": 4,
+      "recordUrl": "https://patents.google.com/patent/US2423404A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/15/8f/aa/8fe956bf4eeff5/US2423404.pdf",
+      "company": "International Mutoscope Corp",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/28",
+        "G03B17/32",
+        "G03B17/34"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "c9469a573d8d46363dbea95ded20a29b2da2a173edd06ba23ca1751ab47a3b9a",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US3469834A",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "friction",
+        "retard",
+        "detect",
+        "combined"
+      ],
+      "summary": "A slow nudger feeds a faster belt wrapped over a stationary curved retard roll.",
+      "problem": "A copier feeder must move one document from the stack even when adjacent sheets start out stuck together, while preserving reliable indexing and accommodating manual feed.",
+      "stack": "Adjustable side guides square documents on a pivoted tray. A height-compensation arrangement raises the tray into contact with the nudger.",
+      "pickup": "The nudger wheel moves the uppermost sheet toward the separator. Its design speed is lower than that of the advancing separator belt, limiting initial acceleration at the stack.",
+      "contact": "The nudger and moving belt contact sheet surfaces. A stationary curved friction roll presses into the belt, creating an extended separation area rather than a short point nip.",
+      "separation": "A bundle can enter the wrap as short overlaps. The stationary friction surface retards lower sheets while the driven belt advances the upper sheet to the exit. Separate thickness-sensitive idlers and a switch help detect excess material.",
+      "handoff": "The sheet proceeds from the tight exit of the wrap into registration and copier transport. A manual-feed linkage can retract the stationary retard member.",
+      "interpretation": "This is a worked example of decoupling stack pickup speed from throat separation speed. Wrapping a very short negative across a stationary friction surface would need explicit abrasion and minimum-grip-length tests.",
+      "commercial": "The description shows a Xerox xerographic copier context. The patent does not establish a named production feeder using the precise mechanism.",
+      "related": [
+        "US3966189A",
+        "EP1721846B1",
+        "US6932338B1"
+      ],
+      "figures": [
+        {
+          "page": 3,
+          "label": "Fig. 3",
+          "description": "Section through the document tray, nudger, belt separator and onward path.",
+          "file": "US3469834A-p03.png"
+        },
+        {
+          "page": 6,
+          "label": "Figs. 6–8",
+          "description": "Thickness sensing and the stationary retard member nested in the separator belt.",
+          "file": "US3469834A-p06.png"
+        }
+      ],
+      "title": "Sheet feeder and separator apparatus",
+      "priority": "1967-04-21",
+      "filing": "1967-04-21",
+      "publication": "1969-09-30",
+      "inventors": [
+        "Klaus K Stange",
+        "Adalbert A Lux",
+        "Thomas B Michaels"
+      ],
+      "pages": 18,
+      "recordUrl": "https://patents.google.com/patent/US3469834A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/a4/1b/46/99e8bfb206bc50/US3469834.pdf",
+      "company": "Xerox Corporation",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6207",
+        "G03B27/625",
+        "G03B27/6264",
+        "G03G15/00",
+        "G03G15/22",
+        "G03G15/26",
+        "G03G15/263",
+        "G03G15/60",
+        "G03G15/65",
+        "G03G15/6529",
+        "G03G15/6588",
+        "G03G15/6594",
+        "G03G2215/00",
+        "G03G2215/00172",
+        "G03G2215/00177",
+        "G03G2215/00181",
+        "G03G2215/00185",
+        "G03G2215/00362",
+        "G03G2215/00443",
+        "G03G2215/00451",
+        "G03G2215/00464",
+        "G03G2215/00472",
+        "G06K13/00",
+        "G06K13/02",
+        "G06K13/07",
+        "G06K13/08",
+        "G06K13/12"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "CN116373302A",
+          "JPS57196040U",
+          "JPS5974835A",
+          "US3918143A",
+          "US3924848A",
+          "US3933349A",
+          "US3952882A",
+          "US3966198A",
+          "US3981493A",
+          "US4025068A",
+          "US4025187A",
+          "US4192497A",
+          "US4374212A",
+          "US4381860A",
+          "US4444382A",
+          "US4475732A",
+          "US4494744A",
+          "US4506978A",
+          "US4561644A",
+          "US4620699A",
+          "US4621799A",
+          "US4838534A",
+          "US5211388A",
+          "US5350168A",
+          "US5899451A"
+        ]
+      },
+      "sourceSha256": "c69cd1cf7f3534f5fbeb28f3f0b144c103f51c9fcdf61e266dd2dffa9b3a9b66",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US3650751A",
+      "application": "Photographic film packs",
+      "mechanisms": [
+        "peel",
+        "gripper",
+        "combined"
+      ],
+      "summary": "Prepared leaders withdraw a photosensitive sheet and its matching receiving sheet, then stage the next leader.",
+      "problem": "A self-processing camera film pack needed to join and withdraw one photosensitive/receiving-sheet pair through processing rollers after each exposure.",
+      "stack": "The pack contains separate stacks of photosensitive and print-receiving sheets. A pressure plate moves the active photosensitive surface to the exposure plane.",
+      "pickup": "The operator pulls the protruding leader. Flexible connecting strips draw the outermost sheet from each compartment toward their shared exit.",
+      "contact": "The withdrawal force acts through preattached strips. The paired sheets travel into the processing nip, where the rollers squeeze the pair as it leaves.",
+      "separation": "The connectors have a prescribed fold and routing. Pulling the active leader draws the intended sheet pair and stages the next leader by way of a coupling strip and breakaway connection. The pair is intentional.",
+      "handoff": "The two sheets meet in register and pass through rollers 10 and 11. The next leader remains in a position to be gripped for the following exposure.",
+      "interpretation": "The connector and pull-tab geometry makes selection and handoff repeatable. It presumes specially assembled consumables. For loose film, look at the logic of engaging the next receiver before release, while treating the leader itself as a separate design.",
+      "lengthEvidence": "The useful connector lengths are defined relative to the matching sheets in the pack. The specification gives no validated unmounted 35 mm strip range.",
+      "commercial": "The assignee and film-pack process are documented in the patent. A branded pack that can be matched to this particular leader geometry was not verified.",
+      "related": [
+        "US571470A",
+        "US735746A",
+        "US6556276B2"
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "label": "Fig. 1",
+          "description": "Section through paired stacks, leader routing and processing nip",
+          "file": "US3650751A-p02.png"
+        },
+        {
+          "page": 3,
+          "label": "Figs. 2–3",
+          "description": "Developed strip and leader used to stage successive film units",
+          "file": "US3650751A-p03.png"
+        }
+      ],
+      "title": "Photographic film pack",
+      "priority": "1967-12-22",
+      "filing": "1968-12-19",
+      "publication": "1972-03-21",
+      "inventors": [
+        "Hans-Peter Huber"
+      ],
+      "pages": 8,
+      "recordUrl": "https://patents.google.com/patent/US3650751A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/ff/8a/02/b71798f9867235/US3650751.pdf",
+      "company": "Agfa-Gevaert AG",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/28",
+        "G03B17/32",
+        "G03B17/34"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US3745900A"
+        ]
+      },
+      "sourceSha256": "33baa388d70a1f801cf75b5cdbc7e6fc42df0e735fd2a00375a0bc9d84053765"
+    },
+    {
+      "id": "US3955092A",
+      "application": "Radiographic sheet film",
+      "mechanisms": [
+        "gripper",
+        "peel",
+        "gate",
+        "combined"
+      ],
+      "summary": "An edge claw pushes the bottom film sheet into a sloped lip so its leading edge bends away from the stack.",
+      "problem": "A light-tight X-ray cassette needed to withdraw individual loosely superimposed film sheets, with limited surface rubbing and dependence on a vacuum seal.",
+      "stack": "A sprung pressure plate holds the film stack against the cassette floor. A slot along the full discharge edge opens when the cassette is docked.",
+      "pickup": "A sliding pusher catches the rear edge of the bottom sheet with a claw about eight-tenths of one sheet thickness high. The patent also describes driving a floor roller instead of the claw.",
+      "contact": "The claw contacts the trailing cut edge. The leading edge meets a sloped wall and then runs over two rolls to leave the cassette.",
+      "separation": "The pushed sheet bends at the wall. The specification attributes separation to that curvature and the lower force transferred to the sheet above. The rolls limit sliding on the slot edges.",
+      "handoff": "The selected sheet runs around the rolls through the slot far enough for the host apparatus to engage it. The pusher returns and the stack re-seats.",
+      "interpretation": "The design controls adhesion by opening a peel gap while pushing at the edge. Edge damage, variable thickness and lengthwise curl can keep a short cut strip from seating against a thin claw. A single-frame test must include imperfect ends and deliberately skewed stock.",
+      "lengthEvidence": "The geometry is specified for cassette sheet film. Claw height is relative to film thickness and the slot extends across the cassette. No validated cut-strip range is reported.",
+      "commercial": "The patent identifies an X-ray cassette application. An independently documented commercial cassette with the illustrated claw and rolls was not found.",
+      "related": [
+        "US4365793A",
+        "EP0521459A1",
+        "US4179114A"
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "label": "Single figure",
+          "description": "Cassette section showing the floor pusher, angled exit wall and rolls",
+          "file": "US3955092A-p02.png"
+        }
+      ],
+      "title": "Arrangement for respectively withdrawing a single film sheet from a stack of directly loosely superimposed film sheets",
+      "priority": "1973-10-13",
+      "filing": "1974-10-09",
+      "publication": "1976-05-04",
+      "inventors": [
+        "Gunter Hubert"
+      ],
+      "pages": 4,
+      "recordUrl": "https://patents.google.com/patent/US3955092A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/ba/da/6f/3fa8a54e3ce6d3/US3955092.pdf",
+      "company": "Siemens AG",
+      "classifications": [
+        "B65H1/00",
+        "B65H1/04",
+        "B65H1/06",
+        "B65H2301/00",
+        "B65H2301/40",
+        "B65H2301/42",
+        "B65H2301/423",
+        "B65H2301/4232",
+        "B65H2301/42322",
+        "B65H3/00",
+        "B65H3/24"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "CN110980352A",
+          "US20040251596A1",
+          "US20050198898A1",
+          "US4276478A",
+          "US4295565A",
+          "US4415079A",
+          "US4444484A",
+          "US4482146A",
+          "US5063408A",
+          "US5220374A",
+          "US5316284A",
+          "US5358115A",
+          "US6098840A",
+          "US6231042B1",
+          "US6267370B1"
+        ]
+      },
+      "sourceSha256": "03b39eafff60201c3745595ab7c577d5b93a271719541322ae796e827b63f0d1"
+    },
+    {
+      "id": "US3966189A",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "friction",
+        "retard",
+        "combined"
+      ],
+      "summary": "Forward drag tightens the retard pad, while reverse withdrawal makes the same pad release.",
+      "problem": "Sheets left shingled in a conventional retard nip resist removal when a stack is changed. Manual release hardware can be difficult to reach in a compact copier.",
+      "stack": "The described top-feed embodiment supports a stack in an extendable tray, with a loading baffle and a pivoted belt feeder. An alternate bottom-feed arrangement is also shown.",
+      "pickup": "The feed belt frictionally nudges the top sheet into the curved retard throat. Opposed surfaces can stage several leading edges at different positions.",
+      "contact": "The belt contacts one face and the retard pad contacts the opposite face. An offset pivot places the pad support downstream of the pad centerline.",
+      "separation": "Forward sheet drag pivots the pad toward the unsupported belt span, increasing belt deflection and nip force. Reverse withdrawal pivots the pad away, lowering the force. An adjustable stop limits forward toggle movement.",
+      "handoff": "The top sheet advances from the retard throat to the downstream registration rolls. If the operator draws staged sheets back, the nip loosens under that motion.",
+      "interpretation": "Direction-sensitive load can support controlled jam clearing without an extra actuator. A tacky pad could still mark a negative and catching a bent single frame depends on grip before and after the throat.",
+      "commercial": "The patent names Xerox and gives copier embodiments. No individual production feeder was matched to the design.",
+      "related": [
+        "US3469834A",
+        "EP1721846B1",
+        "US6932338B1"
+      ],
+      "figures": [
+        {
+          "page": 7,
+          "label": "Figs. 6–7",
+          "description": "Belt and retard-pad geometry, including the offset toggle pivot and downstream registration.",
+          "file": "US3966189A-p07.png"
+        },
+        {
+          "page": 4,
+          "label": "Figs. 3A–3B",
+          "description": "Separator and baffle at the tray during loading and feeding.",
+          "file": "US3966189A-p04.png"
+        }
+      ],
+      "title": "Toggling retard pad",
+      "priority": "1974-09-05",
+      "filing": "1974-09-05",
+      "publication": "1976-06-29",
+      "inventors": [
+        "Thomas N. Taylor",
+        "Wayne F. Schoppe"
+      ],
+      "pages": 22,
+      "recordUrl": "https://patents.google.com/patent/US3966189A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/e5/35/66/a026c9019e2be6/US3966189.pdf",
+      "company": "Xerox Corporation",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/46",
+        "B65H3/52",
+        "B65H3/5207",
+        "B65H3/5215",
+        "B65H3/5223"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US10183822B2",
+          "US10252871B2",
+          "US20080265486A1",
+          "US20080265490A1",
+          "US4312503A",
+          "US4418903A",
+          "US4730204A",
+          "US5114134A",
+          "US5163666A",
+          "US5201508A",
+          "US5269506A",
+          "US5947466A",
+          "US5984297A",
+          "US6502818B1",
+          "US7651082B2",
+          "US7753369B2"
+        ]
+      },
+      "sourceSha256": "acd5e8b722ac8ee523efc44d4a383bdd53732fa0f7e58a849b13974a21918ee2",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US4179114A",
+      "application": "Photographic sheet film",
+      "mechanisms": [
+        "gripper",
+        "peel",
+        "combined"
+      ],
+      "summary": "A pin engages the top-film margin and bows the outermost sheet so a guide can capture it.",
+      "problem": "A prior blade had to align with the exact height of one film edge. Misadjustment could miss the sheet or bow two sheets at once.",
+      "stack": "A film cassette presents a stack with its uppermost sheet accessible through the open top at the delivery end.",
+      "pickup": "A cam-controlled lever lowers a pin onto the top sheet. A further movement approximately in the sheet plane shifts the contacting margin so the top sheet bows.",
+      "contact": "The preferred embodiment presses the pointed pin slightly into a marginal area at an acute angle. A guide lifts into the gap and discharge rollers grip the separated sheet.",
+      "separation": "The pin selects the exposed face rather than relying on an exact thickness step. The temporary bow creates clearance for the supporting guide. The cam disengages the pin after the guide is under the raised sheet.",
+      "handoff": "The shaped guide directs the raised sheet into the driven discharge roller and opposing roller. The shared cam mechanism sequences pinch, guide and withdrawal.",
+      "interpretation": "A deliberately created gap can make a clean handoff more reliable under height variation. The pointed contact is a clear damage risk for archival negatives, especially a loose frame with almost no margin. Only the lift-before-handoff principle transfers directly.",
+      "commercial": "The specification describes a cassette film-sheet device. Commercial use of its pin assembly is unverified.",
+      "related": [
+        "EP0521459A1",
+        "US6556276B2"
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "label": "Figs. 1 and 4",
+          "description": "Device from the delivery end and the stage after the selected sheet has bowed over the inserted guide.",
+          "file": "US4179114A-p02.png"
+        },
+        {
+          "page": 3,
+          "label": "Figs. 2–3",
+          "description": "Cross sections in the initial position and with the pin approaching or engaging the film margin.",
+          "file": "US4179114A-p03.png"
+        }
+      ],
+      "title": "Film sheet handling device",
+      "priority": "1976-12-20",
+      "filing": "1977-12-15",
+      "publication": "1979-12-18",
+      "inventors": [
+        "Lucas van der Does"
+      ],
+      "pages": 6,
+      "recordUrl": "https://patents.google.com/patent/US4179114A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/7b/02/41/1eeb773c294d19/US4179114.pdf",
+      "company": "Optische Industrie de Oude Delft NV",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/22",
+        "G03B17/00",
+        "G03B17/28",
+        "G03B17/32",
+        "G03B17/34"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "0bfc6ea8eb1c70e1bf9e648318b4a32d5dd78e76a3c4e26d983d98fb4ab890d9",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US4239202A",
+      "application": "Film cassette handling",
+      "mechanisms": [
+        "peel",
+        "gripper",
+        "gate"
+      ],
+      "summary": "A traversing pendulum releases notched X-ray sheets by peeling the outer sheet away into a gravity drop.",
+      "problem": "Sheets of radiographic film without interleaving paper are difficult to separate without scratching or bending them.",
+      "stack": "The stack sits close to vertical in a sloping holder. Alternate sheets have edge notches on opposite sides, and a roller supports the front of the stack.",
+      "pickup": "A pendulum traverses the sheet width and tips in the stack-thickness direction. Its plough aligns with the notch of the exposed sheet and enters below it.",
+      "contact": "The support roller meets the forward face. The plough acts locally at a prepared sheet edge.",
+      "separation": "The moving plough wedges under the outer sheet. The next sheet's notch lies at the other position, so the plough meets it on the return stroke.",
+      "handoff": "The peeled sheet drops by gravity. The pendulum stays in contact with the next sheet before reversing traversal.",
+      "interpretation": "The machine derives selection from a feature on the sheet. Ordinary negatives lack staggered notches. Any comparable edge-based approach must tolerate irregular cuts without marking image areas.",
+      "commercial": "The drawings establish a dispenser for a specially notched film stack. A named production model and compatible film stock remain unverified.",
+      "related": [
+        "US4979729A",
+        "EP0512084B1",
+        "US758453A"
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "label": "Figs. 1-2",
+          "description": "Cassette sections showing the near-vertical stack and alternating notch positions.",
+          "file": "US4239202A-p02.png"
+        },
+        {
+          "page": 3,
+          "label": "Figs. 3-4",
+          "description": "Enlarged views of the roller and pendulum plough.",
+          "file": "US4239202A-p03.png"
+        }
+      ],
+      "title": "Sheet dispenser",
+      "priority": "1977-03-23",
+      "filing": "1978-03-16",
+      "publication": "1980-12-16",
+      "inventors": [
+        "George F. A. M. Turner"
+      ],
+      "pages": 5,
+      "recordUrl": "https://patents.google.com/patent/US4239202A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/d6/25/10/d62785d9715bad/US4239202.pdf",
+      "company": "Ciba Geigy AG",
+      "classifications": [
+        "B65H1/00",
+        "B65H1/02",
+        "B65H3/00",
+        "B65H3/30",
+        "G03B42/00",
+        "G03B42/02",
+        "G03B42/04",
+        "G03B42/045"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "6dd68e367586659d8b17f8187a68502151a6efc0d1a0cb1c9fb5debdead1f2b6",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US4365793A",
+      "application": "Radiographic sheet film",
+      "mechanisms": [
+        "friction",
+        "gate",
+        "detect",
+        "combined"
+      ],
+      "summary": "A powered rubber roller pulls one exposed sheet under a thickness-setting blade into a synchronized processor.",
+      "problem": "An X-ray film system needed to unload exposed 100 × 100 mm sheets from a take-up magazine in daylight and feed them singly to a processor.",
+      "stack": "Opening a light-tight darkslide lets a magazine deposit its entire stack in a separate cavity. A stacking bar and pressure rollers align the sheets and press them toward the discharge area.",
+      "pickup": "A powered, belt-driven rubber roller at the cavity floor advances the bottom sheet.",
+      "contact": "Driving friction acts on the sheet face at the rubber roller. Pressure rollers, the calibrated blade and the discharge closure also constrain its path.",
+      "separation": "A blade sets the opening above the roller to about a single sheet thickness. Switches track availability at the cavity and passage at the exit; the blade supplies the selective mechanical restriction.",
+      "handoff": "The rubber roller pushes the sheet past the light-tight closure. The feeder and adjacent processor synchronize through an electrical connection.",
+      "interpretation": "A stable, pre-sized film demonstrates a simple calibrated-throat approach. A curled or jagged short negative could hit the blade and scrape, catch or buckle. Measure the incoming edge angle as well as film thickness and set downstream grip within the remaining length.",
+      "lengthEvidence": "The disclosed X-ray camera stock is 100 × 100 mm. The source gives no trial evidence for 35 mm-wide cut pieces.",
+      "commercial": "The patent refers to an earlier magazine system in US3627307A. An independently identified processor or feeder showing the disclosed blade was not verified.",
+      "related": [
+        "US3955092A",
+        "EP0521459A1",
+        "US7654522B2"
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 6–7",
+          "description": "Cross-sections of the empty receiver and docked take-up magazine",
+          "file": "US4365793A-p04.png"
+        },
+        {
+          "page": 7,
+          "label": "Fig. 11",
+          "description": "Transport assembly at the exit toward the adjacent processor",
+          "file": "US4365793A-p07.png"
+        }
+      ],
+      "title": "Sheet film feeder",
+      "priority": "1979-11-06",
+      "filing": "1979-11-06",
+      "publication": "1982-12-28",
+      "inventors": [
+        "Gerardus J. Van Blokland",
+        "Henry J. Bailey"
+      ],
+      "pages": 13,
+      "recordUrl": "https://patents.google.com/patent/US4365793A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/01/14/63/3ba7f759016688/US4365793.pdf",
+      "company": "OLDELFT CORP OF AMERICA",
+      "classifications": [
+        "G03D13/00",
+        "G03D13/003"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "EP0794140A1",
+          "US20040012141A1",
+          "US20110049788A1",
+          "US4482233A",
+          "US4496273A",
+          "US4726697A",
+          "US4895357A",
+          "US4946157A",
+          "US5211385A",
+          "US5316284A",
+          "US5636961A",
+          "US6068439A",
+          "US7641190B2",
+          "US8708327B2"
+        ]
+      },
+      "sourceSha256": "0ad83175ac187599ce6449f82378734134ef18222f7daf815f1dc9a80fc743ee"
+    },
+    {
+      "id": "US4451028A",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "vacuum",
+        "air",
+        "peel",
+        "combined"
+      ],
+      "summary": "A rear air knife and pickup plenum prepare each trailing edge while a separate front plenum drives off the preceding sheet.",
+      "problem": "The feeder seeks high throughput by overlapping sheet acquisition and transport while limiting multifeeds.",
+      "stack": "A tray and its support geometry present the top of a horizontal stack to front and rear plenums above it.",
+      "pickup": "Rear airflow fluffs the top few sheets and rear vacuum lifts the trailing edge. Front vacuum then draws the same sheet to perforated transport belts.",
+      "contact": "Rear and front corrugating surfaces contact the sheet from above. The front belts grip its upper face.",
+      "separation": "Lateral converging air streams and center corrugation admit air under the selected sheet. The rear vacuum can acquire the next trailing edge once the moving sheet clears it.",
+      "handoff": "The front perforated belts continue moving the selected sheet forward on the outgoing path. The rear edge acquisition then starts again.",
+      "interpretation": "Separating acquisition and output permits an overlapping cycle. In a loose-strip feeder, the spacing between front and rear grip must fit both ends of the shortest strip, and the air must avoid moving adjacent curled pieces.",
+      "commercial": "The patent illustrates a paper feed architecture. Production adoption of the particular rear and front plenum arrangement remains unverified.",
+      "related": [
+        "US1646681A",
+        "US4627605A",
+        "EP1197450B1"
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "label": "Fig. 1",
+          "description": "Section showing the rear air knife, rear vacuum plenum and front belt head.",
+          "file": "US4451028A-p02.png"
+        },
+        {
+          "page": 4,
+          "label": "Figs. 3A-3B",
+          "description": "Sections through the respective corrugating members.",
+          "file": "US4451028A-p04.png"
+        },
+        {
+          "page": 6,
+          "label": "Figs. 5-6 and 11",
+          "description": "View of the belt transport and layouts of the converging rear air knife.",
+          "file": "US4451028A-p06.png"
+        }
+      ],
+      "title": "Sheet feeding apparatus",
+      "priority": "1981-11-27",
+      "filing": "1981-11-27",
+      "publication": "1984-05-29",
+      "inventors": [
+        "Maurice F. Holmes",
+        "Gerald M. Garavuso"
+      ],
+      "pages": 14,
+      "recordUrl": "https://patents.google.com/patent/US4451028A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/94/47/0d/6c38a57a02b7d0/US4451028.pdf",
+      "company": "Xerox Corporation",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/12",
+        "B65H3/124",
+        "B65H3/128",
+        "B65H3/46",
+        "B65H3/48",
+        "B65H3/54"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "DE3531889A1",
+          "EP0762227A3",
+          "EP0927692A1",
+          "EP1197451A3",
+          "KR100317432B1",
+          "NL1007943C2",
+          "US12240723B2",
+          "US12448238B2",
+          "US20030221569A1",
+          "US20060170144A1",
+          "US20060214352A1",
+          "US20070075480A1",
+          "US20080193176A1",
+          "US20090236792A1",
+          "US20100034623A1",
+          "US20120049437A1",
+          "US20130193633A1",
+          "US20150314456A1",
+          "US20230312278A1",
+          "US20240391716A1",
+          "US4589647A",
+          "US4596385A",
+          "US4627605A",
+          "US4635921A",
+          "US4643413A",
+          "US4678176A",
+          "US4699369A",
+          "US4703923A",
+          "US4768769A",
+          "US4887805A",
+          "US5014972A",
+          "US5052675A",
+          "US5150892A",
+          "US5181710A",
+          "US5190276A",
+          "US5275393A",
+          "US5344133A",
+          "US5391051A",
+          "US5429348A",
+          "US5785311A",
+          "US5921540A",
+          "US5988626A",
+          "US6082728A",
+          "US6332607B1",
+          "US6345818B1",
+          "US6398206B1",
+          "US6398207B1",
+          "US6398208B1",
+          "US6402134B1",
+          "US6425580B1",
+          "US6702275B2",
+          "US7121201B2",
+          "US7505723B2",
+          "US7540484B2",
+          "US7665723B2",
+          "US7753367B2",
+          "US7934718B2",
+          "US8002266B2",
+          "US8439349B2",
+          "US8622380B2",
+          "US9808937B2",
+          "WO2008028498A1"
+        ]
+      },
+      "sourceSha256": "8db668fd4e44a38191b3bf65c1983490d91392a52376034cadaf6248777e4143",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US4627605A",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "vacuum",
+        "air",
+        "peel",
+        "combined"
+      ],
+      "summary": "Auxiliary air jets help a top vacuum corrugation feeder acquire severely downcurled leading edges.",
+      "problem": "A front air knife can miss a downcurled top edge. The disclosed feedhead also avoids cycle-by-cycle vacuum timing.",
+      "stack": "A tray presents the horizontal sheet stack below a vacuum plenum. The air knife faces the leading edge.",
+      "pickup": "Negative pressure remains applied through perforated friction belts during the feed cycle. The upper sheet rises and bows around the center corrugating member.",
+      "contact": "The top face contacts the feed belts and corrugating member. Front jets act on the leading-edge region.",
+      "separation": "Fluffer jets lift the top layers. Auxiliary jets point into difficult downcurl regions, and the converging slot jet helps separate the sheet already held at the head.",
+      "handoff": "The perforated belts propel the captured sheet forward out of the tray into the feed path.",
+      "interpretation": "Jet direction deserves its own trial for downcurled film. Small pieces have little inertia, so paper-feeder air settings may displace the whole piece or the next sheet.",
+      "commercial": "The patent shows a generic electrophotographic host. This exact auxiliary-jet configuration was not verified in a production model.",
+      "related": [
+        "US4451028A",
+        "EP1197450B1",
+        "US20230202784A1"
+      ],
+      "figures": [
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Pickup head and front air knife in section at the edge of the stack.",
+          "file": "US4627605A-p03.png"
+        },
+        {
+          "page": 4,
+          "label": "Figs. 3 and 6-7B",
+          "description": "Stack and examples of the air jets and slot airflow viewed in section.",
+          "file": "US4627605A-p04.png"
+        },
+        {
+          "page": 5,
+          "label": "Figs. 4-5",
+          "description": "Air knife face and sectional layout of its outlets.",
+          "file": "US4627605A-p05.png"
+        }
+      ],
+      "title": "Front air knife top vacuum corrugation feeder",
+      "priority": "1985-11-06",
+      "filing": "1985-11-06",
+      "publication": "1986-12-09",
+      "inventors": [
+        "George J. Roller",
+        "Kendolph A. Thomas"
+      ],
+      "pages": 11,
+      "recordUrl": "https://patents.google.com/patent/US4627605A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/d1/fc/3e/ff8e72be8a4abc/US4627605.pdf",
+      "company": "Xerox Corporation",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/12",
+        "B65H3/124",
+        "B65H3/128",
+        "B65H3/46",
+        "B65H3/48"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "DE102019100536A1",
+          "EP0273898A3",
+          "EP0361259A1",
+          "KR100421022B1",
+          "US10233042B1",
+          "US20050133592A1",
+          "US20070228066A1",
+          "US20080095963A1",
+          "US20080095964A1",
+          "US20080108491A1",
+          "US4768769A",
+          "US4887805A",
+          "US5052675A",
+          "US5071110A",
+          "US5090676A",
+          "US5181709A",
+          "US5181710A",
+          "US5227004A",
+          "US5344133A",
+          "US5988626A",
+          "US6082728A",
+          "US6425580B1",
+          "US6554269B1",
+          "US7172116B2",
+          "US8261477B1"
+        ]
+      },
+      "sourceSha256": "9ae2ffb6891abee57c81dfea9f39d50a59631b7b964d00a080c8100d2f8729fb",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US4979729A",
+      "application": "Film cassette handling",
+      "mechanisms": [
+        "vacuum",
+        "peel"
+      ],
+      "summary": "A shaped cup lip forms a narrow vent channel in the captured edge of an X-ray film sheet.",
+      "problem": "An upper film sheet could lift the next sheet or cling to the cassette floor because the sealed interface admitted air slowly.",
+      "stack": "A cassette or magazine holds a horizontal supply behind a stop strip. The front edge is accessible to two suckers.",
+      "pickup": "Suckers lift the uppermost film near its front edge. Local features on a frustoconical lip displace part of the film inside the sealed cup.",
+      "contact": "The annular lip seals to the film surface near the edge. The lip has an internal projection above the resting film, and an outer groove can add compliance.",
+      "separation": "Under suction the film develops a short camber reaching its edge. The resulting channel admits ambient air between the selected film and the next sheet or the cassette floor.",
+      "handoff": "The pickup lifts near the stop strip and presents the film to forward transport rollers.",
+      "interpretation": "Only a local bend and a path to atmosphere are required. With perforated 35 mm stock, the trial must find a sealing area and check bend marks and leakage at the margin.",
+      "commercial": "The specification describes an X-ray cassette-loading application. Adoption of the shaped cup in a named product remains unverified.",
+      "related": [
+        "US758453A",
+        "EP0467203B1",
+        "EP0512084B1"
+      ],
+      "figures": [
+        {
+          "page": 2,
+          "label": "Figs. 1-2",
+          "description": "Cassette, paired suckers, stop strip and transport roller interface.",
+          "file": "US4979729A-p02.png"
+        },
+        {
+          "page": 3,
+          "label": "Figs. 3-8",
+          "description": "Cup geometry and sectional comparison before and during suction.",
+          "file": "US4979729A-p03.png"
+        }
+      ],
+      "title": "Suction device for removing film sheets",
+      "priority": "1985-02-02",
+      "filing": "1986-01-09",
+      "publication": "1990-12-25",
+      "inventors": [
+        "Walter Bauer",
+        "Johann Zanner"
+      ],
+      "pages": 6,
+      "recordUrl": "https://patents.google.com/patent/US4979729A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/d2/a6/f9/7cae386838c514/US4979729.pdf",
+      "company": "Agfa-Gevaert AG",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/0808",
+        "B65H3/0883"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "EP1580158A1",
+          "US20070138733A1",
+          "US5083764A"
+        ]
+      },
+      "sourceSha256": "239421e55f6184b986a5270a1dd0eaa47c0a8ee046bbd12d2a30830c893f6a72",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP0521459A1",
+      "application": "Radiographic sheet film",
+      "mechanisms": [
+        "friction",
+        "peel",
+        "gate",
+        "combined"
+      ],
+      "summary": "A near-upright film magazine combines roller traction and a bending threshold in a generous throat.",
+      "problem": "Calibrated slots, exact-height claws, and vacuum heads were described as sources of tight tolerances, artifacts, complexity, or cost in X-ray film feeding.",
+      "stack": "A spring and hinged lever urge the substantially upright stack against a driven feed roller as the magazine empties.",
+      "pickup": "The roller grips the outer film sheet and pushes it down to an inclined fixed wedge. The specified static traction against the roller exceeds that between film sheets.",
+      "contact": "The elastomer feed roller touches the outer face. The leading sheet bends between the oblique wedge face and a rounded, preferably rotating, opposing guide.",
+      "separation": "The passageway opening is at least twice the film thickness. Selection instead relies on the roller delivering enough force to bend the contacted sheet while friction transferred to the neighboring sheet is too low to bend that sheet into the curved path.",
+      "handoff": "The selected sheet exits through the rounded guide and withdrawal opening. The illustrated magazine leaves the following transport unspecified.",
+      "interpretation": "This is a direct film precedent for the project's passive separator idea. Negative curl, stiffness, surface orientation and cut length can shift the force window. The geometry also controls whether a short outgoing tail rubs the adjacent film.",
+      "commercial": "An X-ray film supply magazine is the disclosed use. No catalogued machine has been matched to this specific wedge, roller and follower combination.",
+      "related": [
+        "US4179114A",
+        "EP0405466B1",
+        "US6556276B2"
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "label": "Drawing sheet",
+          "description": "Section through the spring-biased film stack, elastomer drive roller, tilted wedge and rounded withdrawal passage.",
+          "file": "EP0521459A1-p04.png"
+        }
+      ],
+      "title": "Device for feeding single sheets out of a stack of film sheets",
+      "priority": "1991-07-03",
+      "filing": "1992-06-30",
+      "publication": "1993-01-07",
+      "inventors": [
+        "Renato Bolognese",
+        "Marco Notini",
+        "Gian Carlo Pastorino"
+      ],
+      "pages": 5,
+      "recordUrl": "https://patents.google.com/patent/EP0521459A1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0521459NWA1/document.pdf",
+      "company": "Minnesota Mining and Manufacturing Company",
+      "classifications": [
+        "B65H2405/00",
+        "B65H2405/10",
+        "B65H2405/11",
+        "B65H2405/113",
+        "B65H2405/1136",
+        "B65H3/00",
+        "B65H3/02",
+        "B65H3/06",
+        "B65H3/0661"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "b8b6f88a10a7b9a0b2c1d02f21da685689d53cd12cfb5a944cad9dbb8290f9f9",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP0405466B1",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "friction",
+        "retard",
+        "gate",
+        "detect",
+        "combined"
+      ],
+      "summary": "An offset pick roller loads the exposed sheet edge while a dam and spring-biased pad guide and separate it.",
+      "problem": "Top rollers pressed directly down on a stack can transmit normal load through many sheets, increasing inter-sheet traction and allowing multiple sheets to move together.",
+      "stack": "Aligned leading edges are presented by a pivoted, spring-loaded tray that is intended to maintain nearly constant force against the pick as the pile height changes.",
+      "pickup": "The arcuate roller approaches the exposed top edge at an offset rather than tangentially pressing the broad face. The roller moves the outer sheet slightly down and out of the stack.",
+      "contact": "The roller engages the exposed edge and adjacent surface. The dam touches the edge and opposite face. A biased friction pad and the downstream transport rollers contact opposite surfaces.",
+      "separation": "The rolling geometry reduces broad compression between sheets and introduces a normal-force component opposing multi-pick. The dam directs the selected edge to the retard pad. A thickness sensor checks the sheet after the throat and later optical sensors check skew.",
+      "handoff": "After the leading edge is past the downstream driven roller pair, the pick clutch releases. The outgoing sheet can freewheel the pick roller as the transport takes over.",
+      "interpretation": "This case connects load direction, stack-height compensation, and positive traction overlap. A curled cut frame might reach the roller inboard of the intended edge. Test lead-edge height and bending force before treating document settings as suitable for film.",
+      "commercial": "The patent describes optically scanned document applications. A production unit with this exact feeder was not established.",
+      "related": [
+        "US3469834A",
+        "EP0521459A1",
+        "EP1721846B1",
+        "US7654522B2"
+      ],
+      "figures": [
+        {
+          "page": 14,
+          "label": "Figs. 1–2",
+          "description": "Pick roller, dam, pad and force vectors at the aligned stack edge.",
+          "file": "EP0405466B1-p14.png"
+        },
+        {
+          "page": 22,
+          "label": "Figs. 7–9",
+          "description": "Thickness-sensing mechanism positioned between downstream feed roller pairs.",
+          "file": "EP0405466B1-p22.png"
+        }
+      ],
+      "title": "Single sheet picking and transport mechanism",
+      "priority": "1989-06-30",
+      "filing": "1990-06-26",
+      "publication": "1995-01-18",
+      "inventors": [
+        "Walter Gysling"
+      ],
+      "pages": 24,
+      "recordUrl": "https://patents.google.com/patent/EP0405466B1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0405466NWB1/document.pdf",
+      "company": "National Computer Systems Inc",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/02",
+        "B65H3/06",
+        "B65H3/46",
+        "B65H3/52",
+        "B65H3/5207",
+        "B65H3/5215",
+        "B65H3/5223",
+        "G06K15/00",
+        "G06K15/02",
+        "G06K15/16"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "CN109573674A"
+        ]
+      },
+      "sourceSha256": "1328aef4d9742535b16adf41146cc488fc5362192a3c91e83d59d3883b0669bc",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP0512084B1",
+      "application": "Film cassette handling",
+      "mechanisms": [
+        "vacuum",
+        "peel",
+        "detect",
+        "combined"
+      ],
+      "summary": "A tilting suction plate peels film from an opened cassette and senses when the cups have sealed to the rigid base.",
+      "problem": "A film remover must approach tilted or bowed film gently and recover when the cassette is empty and the cups instead adhere to its backing.",
+      "stack": "The mechanism approaches an opened exposed-film cassette at an angle. The carrier and suction plate accommodate height, tilt and curl of the presented sheet.",
+      "pickup": "A toothed-belt-driven carriage follows paired guide slots that slow descent near contact. The electromagnet presents the suction plate, then a spring tilts the plate after vacuum engages.",
+      "contact": "Suction elements contact the front region of the film. The cassette or intensifying screen supports the sheet until the edge is peeled.",
+      "separation": "The powered plate tilt bends the front edge away from the backing. If the cups seal to a rigid surface and the plate cannot tilt, the associated switch reports the failed motion and the control vents the head.",
+      "handoff": "The carriage reverses and carries the lifted sheet toward the pair of transport rollers.",
+      "interpretation": "A position signal can detect rigid-base pickup in addition to vacuum pressure. The design addresses removal from a cassette. A separate check would still be needed to count overlapping loose negatives.",
+      "commercial": "The publication describes equipment for exposed sheet film. Deployment of the specific tilting carriage and empty-cassette interlock remains unverified.",
+      "related": [
+        "EP0467203B1",
+        "US4979729A",
+        "WO2004079448A1"
+      ],
+      "figures": [
+        {
+          "page": 11,
+          "label": "Fig. 2",
+          "description": "Carriage position that presents the suction plate to the film.",
+          "file": "EP0512084B1-p11.png"
+        },
+        {
+          "page": 12,
+          "label": "Fig. 3",
+          "description": "Spring-driven tilt with the front edge peeled clear of the cassette.",
+          "file": "EP0512084B1-p12.png"
+        },
+        {
+          "page": 13,
+          "label": "Fig. 4",
+          "description": "Upper carriage position and the downstream transport rollers.",
+          "file": "EP0512084B1-p13.png"
+        }
+      ],
+      "title": "Sheet-film removal device",
+      "priority": "1990-11-23",
+      "filing": "1991-11-15",
+      "publication": "1995-03-22",
+      "inventors": [
+        "Guenter Weber",
+        "Gerd Hoitz"
+      ],
+      "pages": 13,
+      "recordUrl": "https://patents.google.com/patent/EP0512084B1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0512084NWB1/document.pdf",
+      "company": "Kodak GmbH",
+      "classifications": [
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/0808",
+        "B65H3/0816",
+        "G03B42/00",
+        "G03B42/02",
+        "G03B42/04",
+        "G03B42/045"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "a71f8ce554d2f8c3a97b59eb0ce4718a634b1e282bc25930c988703c2fe4f372",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US5555042A",
+      "application": "Mounted-slide scanner",
+      "mechanisms": [
+        "gripper",
+        "gate",
+        "detect",
+        "combined"
+      ],
+      "summary": "A rotary tray presents a pre-separated mounted slide to a pivoting load arm, then a second arm returns it to the same slot.",
+      "problem": "A scanner needed batch handling of mounted slides with different mount thicknesses while preserving the registration and stiffness needed for precision scanning.",
+      "stack": "An annular tray stores one mounted slide per radial slot, with the slides held by a lower base and retaining ring. A stepper-driven gear and rotation counter align the selected slot with the load position.",
+      "pickup": "A motor pivots load arm 60, which pushes the selected slide from its indexed slot, through guide 75, and into the jaws of the slide gate. The remaining slides stay in their tray compartments.",
+      "contact": "Pusher and return arm act on the mount. The guide and scanning gate locate the mount, keeping the moving contacts at the frame rather than on an unmounted emulsion surface.",
+      "separation": "Individual tray slots perform pre-separation. Gate, tray and arm-position sensors coordinate the next feed and detect missing or mistimed transfers. The system does not count multiple bare films at a shared outlet.",
+      "handoff": "Spring-biased gate jaws receive and center the slide against a stop. After scanning and repositioning the gate, a second arm returns the mount to its original slot. The controller checks that the gate is empty before indexing again.",
+      "interpretation": "This comparison isolates the value of one known unit per compartment and explicit handoff confirmation. The carousel and pusher rely on rigid mounts. The mount-specific geometry does not establish bare-film singulation.",
+      "commercial": "The background documents existing manual slide-gate use on the Kodak Model 2400 and describes a MARON slide hopper on the Kodak RFS 2035. The rotating-tray, two-arm mechanism in this publication is a separate design. A production machine carrying that exact arrangement is unverified.",
+      "related": [
+        "US2423404A",
+        "EP1267203B1",
+        "US6556276B2"
+      ],
+      "figures": [
+        {
+          "page": 7,
+          "label": "Fig. 6",
+          "description": "Perspective of the indexed tray interface, loading and return arms, and scanner gate.",
+          "file": "US5555042A-p07.png"
+        },
+        {
+          "page": 8,
+          "label": "Fig. 7",
+          "description": "Loading axis between one tray position and the gripped slide in the scanning gate.",
+          "file": "US5555042A-p08.png"
+        }
+      ],
+      "title": "Apparatus for automatically feeding slides into a film scanner",
+      "priority": "1994-10-06",
+      "filing": "1994-10-06",
+      "publication": "1996-09-10",
+      "inventors": [
+        "Robert S. Jones",
+        "Thomas W. Mort"
+      ],
+      "pages": 19,
+      "recordUrl": "https://patents.google.com/patent/US5555042A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/de/7a/08/73869160ef3f39/US5555042.pdf",
+      "company": "Eastman Kodak Company",
+      "classifications": [
+        "G03B23/00",
+        "G03B23/02",
+        "G03B23/06",
+        "H04N1/00",
+        "H04N1/00567",
+        "H04N1/00641",
+        "H04N2201/00",
+        "H04N2201/04",
+        "H04N2201/0402",
+        "H04N2201/0404",
+        "H04N2201/0406"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "CN115298592A",
+          "EP0987880A2",
+          "US20020109777A1",
+          "US20030012557A1",
+          "US5917929A",
+          "US5949524A",
+          "US5995138A",
+          "US6208770B1",
+          "US6389159B2",
+          "US6750988B1",
+          "US7133597B2",
+          "USRE42881E1",
+          "WO1998003933A1",
+          "WO2010147617A1"
+        ]
+      },
+      "sourceSha256": "5dc94d2ac968ce90b1f512c39af6c99e23217c94799622065ed17b55341d14e6",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP0467203B1",
+      "application": "Film cassette handling",
+      "mechanisms": [
+        "vacuum",
+        "peel"
+      ],
+      "summary": "A suction cup with lips of unequal thickness curls a film edge away from an intensifying screen.",
+      "problem": "Closing a radiographic cassette expels air between film and screen. A conventional cup can have difficulty breaking this interface within the feed cycle.",
+      "stack": "The example opens a light-tight X-ray cassette. The patent also applies the cup to tightly stacked sheets.",
+      "pickup": "The cup contacts the sheet close to its edge. Under vacuum the thin arcuate lip flexes upward while the thicker part retains more of its original shape.",
+      "contact": "A resilient annular face surrounds the suction recess. The deforming lip lifts the film immediately under it.",
+      "separation": "Asymmetric cup deformation raises part of the edge and creates an opening for air. The cup then draws the sheet clear of any obstruction.",
+      "handoff": "A linkage translates the suction assembly across the support and delivers the leading edge to the nip of feed rollers.",
+      "interpretation": "Cup material and rim geometry supply the initial peel without a separate tilt actuator. Orientation becomes critical when the usable film face is narrow or already bowed.",
+      "commercial": "The patent depicts a cassette unloader and film roller handoff. The exact asymmetric lip was not verified in a named production model.",
+      "related": [
+        "US4979729A",
+        "EP0512084B1",
+        "WO2004079448A1"
+      ],
+      "figures": [
+        {
+          "page": 10,
+          "label": "Figs. 1-3",
+          "description": "Side, underside and section views of the unequal-thickness suction cup.",
+          "file": "EP0467203B1-p10.png"
+        },
+        {
+          "page": 12,
+          "label": "Fig. 5",
+          "description": "The lip curls the film edge away from the cassette surface after vacuum is applied.",
+          "file": "EP0467203B1-p12.png"
+        },
+        {
+          "page": 15,
+          "label": "Fig. 8",
+          "description": "Pickup linkage moving the lifted edge to the transport nip.",
+          "file": "EP0467203B1-p15.png"
+        }
+      ],
+      "title": "Method and apparatus for moving a sheet",
+      "priority": "1990-07-16",
+      "filing": "1991-07-10",
+      "publication": "1996-10-09",
+      "inventors": [
+        "Robert Winfield Chambers"
+      ],
+      "pages": 18,
+      "recordUrl": "https://patents.google.com/patent/EP0467203B1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0467203NWB1/document.pdf",
+      "company": "Sterling Diagnostic Imaging Inc",
+      "classifications": [
+        "G03B42/00",
+        "G03B42/02",
+        "G03B42/04",
+        "G03B42/045"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "150044ffe068748c9f24b8745d272f69981b2acf6d8d8e7e7fa04f678182fca7",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP0750228A1",
+      "application": "Photofinishing receptacles",
+      "mechanisms": [
+        "gate",
+        "detect",
+        "combined"
+      ],
+      "summary": "A stopper meters individual job receptacles that carry prints and cut-film holders through a photofinishing line.",
+      "problem": "A lab printer needed to keep finished prints associated with the correct processed negatives while conveyor sections operate at different rates.",
+      "stack": "The waiting station queues rigid receptacles on a sloping circulating guide. Each receptacle has distinct positions for prints and the film holder.",
+      "pickup": "A photoelectric sensor checks for an empty receptacle when the chain is ready. A rotary-solenoid-driven stopper turns so the foremost one can roll down the guide.",
+      "contact": "Stopper catches, guide rollers and conveyor chains act on the rigid receptacle. In a later station a retainer arm controls the film holder.",
+      "separation": "The next catch meets a following guide roller. Each actuation releases one receptacle while the rest of the queue remains held.",
+      "handoff": "Gravity moves the released unit to a chain with linking pins. Moving the receptacle and moving its film holder are separate operations in the described line.",
+      "interpretation": "A rigid carrier transfers the difficult separation geometry from fragile film to a part designed for handling. An automated source of those carriers would be a separate engineering problem for the original loose stack.",
+      "lengthEvidence": "The line cuts negatives into four- or six-frame strips and inserts them into holders. The metered object in the waiting station is the receptacle, without direct selection of a loose strip.",
+      "commercial": "The original application names Noritsu Koki. It does not verify that a particular production printer used the illustrated receptacle queue.",
+      "related": [
+        "US6556276B2",
+        "US5555042A",
+        "EP1267203B1"
+      ],
+      "figures": [
+        {
+          "page": 14,
+          "label": "Figs. 7–8",
+          "description": "Station stop and the waiting-station escapement releasing individual receptacles",
+          "file": "EP0750228A1-p14.png"
+        }
+      ],
+      "title": "Photographic printing apparatus",
+      "priority": "1995-06-20",
+      "filing": "1996-06-20",
+      "publication": "1996-12-27",
+      "inventors": [
+        "Toshio Doi",
+        "Hiroshi Miyawaki"
+      ],
+      "pages": 21,
+      "recordUrl": "https://patents.google.com/patent/EP0750228A1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0750228NWA1/document.pdf",
+      "company": "Noritsu Koki Co., Ltd.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03D15/00",
+        "G03D15/001",
+        "G03D15/005",
+        "G03D3/00"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "EP1191779A2",
+          "EP1724638A1",
+          "EP1816516A3",
+          "EP1818720A3",
+          "US7016059B1",
+          "WO2001016651A1"
+        ]
+      },
+      "sourceSha256": "2eb5213bb734986c70a980b7014acdf3435bfc06bb8b7f5c9a996cdd55b0a6e2"
+    },
+    {
+      "id": "US6556276B2",
+      "application": "Loose 35 mm negative strips",
+      "mechanisms": [
+        "vacuum",
+        "friction",
+        "detect",
+        "combined"
+      ],
+      "summary": "A spring-squared hopper presents cut negatives to a pivoting suction cup and an opening roller nip.",
+      "problem": "A photographic reorder station needed to scan batches of negatives without asking an operator to insert and orient each piece in its existing strip track.",
+      "stack": "The controller sets the width. A spring-biased bottom/outboard plate squares loose strips, a hinged upper guide carries a foam or rubber roller, and the aligned ends rest against a stop.",
+      "pickup": "An infrared presence detector starts a pickup cycle. A solenoid- or air-actuated arm pivots vacuum cup 125 into the presented strip and swings the selected strip toward the exit.",
+      "contact": "The guide and roller position the stack. The cup grips a localized area of the film face. Drive roller 126 and movable pressure roller 128 contact opposite film faces to establish the nip.",
+      "separation": "The cup transports one selected piece away from the rest of the mechanically registered stack. The infrared detector reports presence at the hopper; the embodiment gives no separate overlap measurement.",
+      "handoff": "As the arm delivers the strip, roller 128 pivots up against driven roller 126. The nip moves the strip into strip feeder 24. The controller and receiver sequence is important because the picker and the existing track have different motions.",
+      "interpretation": "This is a direct precedent for a short transfer from a loose stack into a controlled nip. An adjustable arm path and a near receiver give ways to test the shortest specimen. Cup sealing on curl, transfer overlap and neighboring sheets rising together remain important measurements.",
+      "lengthEvidence": "The specification describes flat cut strips and illustrates a conventional 135 strip with three frames. It reports no measured minimum length or validated throughput for single frames.",
+      "commercial": "No independently documented Gretag product or service assembly was found that could be matched to the spring plate, arm and two-roller handoff. Pacific Image's PowerFilm Plus is a separate commercially documented comparison.",
+      "related": [
+        "US7950654B2",
+        "US4979729A",
+        "US5555042A",
+        "EP0750228A1"
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 4A–4B",
+          "description": "Spring-biased hopper, pickup arm and opening roller nip",
+          "file": "US6556276B2-p04.png"
+        },
+        {
+          "page": 3,
+          "label": "Fig. 3",
+          "description": "Existing strip feeder with the inlet used by the multiple-strip hopper",
+          "file": "US6556276B2-p03.png"
+        }
+      ],
+      "family": [
+        "US20020110374A1"
+      ],
+      "title": "Photographic reorder system and method",
+      "priority": "2001-02-09",
+      "filing": "2001-06-07",
+      "publication": "2003-04-29",
+      "inventors": [
+        "Willi Staeheli",
+        "Douglas A. Kenyon",
+        "Marc Sevigny",
+        "Michael Jefferson"
+      ],
+      "pages": 8,
+      "recordUrl": "https://patents.google.com/patent/US6556276B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/b4/82/c9/b3c7cb984d234d/US6556276.pdf",
+      "company": "Gretag Imaging Inc.",
+      "classifications": [
+        "G03D15/00",
+        "G03D15/001",
+        "G03D15/005"
+      ],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US20040077180A1",
+          "US20050007388A1",
+          "US20070253537A1",
+          "US20080296382A1",
+          "US20080296392A1",
+          "US20090026270A1",
+          "US20090216632A1",
+          "US20090236419A1",
+          "US20090237232A1",
+          "US20090268939A1",
+          "US20090272801A1",
+          "US20090283964A1",
+          "US20100053329A1",
+          "US20100066733A1",
+          "US20100282841A1",
+          "US7121466B2",
+          "US7661672B2",
+          "US7889068B2",
+          "US7988045B2",
+          "US8061603B2",
+          "US8155575B2",
+          "US8229158B2",
+          "US8280763B2",
+          "US8544736B2",
+          "US8704821B2",
+          "US8746557B2",
+          "US8794524B2",
+          "US9047742B2",
+          "WO2007127960A3"
+        ]
+      },
+      "sourceSha256": "f4a5cbffc08e9321f56566eac877042dde406728f9909d54ff89190d1225cd7f"
+    },
+    {
+      "id": "WO2004079448A1",
+      "application": "Laser film imager",
+      "mechanisms": [
+        "vacuum",
+        "peel",
+        "combined"
+      ],
+      "summary": "A pivoting heel holds the stack while sliding cup carriers lift and corrugate the selected leading edge.",
+      "problem": "Smooth photosensitive sheets can cling in a cartridge. The top edge must arrive between the open rollers at a known height as the stack empties.",
+      "stack": "A film cartridge locates the stack below the pickup. Spring-loaded heel pads run down to contact the top of the remaining stock.",
+      "pickup": "The suction cup plate pivots relative to the heel. A cable drive changes the plate angle after the heel seats, and spring-guided cup carriages slide as the film wraps.",
+      "contact": "Heel pads bear on the film. Vacuum cups seal to the edge region and silicone loops can press locally on the lifted span.",
+      "separation": "The heel holds the sheet back while the cups lift a free edge. Repeated small movements and loops that add an edge wave allow multiple layers to slip relative to each other before final lift.",
+      "handoff": "Pivot rollers meet the frame shelf to level and guide the lifted edge above the drive roller. The idler closes around the edge before the cups release it.",
+      "interpretation": "This is a useful example of curl control combined with a positive physical handoff. The heel, cup and loop spacing would need to shrink for short negatives, with contact and permanent bend marks checked separately.",
+      "commercial": "Kodak's earlier DryView 8100 service manual documents vacuum cups, a heel pad, separator tabs and roller handoff. That establishes a deployed architecture in the same product family. Use of this later patent's silicone loops and detailed cycle remains unverified. [Kodak DryView 8100 service manual, sections 4-6 and 7-6-5](https://www.scribd.com/document/522250393/sm8100C)",
+      "related": [
+        "EP0467203B1",
+        "EP0512084B1",
+        "WO2007019045A1"
+      ],
+      "figures": [
+        {
+          "page": 22,
+          "label": "Fig. 6",
+          "description": "The heel is seated and the suction cups have engaged the film.",
+          "file": "WO2004079448A1-p22.png"
+        },
+        {
+          "page": 24,
+          "label": "Fig. 8",
+          "description": "Maximum bend state with the cup carriage displacement called out.",
+          "file": "WO2004079448A1-p24.png"
+        },
+        {
+          "page": 27,
+          "label": "Fig. 11",
+          "description": "Home position presenting the leading edge between the receiving rollers.",
+          "file": "WO2004079448A1-p27.png"
+        }
+      ],
+      "title": "Film sheet supply system",
+      "priority": "2003-02-28",
+      "filing": "2004-02-26",
+      "publication": "2004-09-16",
+      "inventors": [
+        "Brian Nelson"
+      ],
+      "pages": 34,
+      "recordUrl": "https://patents.google.com/patent/WO2004079448A1/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/98/45/56/1963afdaff5c6b/WO2004079448A1.pdf",
+      "company": "Eastman Kodak Company",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/58",
+        "G03B27/585",
+        "G03B27/586"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "1a48425d7d1f8d46d9d69de3ac1e5cb7a46b0dc62ca9fc2e981c4dc3b25d4910",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP1267203B1",
+      "application": "Mounted-slide scanner",
+      "mechanisms": [
+        "gripper",
+        "gate",
+        "combined"
+      ],
+      "summary": "A cam-driven pusher feeds the lowest slide mount and a rising projection lifts the next mount out of its way.",
+      "problem": "The inner edge of a slide mount can hook the next mount as it is pushed from a cartridge. A warped or hooked mount can obstruct the feed or drag a second mount through.",
+      "stack": "Mounts are stacked in a cartridge with bottom support ridges on the lateral edges, a lower access opening and a feed slot guarded by a spring-biased plate.",
+      "pickup": "A cam reciprocates a stepped feeder whose forward shoulder engages the rear end of the lowest mount and drives it out of the feed slot.",
+      "contact": "The moving shoulder and its raised separator projection touch the slide mounts, while support ridges, the spring plate and feeder rollers contact the exposed mount boundaries and faces.",
+      "separation": "The projection lifts the second-lowest mount before their inner borders can interlock. The spring-biased plate restricts the slot as the feeder cycles. The path can include a recess to accommodate bent mounts during passage.",
+      "handoff": "The emerging mount enters roller pairs leading to the movable scan stage. A sensor in the feed path recognizes the leading edge of a mount or sorting card.",
+      "interpretation": "The useful analogue is actively moving the neighbor out of the departing strip's path rather than merely pushing harder. The lifting projection depends on rigid mount geometry. A bare 35 mm analogue would need a way to restrain or lift the next strip without entering the image area.",
+      "commercial": "The publication describes a slide carrier and cartridge implementation. A production scanner using these exact numbered parts was not established.",
+      "related": [
+        "US2423404A",
+        "US5555042A",
+        "EP0521459A1"
+      ],
+      "figures": [
+        {
+          "page": 13,
+          "label": "Figs. 5–6",
+          "description": "Cam feed stroke and reset, with the projection above the pusher lifting the second mount.",
+          "file": "EP1267203B1-p13.png"
+        },
+        {
+          "page": 16,
+          "label": "Figs. 9–10",
+          "description": "Magnified comparison of the inner mount edges as one mount is separated from its neighbor.",
+          "file": "EP1267203B1-p16.png"
+        }
+      ],
+      "title": "Slide scanner with means for separating the slides from a stack",
+      "priority": "2001-06-14",
+      "filing": "2002-06-11",
+      "publication": "2005-03-23",
+      "inventors": [
+        "Junichi Fuji Photo Film Co. Ltd. Tsuji"
+      ],
+      "pages": 17,
+      "recordUrl": "https://patents.google.com/patent/EP1267203B1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1267203NWB1/document.pdf",
+      "company": "Fuji Photo Film Co Ltd",
+      "classifications": [
+        "B65G59/00",
+        "B65G59/06",
+        "B65G59/067",
+        "G03B23/00",
+        "G03B23/02",
+        "G03B23/04",
+        "G03B23/042",
+        "H04N1/00",
+        "H04N1/00567",
+        "H04N1/0057",
+        "H04N1/00588",
+        "H04N1/0062",
+        "H04N2201/00",
+        "H04N2201/0077",
+        "H04N2201/0081",
+        "H04N2201/0098",
+        "H04N2201/04",
+        "H04N2201/0402",
+        "H04N2201/0404",
+        "H04N2201/0406"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "2df391e15d228820af730619cf5889482a8a5ac44976841858958f9126f67c72",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US6932338B1",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "friction",
+        "retard",
+        "gate",
+        "combined"
+      ],
+      "summary": "An independently driven upper retard roller lets the operator choose how its surface moves against the next sheet.",
+      "problem": "A single direction of upper-roller motion does not suit all materials. Stock thickness, stiffness and tack alter the balance between successful extraction, multi-feed and edge damage.",
+      "stack": "The tray supports a generally steep stack with its leading edges aligned against a cross member. The inclination urges the stock toward the drive and the adjustable gate.",
+      "pickup": "Friction rollers and a belt grip the downward-facing surface of the lowest sheet and pull it out from beneath the stack.",
+      "contact": "The upper retard roller touches the next sheet's leading edge and any exposed part of its upper face. The lower friction belt touches the outgoing sheet's lower face.",
+      "separation": "An auxiliary motor sets the retard surface either with or against the feed direction at the point of contact. The roller gap is adjustable to stock thickness and stiffness. The preferred control energizes the upper drive only while the lower feed runs.",
+      "handoff": "A driven conveyor receives the individual sheet downstream from the friction belt and carries it onward for timed collation.",
+      "interpretation": "Independent speed and direction make it possible to characterize a difficult stack without changing the pickup drive. Here reversal is a setup choice rather than a detected-jam recovery routine. Sliding or countercurrent contact near a 35 mm cut edge can cause marking or buckling.",
+      "commercial": "The patent discloses a collating feeder and compares conventional equipment. A named commercial model with its reversible assembly remains unverified.",
+      "related": [
+        "US3469834A",
+        "US3966189A",
+        "EP1721846B1",
+        "US7819396B2"
+      ],
+      "figures": [
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Section through the lowest-sheet belt, next-sheet retard roller, height dial and onward conveyor.",
+          "file": "US6932338B1-p03.png"
+        }
+      ],
+      "title": "Friction sheet feeding machine with reversible driven retard roller",
+      "priority": "2002-11-01",
+      "filing": "2003-10-30",
+      "publication": "2005-08-23",
+      "inventors": [
+        "William L. Popejoy",
+        "Perry D. Bergman"
+      ],
+      "pages": 11,
+      "recordUrl": "https://patents.google.com/patent/US6932338B1/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/64/9e/da/a4cc20380d0ed7/US6932338.pdf",
+      "company": "Streamfeeder LLC",
+      "classifications": [
+        "B65H2301/00",
+        "B65H2301/40",
+        "B65H2301/42",
+        "B65H2301/423",
+        "B65H2301/4232",
+        "B65H2301/42322",
+        "B65H2403/00",
+        "B65H2513/00",
+        "B65H2513/40",
+        "B65H2513/41",
+        "B65H3/00",
+        "B65H3/02",
+        "B65H3/04",
+        "B65H3/042",
+        "B65H3/46",
+        "B65H3/52",
+        "B65H3/5246",
+        "B65H3/5276",
+        "B65H3/5284"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "AU2010292103B2",
+          "CN105196604A",
+          "CN106697394A",
+          "CN106742251A",
+          "CN106742257A",
+          "CN106742258A",
+          "CN106742259A",
+          "CN106742260A",
+          "CN106742261A",
+          "CN106742262A",
+          "CN109368312A",
+          "EP2475603A4",
+          "US10640312B2",
+          "US20070138734A1",
+          "US20070194513A1",
+          "US20080237971A1",
+          "US20110291348A1",
+          "US20140377048A1",
+          "US20160130100A1",
+          "US7703769B2",
+          "US7722028B2",
+          "US8490964B2",
+          "US9221629B1",
+          "US9394122B2"
+        ]
+      },
+      "sourceSha256": "dd1de0e87824018e639f0663b2fee2710442eeaa21fd6d70e4abca8e586326ee",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "WO2007019045A1",
+      "application": "Laser film imager",
+      "mechanisms": [
+        "vacuum",
+        "peel",
+        "combined"
+      ],
+      "summary": "The actuator vibrates the captured film edge at controlled frequencies before lifting it free of the stack.",
+      "problem": "Electrostatic attraction and film coatings can make adjacent sheets follow the one acquired by a vacuum pickup.",
+      "stack": "A cartridge locates the film pile. Spring-loaded heel pads establish the local top level during approach.",
+      "pickup": "The motor and cable move a vacuum cup carriage relative to the heel. In the illustrated cycle the vacuum-held film edge is first bent before the controller oscillates the head.",
+      "contact": "Heel pads contact exposed film. Suction cups grip the selected sheet and silicone loops can add a corrugation to the leading edge.",
+      "separation": "The stated principle is to excite film near a characteristic bending frequency. The controller can choose one frequency or sweep a range intended to include different numbers or types of clinging sheets.",
+      "handoff": "The drive retracts the pickup after the separation cycle. A pivoting idler clamps the film against the drive roller before vacuum is released.",
+      "interpretation": "This is a controllable way to test agitation within a peel cycle. In mixed 35 mm strips, frame count, thickness and curl change effective stiffness and resonant response, so the cited tuning does not transfer directly.",
+      "commercial": "Service manuals for earlier DryView imagers establish commercial heel-and-cup pickups. Use of the disclosed frequency-tuned vibration in a named production imager remains unverified.",
+      "related": [
+        "WO2004079448A1",
+        "EP0512084B1",
+        "US4979729A"
+      ],
+      "figures": [
+        {
+          "page": 26,
+          "label": "Fig. 3",
+          "description": "Isometric view of the suction cup carriages, shaft and silicone loops.",
+          "file": "WO2007019045A1-p26.png"
+        },
+        {
+          "page": 31,
+          "label": "Fig. 8",
+          "description": "Pickup head at maximum bend, the position used for oscillation in one embodiment.",
+          "file": "WO2007019045A1-p31.png"
+        },
+        {
+          "page": 34,
+          "label": "Fig. 11",
+          "description": "The cartridge and the staged roller handoff after film pickup.",
+          "file": "WO2007019045A1-p34.png"
+        }
+      ],
+      "title": "Imaging apparatus and method for separating individual sheets in a media supply",
+      "priority": "2005-08-03",
+      "filing": "2006-07-25",
+      "publication": "2007-02-15",
+      "inventors": [
+        "Troy A. Giese"
+      ],
+      "pages": 37,
+      "recordUrl": "https://patents.google.com/patent/WO2007019045A1/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/86/05/6d/1dbe34000e60db/WO2007019045A1.pdf",
+      "company": "Eastman Kodak Company",
+      "classifications": [
+        "B65H2301/00",
+        "B65H2301/40",
+        "B65H2301/42",
+        "B65H2301/423",
+        "B65H2301/4234",
+        "B65H2301/42342",
+        "B65H2515/00",
+        "B65H2515/50",
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/46",
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/53"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "faa475190b936576b86328448f9367be7875d35614c1c5a15796a724a94ae583",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP1197450B1",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "vacuum",
+        "air",
+        "peel",
+        "combined"
+      ],
+      "summary": "A brief positive-pressure pulse separates the stack before the vacuum belt moves.",
+      "problem": "Airflow sufficient to acquire the top sheet could blow the rest of the stack backward or deflect light, downcurled sheets during feeding.",
+      "stack": "A tray presents the top of the receiver stock below a vacuum corrugating belt head. The description also covers transparency sheets.",
+      "pickup": "Open the vacuum and positive-pressure valves at the start of acquisition. The vacuum holds the raised, corrugated top sheet to the belt.",
+      "contact": "The perforated belt and corrugation element contact the selected sheet. Pressurized air acts near the exposed stock edge.",
+      "separation": "Close the positive-pressure valve before starting the belt clutch, while suction still holds the acquired sheet. End suction when the belt feed finishes. Some variants trigger controls from acquisition feedback.",
+      "handoff": "The belt moves the acquired sheet forward after the air pulse ends, allowing it to reach the outgoing transport path.",
+      "interpretation": "Air pressure and timing can be varied separately. A small pulse during an initial peel may be more stable than continuous airflow while a curled negative enters the nip.",
+      "commercial": "The patent cites a vacuum belt feeder architecture. Production use of the claimed valve timing remains unverified.",
+      "related": [
+        "US4627605A",
+        "US4451028A",
+        "US20230202784A1"
+      ],
+      "figures": [
+        {
+          "page": 9,
+          "label": "Fig. 3",
+          "description": "Section through the belt pickup and positive-pressure separator.",
+          "file": "EP1197450B1-p09.png"
+        },
+        {
+          "page": 10,
+          "label": "Fig. 4",
+          "description": "Detail of the corrugating feed head and adjacent air delivery.",
+          "file": "EP1197450B1-p10.png"
+        }
+      ],
+      "title": "Control for a pulsed air knife for a suction belt feed mechanism",
+      "priority": "2000-10-14",
+      "filing": "2001-10-10",
+      "publication": "2008-07-23",
+      "inventors": [
+        "Michael T. Dobbertin",
+        "Henry P. Mitchell, Jr."
+      ],
+      "pages": 12,
+      "recordUrl": "https://patents.google.com/patent/EP1197450B1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1197450NWB1/document.pdf",
+      "company": "Eastman Kodak Company",
+      "classifications": [
+        "B65H2515/00",
+        "B65H2515/30",
+        "B65H2515/34",
+        "B65H3/00",
+        "B65H3/08",
+        "B65H3/12",
+        "B65H3/124",
+        "B65H3/128",
+        "B65H3/46",
+        "B65H3/48",
+        "B65H7/00",
+        "B65H7/16"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "acb10d856e503e039f3ca55f49232e3bca2a36d7d21f70d0913206149cfbad9c",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US7654522B2",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "detect",
+        "retard",
+        "combined"
+      ],
+      "summary": "An ultrasonic beam checks for an overlapping sheet beside a nip that suppresses flutter.",
+      "problem": "A free sheet can vibrate as it moves through an ultrasonic measuring point, weakening the received signal and causing a false multi-feed indication.",
+      "stack": "The disclosed automatic document feeder begins with a tray of sheet documents, a pickup roller and downstream supply and separating rollers.",
+      "pickup": "The pick and separator normally release one document into opposed feed and press rollers. The ultrasonic assembly measures both normal feed and any overlapping sheets that escape that separation.",
+      "contact": "Feed and press rolls touch the media. The transmitter and receiver are on opposite sides of an adjacent supported region and make no contact with the media.",
+      "separation": "One sheet reduces received ultrasonic energy. An air layer between overlapping sheets can cause a larger reduction. Comparing the signal with a threshold detects a double; placing the beam near or between roller pairs suppresses sheet motion at that point.",
+      "handoff": "A valid single sheet continues to the registration rollers and optical reading position. The method observes a failed separation rather than releasing the second sheet itself.",
+      "interpretation": "Useful placement principle for the scope of a film feeder. Clean face-to-face contact, curl, perforations and the short overlap of two staggered images could all change the measured signal. Establish the detection margin on the actual film before relying on an office-media threshold.",
+      "commercial": "The patent gives an automatic document feeder as the tested context. A named retail sensor or production machine with the same geometry was not verified.",
+      "related": [
+        "US3469834A",
+        "EP0405466B1",
+        "US6556276B2"
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 3–5",
+          "description": "Acoustic path through one and two sheets and a conceptual receiver signal versus time.",
+          "file": "US7654522B2-p04.png"
+        },
+        {
+          "page": 5,
+          "label": "Figs. 6–7",
+          "description": "Beam location between adjacent lateral holding pairs, including a feed-roller and pad arrangement.",
+          "file": "US7654522B2-p05.png"
+        }
+      ],
+      "title": "Sheet feeder with ultrasonic double feed detector",
+      "priority": "2006-04-07",
+      "filing": "2007-04-05",
+      "publication": "2010-02-02",
+      "inventors": [
+        "Kazumasa Tonami"
+      ],
+      "pages": 15,
+      "recordUrl": "https://patents.google.com/patent/US7654522B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/75/6e/57/3b1363398cb16d/US7654522.pdf",
+      "company": "Sharp Corp",
+      "classifications": [
+        "B65H2301/00",
+        "B65H2301/40",
+        "B65H2301/44",
+        "B65H2301/443",
+        "B65H2301/4431",
+        "B65H2553/00",
+        "B65H2553/30",
+        "B65H7/00",
+        "B65H7/02",
+        "B65H7/06",
+        "B65H7/12",
+        "B65H7/125"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US10689216B2",
+          "US10894689B2",
+          "US11736640B1",
+          "US11807490B2",
+          "US12319537B2",
+          "US20070237430A1",
+          "US20120269566A1",
+          "US20130069299A1",
+          "US20130134655A1",
+          "US20160159597A1",
+          "US20190187605A1",
+          "US20210155430A1",
+          "US20240025684A1",
+          "US8500119B2",
+          "US8636284B2",
+          "US8657285B2",
+          "US8882373B2",
+          "US9051143B2",
+          "US9873580B2"
+        ]
+      },
+      "sourceSha256": "6066695da1d58ab74df4d04bec6c070b5e4ae9f7ab011daebf1bf821d71af2f6",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US7819396B2",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "vacuum",
+        "retard",
+        "combined"
+      ],
+      "summary": "A vacuum shuttle and an edge-retard belt cooperate, then the belt indexes a fresh contact area on return.",
+      "problem": "A fixed edge pad wears in one place and can keep rubbing a following sheet while the feeder resets. Excess vacuum can make an untreated adjacent sheet follow the feed.",
+      "stack": "The paper stack sits below the vacuum head with the retard assembly against the exit edge. In a roller alternative, upward stack adjustment indexes the retard surface between picks.",
+      "pickup": "The vacuum head holds and translates the exposed top sheet out of the pile. A cam coupled to that motion loads the retard assembly against the underlying sheet at the appropriate time.",
+      "contact": "The head contacts the upper sheet's surface. Rubber on a roller or belt contacts a narrow region at the lead edge of the underlying sheet.",
+      "separation": "The retard carrier applies more force during extraction. After the outgoing sheet clears, return motion reduces the load and a one-way clutch lets a belt advance to expose a fresh part of its surface.",
+      "handoff": "The vacuum shuttle takes the selected sheet into the outward feed path. The driven retard surface can index independently of the selected sheet during reset.",
+      "interpretation": "The edge-only holding idea and timed unloading are worth testing with a film-safe pad. A 35 mm cut frame can curl away from a narrow contact, or its exposed face can extend right to that edge. Pad wear, residue and spacing still need checking.",
+      "commercial": "The patent describes printer and copier mechanisms. Product adoption of the illustrated cyclic edge belt was not independently verified.",
+      "related": [
+        "US6556276B2",
+        "EP0521459A1",
+        "US6932338B1"
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 4–5",
+          "description": "Roller-based renewal as a stack rises and a shuttle-based variant with an edge-retard belt.",
+          "file": "US7819396B2-p04.png"
+        },
+        {
+          "page": 5,
+          "label": "Figs. 6–7",
+          "description": "Low- and high-force positions of the belt, spring and cam in the separation cycle.",
+          "file": "US7819396B2-p05.png"
+        }
+      ],
+      "title": "Sheet separating apparatus and method of separating sheets",
+      "priority": "2005-08-25",
+      "filing": "2005-08-25",
+      "publication": "2010-10-26",
+      "inventors": [
+        "Youti Kuo",
+        "Kenneth W. Luff",
+        "Ernest L. DiNatale"
+      ],
+      "pages": 9,
+      "recordUrl": "https://patents.google.com/patent/US7819396B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/e0/64/a8/aea8ea992ad8f7/US7819396.pdf",
+      "company": "Xerox Corporation",
+      "classifications": [
+        "B65H2403/00",
+        "B65H2403/50",
+        "B65H2403/51",
+        "B65H2403/70",
+        "B65H2403/72",
+        "B65H2515/00",
+        "B65H2515/30",
+        "B65H3/00",
+        "B65H3/46",
+        "B65H3/52",
+        "B65H3/5246",
+        "B65H3/5253",
+        "B65H3/5269"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US20160289024A1",
+          "US9796545B2"
+        ]
+      },
+      "sourceSha256": "02ecfa8abb16e3899c26f8512e603127d58588c82ff48957b65903a4beb54e28",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "EP1721846B1",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "friction",
+        "retard",
+        "combined"
+      ],
+      "summary": "A spring-loaded sliding pad exposes a low-friction region once the leading medium has overcome the separation force.",
+      "problem": "A fixed pad's retarding force rises with nip force and is sensitive to media, wear and contamination. Different stock can narrow the overlap between a reliable grip and reliable separation.",
+      "stack": "A tray presents the stack below a conventional feed element, illustrated as a D-shaped pick roller. The device addresses the separator downstream of the stack contact.",
+      "pickup": "The roller frictionally drives the top sheet into the nip and toward the high-friction pad region initially exposed beyond a guide bracket.",
+      "contact": "The pick roller contacts one face and the pad and guide contact the opposite face. The pad has high- and lower-friction regions and slides in the feed direction against springs.",
+      "separation": "One sheet can pull the high-friction region forward, exposing the lower-friction region and allowing the sheet to bridge both. A follower sheet has only inter-sheet traction, which the spring-set retard force is intended to overcome.",
+      "handoff": "The selected sheet exits the nip along the guide. Once its trailing edge clears, the springs return the pad and can push a stalled second sheet back as far as the available slide travel.",
+      "interpretation": "The sliding pad is a precedent for making retention set by spring force rather than using a single material coefficient alone. That relationship depends on a valid friction window on each film face; measure worn and dusty conditions and check for face abrasion.",
+      "commercial": "The described embodiment is a generic media handler. A commercial separator with this particular two-zone sliding pad has not been matched.",
+      "related": [
+        "US3469834A",
+        "US3966189A",
+        "EP0405466B1",
+        "US6932338B1"
+      ],
+      "figures": [
+        {
+          "page": 18,
+          "label": "Figs. 7–8",
+          "description": "D-shaped pick roller and two pad positions before and after the moving sheet exposes the second friction region.",
+          "file": "EP1721846B1-p18.png"
+        },
+        {
+          "page": 14,
+          "label": "Figs. 1–2",
+          "description": "Front views of the two friction regions and their changing exposure relative to the bracket.",
+          "file": "EP1721846B1-p14.png"
+        }
+      ],
+      "title": "Media separator mechanism",
+      "priority": "2005-05-13",
+      "filing": "2006-05-08",
+      "publication": "2010-12-22",
+      "inventors": [
+        "Nathaniel D Ginzton"
+      ],
+      "pages": 19,
+      "recordUrl": "https://patents.google.com/patent/EP1721846B1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP1721846NWB1/document.pdf",
+      "company": "Xerox Corporation",
+      "classifications": [
+        "B41J13/00",
+        "B65H2402/00",
+        "B65H2402/30",
+        "B65H2402/32",
+        "B65H2404/00",
+        "B65H2404/50",
+        "B65H2404/53",
+        "B65H2404/531",
+        "B65H2404/5311",
+        "B65H3/00",
+        "B65H3/46",
+        "B65H3/52",
+        "B65H3/5207",
+        "B65H3/5215",
+        "B65H3/5223",
+        "G03G15/00"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "e9699d5b6742aa4538ff66d69ec12d1920d60a26181e90283c0476ce958f33e5",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    },
+    {
+      "id": "US7950654B2",
+      "application": "Loose 35 mm negative strips",
+      "mechanisms": [
+        "vacuum",
+        "air",
+        "gripper",
+        "combined"
+      ],
+      "summary": "A vacuum head lifts one cut negative through a registered stack and transfers it to a perforation drive.",
+      "problem": "Processed 35 mm negatives vary in length and curl. The invention addresses batch loading without relying on the broad face pressure of conventional paper feed rollers.",
+      "stack": "In one embodiment, a tray carries a stack on guide posts matching the film perforations. Another tray uses a single post and side walls. The posts run most of the way to the receiver so lateral registration is maintained during the lift.",
+      "pickup": "A vacuum head adheres to the top strip and raises it from the tray. Other disclosed arrangements can change its orientation before transfer.",
+      "contact": "The vacuum cup meets one face. The posts, receiving sprockets, guides and small pressure rollers locate the perforated margins. Some auxiliary guides are arranged to clear already planar film.",
+      "separation": "An optional air supply blows toward the cut leading edges to loosen a second sheet that is sticking to the first as the vacuum head lifts the selected negative.",
+      "handoff": "In the roller embodiment, backing rollers press the strip perforations against the drive sprockets, then the vacuum head releases. A second embodiment uses a movable engagement on a single sprocket hole and carries it along the path.",
+      "interpretation": "This is the clearest reference for testing an independently timed vacuum–air–receiver sequence on loose cut film. Threading every strip onto two posts may impede fast loading or catch damaged perforations. Test a side-reference variant when the cut end falls close to the first usable hole.",
+      "lengthEvidence": "The disclosure discusses processed 35 mm negatives, variable cutting and strips around 5.94 inches long in one context. It does not establish reliable pickup of individual frames or a validated minimum across the forms shown.",
+      "commercial": "The searched patent-family records establish versions of the design. No manufacturer manual, parts catalog or physical scanner was found that identifies the illustrated tray and handoff as a shipped assembly.",
+      "related": [
+        "US6556276B2",
+        "US4979729A",
+        "US4627605A",
+        "US20230202784A1"
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 1C, 2 and 3",
+          "description": "Vacuum lift from the stack, sprocket transfer and alternative tray alignment",
+          "file": "US7950654B2-p04.png"
+        },
+        {
+          "page": 3,
+          "label": "Fig. 1B",
+          "description": "Perforation drive, backing rollers and guide rails",
+          "file": "US7950654B2-p03.png"
+        },
+        {
+          "page": 6,
+          "label": "Figs. 5A–5C",
+          "description": "Variant using a moving single-sprocket grip and a single stack post",
+          "file": "US7950654B2-p06.png"
+        }
+      ],
+      "title": "Film handling system with elongated film guide",
+      "priority": "2006-04-28",
+      "filing": "2009-12-19",
+      "publication": "2011-05-31",
+      "inventors": [
+        "Michael Tenbrock"
+      ],
+      "pages": 30,
+      "recordUrl": "https://patents.google.com/patent/US7950654B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/c5/94/b1/d0c01672f120f3/US7950654.pdf",
+      "company": "Individual",
+      "classifications": [
+        "G03B1/00",
+        "G03B1/18",
+        "G03B1/20",
+        "G03B1/24"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "6d3c1881b078505ea6f367d8a098bd3a1c813d4666b9b063f71307e71ed6c9fb"
+    },
+    {
+      "id": "US20230202784A1",
+      "application": "Paper and document feeder",
+      "mechanisms": [
+        "air",
+        "friction",
+        "retard",
+        "combined"
+      ],
+      "summary": "Two groups of upstream-facing outlets separate overlapped sheets from the stack exit to the retard nip.",
+      "problem": "An air jet at the stack fence could stop reaching an overlapping leading edge once sheets passed the fence toward the nip.",
+      "stack": "A feed tray and front fence register a bundle beneath a pickup roller.",
+      "pickup": "The pickup roller advances the uppermost sheet toward a conveying roller and a torque-limited driven separation roller.",
+      "contact": "The pickup and upper conveyor rollers touch the sheet face. The lower separation roller can act on the underside of an overlapping sheet.",
+      "separation": "Air ports spaced at consecutive positions along the path blow back toward the stack and into overlapping edges. The lower roller supplies reverse retard torque when multiple sheets are in the nip.",
+      "handoff": "The separator nip passes one sheet to the downstream conveyor. The second set of outlets continues to act on leading edges near the nip.",
+      "interpretation": "Air applied immediately before a second grip can complement initial stack separation. On short negatives the gap, jet direction and rollout must limit flutter, buckling and reverse abrasion.",
+      "commercial": "Use of the two-stage port geometry in a named Ricoh production model remains unverified.",
+      "related": [
+        "US4627605A",
+        "EP1197450B1",
+        "US4451028A"
+      ],
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 2A-2B",
+          "description": "Cross-section and cover geometry at the roller nip and two air-outlet stages.",
+          "file": "US20230202784A1-p04.png"
+        },
+        {
+          "page": 5,
+          "label": "Figs. 2C-2D",
+          "description": "Plan and component views of the distributed outlet positions.",
+          "file": "US20230202784A1-p05.png"
+        },
+        {
+          "page": 6,
+          "label": "Figs. 3A-A and 3A-B",
+          "description": "Sheet path and front-edge airflow illustrated at the pickup and retard region.",
+          "file": "US20230202784A1-p06.png"
+        }
+      ],
+      "title": "Sheet feeder and image forming apparatus",
+      "priority": "2021-12-24",
+      "filing": "2022-10-31",
+      "publication": "2023-06-29",
+      "inventors": [
+        "Toshihiro OKUTSU",
+        "Junya Suzuki"
+      ],
+      "pages": 18,
+      "recordUrl": "https://patents.google.com/patent/US20230202784A1/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/46/b9/ba/0c5814900e5fdf/US20230202784A1.pdf",
+      "company": "Ricoh Co., Ltd.",
+      "classifications": [
+        "B65H2404/00",
+        "B65H2404/10",
+        "B65H2404/14",
+        "B65H2404/143",
+        "B65H2404/1431",
+        "B65H2404/16",
+        "B65H2404/165",
+        "B65H2801/00",
+        "B65H2801/03",
+        "B65H2801/06",
+        "B65H3/00",
+        "B65H3/02",
+        "B65H3/06",
+        "B65H3/08",
+        "B65H3/46",
+        "B65H3/48",
+        "B65H3/52",
+        "B65H3/5207",
+        "B65H3/5215",
+        "B65H3/5246",
+        "B65H3/5253",
+        "B65H3/5261",
+        "B65H3/66",
+        "B65H3/68",
+        "B65H5/00",
+        "B65H5/06",
+        "B65H5/062"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "sourceSha256": "4a952f6360002cd3b2485f9df39d3d8f383ac0d0b1b7dfaea2f757d5c8bff147",
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+    }
+  ]
+}
