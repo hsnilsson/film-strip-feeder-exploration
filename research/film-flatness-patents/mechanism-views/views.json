@@ -395,7 +395,7 @@
       "title": "One rigid side member spans both ends",
       "crop": [
         18,
-        10,
+        9,
         90,
         47
       ],
@@ -403,7 +403,7 @@
         [
           62,
           15,
-          "Two strut arms meet at pin 16 at each short end. The pins project outward for lifting."
+          "The tongue and slot of the two strut arms share pin 16 at each short end. Each pin projects outward over a recess 17 for lifting."
         ],
         [
           54,
@@ -435,7 +435,7 @@
           "In the later state the arms are nearly in line and press the end margin while the bars have moved outward."
         ]
       ],
-      "reading": "The film bows in fig. 2. Fig. 3 represents the loaded geometry. Compare the outer contacts in the enlarged drawings before interpreting the linkage as a simple symmetric hinge."
+      "reading": "The film bows in fig. 2. In fig. 3 the arms have flattened both short margins and the bars have drawn both long margins outward."
     },
     {
       "page": 1,
@@ -445,7 +445,7 @@
         9,
         71,
         94,
-        86
+        89
       ],
       "marks": [
         [
@@ -830,6 +830,29 @@
   ],
   "US5028956A": [
     {
+      "page": 3,
+      "figure": "Fig. 5",
+      "title": "Feed drive and clamp drive",
+      "crop": [3, 5, 91, 64],
+      "marks": [
+        [24, 37, "Motor 20 turns a pulley 16 to drive belt 14 along the film track."],
+        [22, 13, "Actuator 27 pushes the third finger 25 to move bell crank 23. The two fingers 21 load the two spring arms 19."],
+        [61, 28, "Both transverse spring arms carry both gripping members. Tie bar 18 lies inside the belt and tie bar 17 carries cylinder 15."]
+      ],
+      "reading": "The section lines identify two different cuts. Fig. 6 follows the belt in the direction of feed. Figs. 7A and 7B cross the aperture and show the side-to-side clamp motion."
+    },
+    {
+      "page": 3,
+      "figure": "Fig. 6",
+      "title": "Belt wrap in the feed direction",
+      "crop": [7, 73, 87, 99],
+      "marks": [
+        [18, 80, "The belt turns around a pulley 16 and meets the end ramp 8."],
+        [48, 84, "The lower belt run follows the flat working surface 9 between the ramp regions."]
+      ],
+      "reading": "The patent gives about 10° between each end ramp and the flat working surface. The wrap supplies downward force so the moving belt can drag the film along the track."
+    },
+    {
       "page": 4,
       "figure": "Fig. 7A",
       "title": "Belt contact before the far side closes",
@@ -851,7 +874,7 @@
           "Cylinder 15 is lifted clear of the other long margin."
         ]
       ],
-      "reading": "The running belt already bears on the film. This is the advance position, so belt-to-film contact and the scan clamp load are distinct."
+      "reading": "The belt already bears on the film for transport. The tie bar supplies additional load through that same belt in the scanning position."
     },
     {
       "page": 4,
@@ -875,31 +898,7 @@
           "At the other side the cylinder comes down and outward. Clearance 24 at edge 7 allows travel."
         ]
       ],
-      "reading": "The spring arms themselves deflect under the finger load and return upon release. No pivot or stroke angle for the cylinder can be measured from this pair of sections."
-    },
-    {
-      "page": 3,
-      "figure": "Fig. 6",
-      "title": "Belt wrap in the feed direction",
-      "crop": [
-        7,
-        69,
-        87,
-        99
-      ],
-      "marks": [
-        [
-          18,
-          80,
-          "The belt turns around a pulley 16 and meets the end ramp 8."
-        ],
-        [
-          48,
-          84,
-          "The lower belt run follows the flat working surface 9 between the ramp regions."
-        ]
-      ],
-      "reading": "The patent gives about 10° for the end ramps relative to the platen. This section is along the film. That angle does not describe the cylinder motion in the transverse sections."
+      "reading": "The spring arms deflect under the finger load and return upon release. The transverse sections establish the motion directions and contact sequence. The flexure angles and cylinder stroke are unspecified."
     }
   ],
   "US5088813A": [
