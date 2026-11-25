@@ -261,6 +261,13 @@ for (const [file, output] of outputs) {
     </main>
     ${archiveHome ? '' : toc}
   </div>
+  <dialog class="image-viewer" aria-label="Image preview">
+    <div class="image-viewer-actions">
+      <a target="_blank" rel="noopener">Open original</a>
+      <form method="dialog"><button autofocus>Close</button></form>
+    </div>
+    <img alt="">
+  </dialog>
 </body>
 </html>`;
   await mkdir(dirname(resolve(out, output)), { recursive: true });

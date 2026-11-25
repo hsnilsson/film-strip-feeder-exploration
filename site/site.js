@@ -6,6 +6,27 @@ function updateNavigation() {
 updateNavigation();
 mobile.addEventListener('change', updateNavigation);
 
+const imageViewer = document.querySelector('.image-viewer');
+const viewerImage = imageViewer.querySelector('img');
+const viewerOriginal = imageViewer.querySelector('a');
+document.querySelector('main').addEventListener('click', (event) => {
+  const link = event.target.closest('a[href]');
+  if (!link || link.target || link.hasAttribute('download') || event.defaultPrevented ||
+      event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+
+  const url = new URL(link.href);
+  if (!/^https?:$/.test(url.protocol) || !/\.(?:avif|gif|jpe?g|png|svg|webp)$/i.test(url.pathname)) return;
+
+  event.preventDefault();
+  viewerImage.alt = link.querySelector('img')?.alt ?? link.textContent.trim();
+  viewerImage.src = url.href;
+  viewerOriginal.href = url.href;
+  imageViewer.showModal();
+});
+imageViewer.addEventListener('click', (event) => {
+  if (event.target === imageViewer) imageViewer.close();
+});
+
 const diagrams = document.querySelectorAll('pre:has(> .language-mermaid)');
 if (diagrams.length && window.mermaid) {
   window.mermaid.initialize({ startOnLoad: false, securityLevel: 'loose', theme: 'neutral' });
