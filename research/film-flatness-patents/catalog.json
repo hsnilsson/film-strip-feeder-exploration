@@ -1,0 +1,3605 @@
+{
+  "schemaVersion": 1,
+  "mechanisms": {
+    "clamp": "Mechanical clamping",
+    "edge": "Edge grip",
+    "vacuum": "Vacuum",
+    "glass": "Glass-based support",
+    "lateral": "Lateral tension",
+    "longitudinal": "Longitudinal tension",
+    "bend": "Controlled bending",
+    "pressure": "Pneumatic pressure or air bearing",
+    "thermal": "Thermal control",
+    "combined": "Combined mechanisms"
+  },
+  "patents": [
+    {
+      "id": "US432990A",
+      "title": "Roller-holder for photographic films",
+      "priority": "1889-07-08",
+      "filing": "1889-07-08",
+      "publication": "1890-07-29",
+      "inventors": [
+        "George Eastman",
+        "Philip H. Yawman"
+      ],
+      "company": "Eastman Dry Plate and Film Company",
+      "application": "Camera",
+      "mechanisms": [
+        "longitudinal",
+        "edge"
+      ],
+      "summary": "A pawl and driven take-up hold roll film taut over a fixed exposure support.",
+      "sequence": "The strip runs from the supply across a support to a receiving reel. A winding key takes up film and a pawl prevents backward movement. For the next picture the operator advances and measures a fresh length.",
+      "contact": "Roll supports, guide surfaces and the fixed exposure support contact the strip.",
+      "transverse": "The support establishes cross-film shape. The mechanism does not impose a separate lateral stretching action.",
+      "longitudinal": "A pull between supply and take-up holds the span taut against the support.",
+      "tradeoffs": "The patent presents a compact roll holder with metering. Its tension depends on a connected roll at both sides.",
+      "relevance": "Historical evidence that feed tension was used for focus before powered gates. It suggests a controlled long-strip reference against which to test short-frame handling.",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/24"
+      ],
+      "related": [
+        "US450794A",
+        "US1139079A",
+        "US2227987A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US2882807A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US432990A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/15/51/7c/17a781de96fdf1/US432990.pdf",
+      "pages": 5,
+      "sourceSha256": "d9be84585c72b11df1af76df43e972197b5034fb9a0b59e066e74817b0f6d6b0",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1–3",
+          "description": "Roll holder assembled, with the back removed and in section",
+          "file": "US432990A-p01.png"
+        },
+        {
+          "page": 2,
+          "label": "Figs. 4–11",
+          "description": "Details of the winding lock, metering and film marker",
+          "file": "US432990A-p02.png"
+        }
+      ],
+      "problem": "Early camera operators needed to advance one exposure reliably and keep pliable roll film taut on the support during exposure."
+    },
+    {
+      "id": "US450794A",
+      "title": "Photographic roll-paper holder",
+      "priority": "1890-08-20",
+      "filing": "1890-08-20",
+      "publication": "1891-04-21",
+      "inventors": [
+        "George Jones"
+      ],
+      "company": "Individual",
+      "application": "Camera",
+      "mechanisms": [
+        "edge",
+        "longitudinal",
+        "combined"
+      ],
+      "summary": "Guide flanges and adjustable take-up tension smooth sensitized roll stock for exposure.",
+      "sequence": "Thread the photosensitive strip through the guide path to the receiving roll or winding belt. A spring plate bears against the supply. The winding and tension components keep the exposed span taut and move the used material on after exposure.",
+      "contact": "Guide flanges, drums and receiving parts contact the strip. The spring plate restrains the supply roll.",
+      "transverse": "The guide flanges define the cross-film reference as the strip is drawn through.",
+      "longitudinal": "Take-up and resistance at the supply create controlled tension along the strip.",
+      "tradeoffs": "The same winding system positions and holds film, but presupposes a flexible continuous strip and hand operation.",
+      "relevance": "An early reference for drawing film against a static plane using tension. On modern loose strips the supply brake and take-up need substitutes.",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/24"
+      ],
+      "related": [
+        "US432990A",
+        "US1829332A",
+        "US3007368A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US3205770A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US450794A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/ab/d2/c1/be4a5f364948ef/US450794.pdf",
+      "pages": 4,
+      "sourceSha256": "6c94c2aa10652657d21f8d3e7b9a2482dc95ba573d4d0c8a2c854ef63952a1d4",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Roll-paper holder with take-up, guides and tensioning details",
+          "file": "US450794A-p01.png"
+        }
+      ],
+      "problem": "Sensitized paper or film needed to remain taut while being measured and marked for later cutting."
+    },
+    {
+      "id": "US813531A",
+      "title": "Photographic-printing frame",
+      "priority": "1905-02-24",
+      "filing": "1905-02-24",
+      "publication": "1906-02-27",
+      "inventors": [
+        "Jonathan R Spencer"
+      ],
+      "company": "Individual",
+      "application": "Reproduction and copying",
+      "mechanisms": [
+        "glass",
+        "clamp"
+      ],
+      "summary": "A hinged printing frame brings sensitized paper against a negative on glass.",
+      "sequence": "A glass negative frame and hinged back let the operator assemble the stack, press it together and inspect or change it.",
+      "contact": "The negative lies on the glass face with printing paper against its opposite side.",
+      "transverse": "The glass spans the width of the negative.",
+      "longitudinal": "The same rigid surface spans its length, with closing pressure supplied from the back.",
+      "tradeoffs": "The contact stack is simple and shows why surface cleanliness matters. The apparatus is manually loaded and intended for direct printing.",
+      "relevance": "An early reference for capture-only plate contact. A scan fixture would need repeatable opening and clean separation of the two faces.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/02"
+      ],
+      "related": [
+        "US1581999A",
+        "US2741154A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US2741154A",
+          "US4089604A",
+          "US4111550A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US813531A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/cc/7a/bb/6c772c84e769ee/US813531.pdf",
+      "pages": 2,
+      "sourceSha256": "b8cccdfdb494f6802ecae3058f112c1feaa280b6503614a0c9e64795aa5fe967",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Printing frame open on its hinge, showing the glass and backing assembly",
+          "file": "US813531A-p01.png"
+        }
+      ],
+      "problem": "The printing frame needed to control alignment and contact between a negative and photosensitive paper during repeated handling."
+    },
+    {
+      "id": "US1139079A",
+      "title": "Method of and device for holding photographic-film sheets",
+      "priority": "1914-02-18",
+      "filing": "1914-02-18",
+      "publication": "1915-05-11",
+      "inventors": [
+        "Herman C Sievers"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Camera",
+      "mechanisms": [
+        "bend",
+        "edge"
+      ],
+      "summary": "Inclined slots bend two sheet margins so the film seats itself against a flat back.",
+      "sequence": "Slide the sheet end-first into opposing slots until it reaches a stop. The slots force the margins to tilt, so the sheet tries to bow into the backing. Slide it back out to unload.",
+      "contact": "The backing meets the reverse surface. Folded slots touch opposing margins and a flange locates an end.",
+      "transverse": "Deliberate edge bending creates a restoring moment into the back.",
+      "longitudinal": "The rigid back carries the sheet along its length. The patent describes no independent pull along that axis.",
+      "tradeoffs": "There are no powered clamps, but the backing blocks transmitted light and sliding may drag the broad surface.",
+      "relevance": "The edge-moment principle could be trialled with a relieved or transparent reference and an edge guide that opens during travel.",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/26"
+      ],
+      "related": [
+        "US1829332A",
+        "US3237543A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/US1139079A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/7c/f9/c5/1b6975f15b03ac/US1139079.pdf",
+      "pages": 3,
+      "sourceSha256": "863fc35ec3dc39cb42821a1c0d3989639dc6ce1b174fa4947400bf8e0e6d24b8",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1–3",
+          "description": "Backing plate, plan view and sectional view of angled retaining slots",
+          "file": "US1139079A-p01.png"
+        }
+      ],
+      "problem": "Unsupported cut-film sheets could buckle and move parts of the sensitized surface outside the lens's focal plane."
+    },
+    {
+      "id": "US1581999A",
+      "title": "Enlargement printer",
+      "priority": "1925-03-23",
+      "filing": "1925-03-23",
+      "publication": "1926-04-20",
+      "inventors": [
+        "Frank Q Gates"
+      ],
+      "company": "Individual",
+      "application": "Enlarger",
+      "mechanisms": [
+        "glass",
+        "clamp"
+      ],
+      "summary": "A glass-mounted negative serves an enlargement printer that also makes contact-printed frame areas.",
+      "sequence": "Insert the glass-and-negative assembly in the slotted holder. A movable paper platen positions successive prints and rises against the negative for the contact exposure. Lower the platen to shift the paper or release it.",
+      "contact": "Glass supports the negative; sensitized paper meets its exposed face in the contact operation.",
+      "transverse": "The glass plane supports the full width.",
+      "longitudinal": "The same glass supports the length. There is no separate tensioning step.",
+      "tradeoffs": "The glass carries the reference plane through repeated positioning. The process adds a transmissive surface and direct contact during part of the cycle.",
+      "relevance": "Useful as an early example of locating the negative once and changing the optical or contact configuration for each exposure.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/58",
+        "G03B27/582"
+      ],
+      "related": [
+        "US813531A",
+        "US2008982A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "USD720001S1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US1581999A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/d8/04/4d/ccf1bc8f16540f/US1581999.pdf",
+      "pages": 7,
+      "sourceSha256": "bdf41720e34e8d5a5205f63743f7aef8b1236bb6c0a866fed8522f83686e94ea",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Negative and glass assembly, including the image mask",
+          "file": "US1581999A-p03.png"
+        },
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Sectional views of the printing frame and paper mechanism",
+          "file": "US1581999A-p02.png"
+        }
+      ],
+      "problem": "Repeated enlargement printing and contact-printing of frame details required a repeatable negative plane and paper position."
+    },
+    {
+      "id": "US1829332A",
+      "title": "Method of and apparatus for holding photographic films in flat position during exposure",
+      "priority": "1930-03-17",
+      "filing": "1930-03-17",
+      "publication": "1931-10-27",
+      "inventors": [
+        "Alwin H. Beck"
+      ],
+      "company": "Folmer Graflex Corporation",
+      "application": "Camera",
+      "mechanisms": [
+        "clamp",
+        "lateral",
+        "longitudinal",
+        "combined"
+      ],
+      "summary": "Four raised points on a resilient aperture rim engage first, then closing pressure spreads to the surrounding film.",
+      "sequence": "Rollers guide film from supply to take-up. A cam depresses a backing plate for exposure and releases it before winding. Further travel after four first contacts deflects the raised portions of the resilient rim toward a common plane.",
+      "contact": "The pressure plate contacts the film back while the aperture rim engages the four surrounding margins.",
+      "transverse": "The patent attributes flattening to progressive spreading of pressure from the high points on the side margins.",
+      "longitudinal": "The same rim geometry engages the end margins. The inventor gives a proposed explanation for the stretching action.",
+      "tradeoffs": "The rim and plate replace the glass or suction arrangements discussed in the patent. The actual strain field depends on friction and elastic shape.",
+      "relevance": "A four-sided, sequenced mechanism predating modern scan gates. Compare initial points of constraint and corner motion under increasing load.",
+      "classifications": [
+        "G03B1/00",
+        "G03B1/42",
+        "G03B1/48"
+      ],
+      "related": [
+        "US1139079A",
+        "US2131926A",
+        "US5258807A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "EP0017971A1",
+          "US2433906A",
+          "US2601817A",
+          "US2680574A",
+          "US2753777A",
+          "US4153361A",
+          "US4204758A",
+          "US4214828A",
+          "US4290676A",
+          "US5614975A",
+          "US5659833A",
+          "US5809358A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US1829332A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/d4/8a/f7/eb61da4e82e132/US1829332.pdf",
+      "pages": 5,
+      "sourceSha256": "543dd033805185b89e764910614ed1737aad60d420279d726b056bf00785b2a8",
+      "figures": [
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Aperture frame details and a cross-section of the alternate pressure arrangement",
+          "file": "US1829332A-p02.png"
+        },
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Two sectional views of the roll-film camera and exposure support",
+          "file": "US1829332A-p01.png"
+        }
+      ],
+      "problem": "The patent sought focus across the exposure field while avoiding an external suction hose and exposure through glass."
+    },
+    {
+      "id": "US2008982A",
+      "title": "Device for producing enlarged images",
+      "priority": "1934-02-01",
+      "filing": "1934-02-01",
+      "publication": "1935-07-23",
+      "inventors": [
+        "Roy S Hopkins"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Microfilm",
+      "mechanisms": [
+        "glass",
+        "clamp",
+        "combined"
+      ],
+      "summary": "An interlock opens a glass carrier for film positioning and clamps it again for reading.",
+      "sequence": "A control releases a spring-hinged carrier while the operator changes the projected area. The carrier can move in two directions. The interlock keeps the film from travelling while held between the plates.",
+      "contact": "Two glass faces contact the area across which the objective looks.",
+      "transverse": "The faces establish the reference across the film.",
+      "longitudinal": "The same faces establish the along-film plane. The described control interlocks positioning and glass clamping.",
+      "tradeoffs": "The mechanism targets readable enlargement without dragging the film under a closed clamp. Glass requires cleaning, especially in an optical path.",
+      "relevance": "The interlock is directly relevant to automatic release and feed sequencing, even for a gate using a different reference.",
+      "classifications": [
+        "G03B23/00",
+        "G03B23/08",
+        "G03B23/12"
+      ],
+      "related": [
+        "US1581999A",
+        "US4203658A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "DE944154C",
+          "DE944402C",
+          "US2415305A",
+          "US2431662A",
+          "US2481850A",
+          "US2482666A",
+          "US2501453A",
+          "US2518209A",
+          "US2518682A",
+          "US2534083A",
+          "US2562297A",
+          "US2565496A",
+          "US2569918A",
+          "US2578336A",
+          "US2591139A",
+          "US2638031A",
+          "US2881659A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2008982A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/90/cc/04/c385eb051a3299/US2008982.pdf",
+      "pages": 8,
+      "sourceSha256": "edb3cefae9588ff2352d300e5bb5556921dcc85b0b0957d65944218597eb2109",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Sectional views of the optical carrier and glass-clamping mechanism",
+          "file": "US2008982A-p03.png"
+        },
+        {
+          "page": 4,
+          "label": "Drawing sheet",
+          "description": "Details of the carrier release and positioning system",
+          "file": "US2008982A-p04.png"
+        }
+      ],
+      "problem": "A microimage reader needed a sharp projected image and a way to reposition film without dragging it under a clamp."
+    },
+    {
+      "id": "US2063016A",
+      "title": "Film gate",
+      "priority": "1931-09-12",
+      "filing": "1931-09-12",
+      "publication": "1936-12-08",
+      "inventors": [
+        "Malcolm H Ames"
+      ],
+      "company": "Technicolor (indexed assignee)",
+      "application": "Motion-picture camera and projector",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "combined"
+      ],
+      "summary": "A rocking leaf clears the film during pulldown and closes with sprung rails during exposure.",
+      "sequence": "A drive oscillates the film guide and aperture frame. The guide is recessed over the image while film moves. During the dwell, resilient linkage and rotating rails press film to the frame. The guide opens for the next stroke.",
+      "contact": "Guides confine the strip margins. At the gate, the shaped rails and aperture frame meet the film around the picture.",
+      "transverse": "Rails on the long sides bring those margins to the aperture plane.",
+      "longitudinal": "The leaf and transverse aperture edges press the other margins. Spring compliance accommodates thickness changes such as splices.",
+      "tradeoffs": "The transport constraint differs from the exposure constraint. Frame timing, linkage fit and clearance govern whether a splice can pass cleanly.",
+      "relevance": "A useful model for a clamp that steps out of a curled strip's approach path and still seats repeatably.",
+      "classifications": [
+        "G03B1/00",
+        "G03B1/56"
+      ],
+      "related": [
+        "US2168688A",
+        "US2227987A",
+        "US5406352A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "RU2419117C1",
+          "US2445668A",
+          "US2897719A",
+          "US3612673A",
+          "US5640228A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2063016A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/b4/6a/0d/fa8c3a7080b5b2/US2063016.pdf",
+      "pages": 6,
+      "sourceSha256": "22d528d25f75a4a9abb98c754da33f240699a18e738a42c08460b96cc3ffb745",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Sections of the gate and drive linkage",
+          "file": "US2063016A-p03.png"
+        },
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Gate rails and film opening viewed from the front",
+          "file": "US2063016A-p01.png"
+        }
+      ],
+      "problem": "A motion-picture gate needed exposure pressure without scratching the image during advance or jamming at thicker splices."
+    },
+    {
+      "id": "US2131926A",
+      "title": "Camera magazine",
+      "priority": "1937-05-05",
+      "filing": "1937-05-05",
+      "publication": "1938-10-04",
+      "inventors": [
+        "Erwin C Weiblen",
+        "Irving W Doyle"
+      ],
+      "company": "Fairchild Aerial Camera Corporation",
+      "application": "Camera",
+      "mechanisms": [
+        "vacuum",
+        "clamp",
+        "combined"
+      ],
+      "summary": "A moving vacuum back retracts so the web clears both plates during winding.",
+      "sequence": "Guide rollers carry the film from supply to take-up. A timed shaft lowers the pressure plate, its suction valve applies vacuum, and the shutter sequence follows. Springs retract the back. Roller geometry provides clearance before the metered advance.",
+      "contact": "The vacuum pressure plate contacts the back. The opposing positioning plate engages the film at exposure. Rollers touch it on approach and departure.",
+      "transverse": "The machined pressure surface sets the cross-film plane.",
+      "longitudinal": "Distributed suction and the positioning surface control along-travel shape. The feeding stage uses the released gap.",
+      "tradeoffs": "It isolates holding from transport to reduce scraping. The back, guide positions, metering and suction must be synchronized.",
+      "relevance": "Test a deliberate floating transport gap and independent capture plane. The broad vacuum support would need adaptation for transmitted light.",
+      "classifications": [
+        "G03B19/00",
+        "G03B19/18"
+      ],
+      "related": [
+        "US1829332A",
+        "US3007368A",
+        "US3966320A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US2418594A",
+          "US2482596A",
+          "US2510965A",
+          "US2521153A",
+          "US2590409A",
+          "US2716374A",
+          "US6795648B1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2131926A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/0a/54/35/ffcb5be19ee5d3/US2131926.pdf",
+      "pages": 9,
+      "sourceSha256": "d43deeb98d3c563847b573d0fbdda6c96c2a4775058cf7db4de689dabb2875b8",
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 5–6",
+          "description": "Longitudinal and transverse sections through the metering and film-positioning system",
+          "file": "US2131926A-p04.png"
+        },
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Camera magazine sections with supply and receiving spools",
+          "file": "US2131926A-p02.png"
+        }
+      ],
+      "problem": "An automatic aerial-camera back needed a repeatable focal plane and clearance for winding without surface damage."
+    },
+    {
+      "id": "US2168688A",
+      "title": "Enlarging apparatus for movie films",
+      "priority": "1938-11-15",
+      "filing": "1938-11-15",
+      "publication": "1939-08-08",
+      "inventors": [
+        "James H Simms"
+      ],
+      "company": "Individual",
+      "application": "Enlarger",
+      "mechanisms": [
+        "clamp",
+        "edge"
+      ],
+      "summary": "A cruciform spring platen holds a movie frame in a photographic enlarger.",
+      "sequence": "The film is entered along guide ribs and manually wound to the frame. Hairpin springs bias the cruciform platen toward the gate throughout operation. A shutter times the exposure, then the operator winds or removes the film.",
+      "contact": "A rib bears on the perforated margin and guide surfaces set the path. The exposing opening leaves the projected image clear.",
+      "transverse": "The rib and gate plane locate the available margin beside the aperture.",
+      "longitudinal": "The length of the bearing rib supports that margin along travel. No separate end tension is specified.",
+      "tradeoffs": "The mechanism is compact and leaves the optical path clear. Spring drag and curl on the less constrained side warrant measurement.",
+      "relevance": "A low-part-count baseline for testing how far a narrow edge-only constraint can flatten short film.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/46"
+      ],
+      "related": [
+        "US2063016A",
+        "US2741154A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US2626537A",
+          "US5218403A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2168688A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/a2/26/23/b2c69189d76006/US2168688.pdf",
+      "pages": 6,
+      "sourceSha256": "160c05cdb8f60c3113186b8955004af7c60fb8235b5e1bb3d1b7f880fd451726",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Film gate details and the spring-loaded exposure assembly",
+          "file": "US2168688A-p03.png"
+        },
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Housing, guides and film transport views",
+          "file": "US2168688A-p02.png"
+        }
+      ],
+      "problem": "A compact still-print enlarger needed to seat a movie frame accurately over its optical opening for the duration of exposure."
+    },
+    {
+      "id": "US2227987A",
+      "title": "Automatic projection printer",
+      "priority": "1938-07-26",
+      "filing": "1938-07-26",
+      "publication": "1941-01-07",
+      "inventors": [
+        "Clifton M. Tuttle",
+        "William Bornemann"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "longitudinal",
+        "edge",
+        "combined"
+      ],
+      "summary": "A yielding sprocket tensions miniature negative film in an automatic projection printer.",
+      "sequence": "Timed drive components index the negative and paper. Two sprockets share a drive and one is resiliently mounted, creating tension in the film at the gate. The exposure follows during the indexed dwell and the mechanism then feeds again.",
+      "contact": "Sprocket teeth engage perforations. The gate and guiding surfaces contact the film near the optical field.",
+      "transverse": "The gate supplies the cross-film reference. The sprocket arrangement does not pull the long margins apart.",
+      "longitudinal": "The resilient sprocket loads the section between two perforation engagements in the feed direction.",
+      "tradeoffs": "Controlled along-film load can improve seating while accepting pitch variation. It requires available engagement on both sides of the frame.",
+      "relevance": "Useful for comparing along-feed tension with across-film stretch. Very short strips may lack the span needed for the original arrangement.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/46",
+        "G03B27/462"
+      ],
+      "related": [
+        "US2063016A",
+        "US2248646A",
+        "US4835555A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US2578254A",
+          "US2642773A",
+          "US2657613A",
+          "US2699088A",
+          "US2701991A",
+          "US2715862A",
+          "US2737097A",
+          "US2845012A",
+          "US2895378A",
+          "US2959095A",
+          "US2959111A",
+          "US2998761A",
+          "US3062096A",
+          "US3168860A",
+          "US3169441A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2227987A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/9b/a4/bd/b3883b7677aa73/US2227987.pdf",
+      "pages": 26,
+      "sourceSha256": "592f6228e677ce74e506e332809d7b98e3f1b5a82f302d4c24cd5a7640bc768b",
+      "figures": [
+        {
+          "page": 5,
+          "label": "Drawing sheet",
+          "description": "Gate and sprocket assembly sections",
+          "file": "US2227987A-p05.png"
+        },
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Automatic projection printer and its driven components",
+          "file": "US2227987A-p01.png"
+        }
+      ],
+      "problem": "An unattended projection printer needed stable, repeatable focus from intermittent miniature negative stock."
+    },
+    {
+      "id": "US2248646A",
+      "title": "Photographic film tensioning mechanism",
+      "priority": "1938-10-27",
+      "filing": "1938-10-27",
+      "publication": "1941-07-08",
+      "inventors": [
+        "Howard Small"
+      ],
+      "company": "Individual",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "clamp",
+        "lateral",
+        "longitudinal",
+        "combined"
+      ],
+      "summary": "Arched springs spread gripping bars across an optical opening when the gate is pressed down.",
+      "sequence": "A ribbon-film guiding slide sits by the optical axis. Lever arms depress the arched bow springs so the bars meet opposite margins, then move apart as the springs flatten. Releasing retracts the grip for the next move.",
+      "contact": "Serrated or roughened bars grip opposing long margins. The underlying frame supports the film around the exposure opening.",
+      "transverse": "The two bars move apart across the film as the bow springs flatten.",
+      "longitudinal": "The detailed ribbon embodiment stretches across the web. The inventor proposes duplicating the components at right angles for cut film, so a lengthwise stretch is an optional variant.",
+      "tradeoffs": "It addresses optical artifacts and dust associated with glass. Repeatability depends on perimeter contact and adequate film beyond the aperture.",
+      "relevance": "Compare the order and direction of face contacts against modern four-sided clamps, including which contacts are possible on a single cut frame.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US1829332A",
+        "US2824491A",
+        "EP0660170A1"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "EP0032305A1",
+          "EP0312328A3",
+          "EP0660170A1",
+          "US2703941A",
+          "US2824491A",
+          "US3073214A",
+          "US3132560A",
+          "US4483612A",
+          "US5258807A",
+          "US5523820A",
+          "WO1991008511A1",
+          "WO1991008512A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2248646A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/b7/d8/53/ac8d7c9b8fe97f/US2248646.pdf",
+      "pages": 8,
+      "sourceSha256": "1cc0c31d44a63f48a42d88f812d9dbd0a93cb6bfdc6aaa975e4665cf1185ef81",
+      "figures": [
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Exploded components of the film-tensioning gate",
+          "file": "US2248646A-p02.png"
+        },
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Sections and further views of the gripping arrangements",
+          "file": "US2248646A-p03.png"
+        }
+      ],
+      "problem": "Film curl caused enlarged blur. The specification also discusses reflections and dust from holding film against glass."
+    },
+    {
+      "id": "US2357707A",
+      "title": "Film gate pressure pad",
+      "priority": "1941-08-02",
+      "filing": "1941-08-02",
+      "publication": "1944-09-05",
+      "inventors": [
+        "Albert W Tondreau",
+        "Fred W Gage"
+      ],
+      "company": "Warner Bros. Pictures, Inc.",
+      "application": "Contact and optical printing",
+      "mechanisms": [
+        "clamp",
+        "bend",
+        "combined"
+      ],
+      "summary": "A three-roller pressure pad brings two motion-picture films into close contact at a light aperture.",
+      "sequence": "Outer rollers bring the two films together from separate paths. The roller at the aperture presses the stacked films as they pass, and the lower part of the path shares tension during pulldown.",
+      "contact": "The rollers touch the outer film surfaces. The two films contact one another across the exposed area.",
+      "transverse": "The patent favors uniform-diameter rollers for keeping the films transverse to the path flat at the light aperture.",
+      "longitudinal": "Along-film shape follows roller geometry and film draw. The objective is intimate contact between two moving strips.",
+      "tradeoffs": "The roller sequence addresses trapped air. It deliberately contacts the image faces and uses continuous strips.",
+      "relevance": "Use the staged approach as a reference for bringing a film and a transparent window together without trapping air.",
+      "classifications": [
+        "G03B1/00",
+        "G03B1/56"
+      ],
+      "related": [
+        "US2964995A",
+        "US3574460A",
+        "US5812245A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [],
+        "forward": [
+          "US2423925A",
+          "US2451161A",
+          "US2497847A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2357707A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/81/79/4e/27393563142dd4/US2357707.pdf",
+      "pages": 3,
+      "sourceSha256": "01b106e8f88650fb21a8b5c2f7ec7986b369baa769c69e03b662a19a1cfb9a0c",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Pressure-pad assembly and roller geometry for two films",
+          "file": "US2357707A-p01.png"
+        }
+      ],
+      "problem": "Two warped films entering from different angles could trap air and lose sharp contact during cine exposure or printing."
+    },
+    {
+      "id": "US2741154A",
+      "title": "Negative holder and carrier",
+      "priority": "1950-10-20",
+      "filing": "1950-10-20",
+      "publication": "1956-04-10",
+      "inventors": [
+        "Anthony Ludwig"
+      ],
+      "company": "Individual",
+      "application": "Enlarger",
+      "mechanisms": [
+        "clamp",
+        "edge"
+      ],
+      "summary": "A resilient hinge grips the negative before a glassless holder finishes closing.",
+      "sequence": "The operator opens the holder, positions a negative and lowers a hinged plate. The resilient pivot grips at an intermediate angle, then keeps the cover down. Opening to the release angle frees the film.",
+      "contact": "The hinged plates and resilient gripping areas contact the negative around aligned openings.",
+      "transverse": "The plate and spring grip seat the supported margins against the carrier plane.",
+      "longitudinal": "The plate geometry sets the along-film reference. No distinct longitudinal stretching stage is specified.",
+      "tradeoffs": "Early grip helps prevent a negative shifting while the cover closes. Loading is manual and the grip depends on plate geometry.",
+      "relevance": "The grip-before-close sequence may be useful when a short piece would otherwise move as its final clamp engages.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6278"
+      ],
+      "related": [
+        "US813531A",
+        "US2824491A",
+        "US4483612A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1712854A",
+          "US1894005A",
+          "US2249228A",
+          "US2263025A",
+          "US2303920A",
+          "US2329690A",
+          "US2356385A",
+          "US813531A"
+        ],
+        "forward": [
+          "US3078775A",
+          "US4093377A",
+          "US4353646A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2741154A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/a5/66/59/6c61f11922a5f1/US2741154.pdf",
+      "pages": 6,
+      "sourceSha256": "de02929781c366b63d37033093a69f1b1acbe2bbc797cece8660ac00f5e2eb7e",
+      "figures": [
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "The slide carrier, hinged negative holder and resilient pivot details",
+          "file": "US2741154A-p02.png"
+        }
+      ],
+      "problem": "An enlarger needed to prevent a manually positioned negative from shifting when its glassless holder closed."
+    },
+    {
+      "id": "US2824491A",
+      "title": "Film holder",
+      "priority": "1956-04-03",
+      "filing": "1956-04-03",
+      "publication": "1958-02-25",
+      "inventors": [
+        "Warren C Hoffmaster"
+      ],
+      "company": "Individual",
+      "application": "Enlarger",
+      "mechanisms": [
+        "clamp",
+        "lateral",
+        "combined"
+      ],
+      "summary": "Two bars slide apart as a toggle goes flat, while the toggle links press the end margins down.",
+      "sequence": "Place the film on an apertured frame and lower the raised toggle. The moving bars wedge under resilient flanges and drag the long margins outward. Raise the toggle by its projecting pins to free the frame.",
+      "contact": "Two bars and the base meet the side margins. Toggle arms directly press the end margins onto the base.",
+      "transverse": "Outward travel of the two side bars tensions the film across the opening.",
+      "longitudinal": "The aligned toggle arms press the end margins down. That is normal compression along the ends, distinct from an end-to-end pull.",
+      "tradeoffs": "One action coordinates seating, lateral stretch and end control without glass. The mechanism needs clear room at each edge and moves the contact across the film.",
+      "relevance": "A compact starting point for a compliant actuator and a short, controlled outward stroke. Check for friction marks while the bars shift.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6278",
+        "Y10T24/00",
+        "Y10T24/44",
+        "Y10T24/44034",
+        "Y10T24/44043"
+      ],
+      "related": [
+        "US2741154A",
+        "US5028956A",
+        "EP0660170A1"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US2248646A",
+          "US2704959A",
+          "US698015A"
+        ],
+        "forward": [
+          "EP0660171B1",
+          "US2959096A",
+          "US3132560A",
+          "US3207030A",
+          "US3228284A",
+          "US4690547A",
+          "US4965632A",
+          "US5028956A",
+          "US5258807A",
+          "US5523820A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2824491A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/a7/43/30/0c9307fad4bde9/US2824491.pdf",
+      "pages": 3,
+      "sourceSha256": "f6be63d61ce1b89b72d54d525e515e2561227cf4b9610b9ddf03f0680e9cdd80",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Glassless holder in plan and section with the toggle raised and flattened",
+          "file": "US2824491A-p01.png"
+        }
+      ],
+      "problem": "An enlarging camera needed a plane negative without introducing glass and while keeping an aperture clear for light."
+    },
+    {
+      "id": "US2964995A",
+      "title": "Travelling matte optical and contact printer",
+      "priority": "1957-12-30",
+      "filing": "1957-12-30",
+      "publication": "1960-12-20",
+      "inventors": [
+        "Albert W Tondreau"
+      ],
+      "company": "Warner Bros. Pictures, Inc.",
+      "application": "Contact and optical printing",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "combined"
+      ],
+      "summary": "An adjustable precision gate keeps contact pressure consistent for stacks of one to three films.",
+      "sequence": "Sprockets and intermittent drives advance and register the films. The pressure assembly's offset from the fixed aperture plate can be set for the number of films. Film travel and dissolves are synchronized by the printer drive.",
+      "contact": "Aperture and pressure plates contact the outer layers. Perforation drives register film and stacked layers contact on the image area.",
+      "transverse": "The opposing aperture geometry fixes the cross-film position of the stack at exposure.",
+      "longitudinal": "Pulldown and plate geometry locate each frame along travel. Adjustment takes up film-stack thickness rather than deliberately stretching the length.",
+      "tradeoffs": "Multiple film passes can be aligned even with stock variation. Image-area contact makes cleanliness and shrinkage important.",
+      "relevance": "The adjustable clearance is relevant when scanning materials of different thickness. Registration and focus should still be measured independently.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/02",
+        "G03B27/04",
+        "G03B27/08",
+        "G03B27/32",
+        "G03B27/46",
+        "G03B27/475"
+      ],
+      "related": [
+        "US2357707A",
+        "US3574460A",
+        "US4835555A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1580114A",
+          "US1598956A",
+          "US1959498A",
+          "US2207103A",
+          "US2249033A",
+          "US2622475A"
+        ],
+        "forward": [
+          "US3682540A",
+          "US4017177A",
+          "US4070108A",
+          "US4073589A",
+          "US4185911A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US2964995A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/4a/5a/6d/e3279e761c62d2/US2964995.pdf",
+      "pages": 11,
+      "sourceSha256": "9c75dfa7a8eb052fbbba24fd5b1a67f7df0b0753c9807c526c5bc33129340405",
+      "figures": [
+        {
+          "page": 6,
+          "label": "Drawing sheet",
+          "description": "Sectional mechanism associated with the film gate",
+          "file": "US2964995A-p06.png"
+        },
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Printer and film paths arranged across the projection axis",
+          "file": "US2964995A-p01.png"
+        }
+      ],
+      "problem": "Repeated matte and color separation passes needed stable registration despite film shrinkage and changes in the stack."
+    },
+    {
+      "id": "US3007368A",
+      "title": "Film transport mechanism",
+      "priority": "1957-10-14",
+      "filing": "1957-10-14",
+      "publication": "1961-11-07",
+      "inventors": [
+        "Philip Rosenblum"
+      ],
+      "company": "Hycon Manufacturing Co",
+      "application": "Camera",
+      "mechanisms": [
+        "vacuum",
+        "longitudinal",
+        "combined"
+      ],
+      "summary": "A vacuum platen stops the frame while spring-loaded roller loops absorb continuing reel motion.",
+      "sequence": "A roll passes over a fixed platen between loops guided on a pivoting arm. A timed vacuum pulse grips and flattens the section for exposure as the arm takes up supply motion and pays out film downstream. On release the web catches up.",
+      "contact": "Film contacts the guide rollers and the opaque platen when suction acts.",
+      "transverse": "The vacuum draws the width toward the fixed plane.",
+      "longitudinal": "The same vacuum establishes the reference along the frame. The spring arm manages web tension and buffers upstream and downstream travel.",
+      "tradeoffs": "The reels can keep moving during the optical dwell. The design assumes a continuous web and uses a broad support.",
+      "relevance": "The mechanical buffer is applicable to a roll system. For cut frames, independent short-stroke arrest and release can be tested without the loops.",
+      "classifications": [
+        "G03B1/00",
+        "G03B1/42",
+        "G03B1/48"
+      ],
+      "related": [
+        "US2131926A",
+        "US4249821A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "GB189510474A",
+          "US2173996A",
+          "US2521153A",
+          "US2713814A",
+          "US2771814A",
+          "US2796009A",
+          "US629582A",
+          "US710339A"
+        ],
+        "forward": [
+          "DE2440408A1",
+          "US10118252B2",
+          "US20080179304A1",
+          "US3232508A",
+          "US3480353A",
+          "US3637161A",
+          "US4071178A",
+          "US4249821A",
+          "US4777513A",
+          "US5341182A",
+          "US5633696A",
+          "US5841514A",
+          "US6588904B2",
+          "US9029731B2"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US3007368A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/c0/5e/13/0f973858891952/US3007368.pdf",
+      "pages": 5,
+      "sourceSha256": "cad33d968e64c18600af8a78f9942c4fc9866696aad667148f9f1ee385728589",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Figs. 1–2",
+          "description": "Web over the fixed platen and transport condition while the film is held",
+          "file": "US3007368A-p01.png"
+        }
+      ],
+      "problem": "Aerial photographs required a stationary, flat film section even though the reels were intended to run continuously."
+    },
+    {
+      "id": "US3237543A",
+      "title": "Portable duplex vacuum type film holder",
+      "priority": "1963-04-24",
+      "filing": "1963-04-24",
+      "publication": "1966-03-01",
+      "inventors": [
+        "Morris Hoffman"
+      ],
+      "company": "Individual",
+      "application": "Camera",
+      "mechanisms": [
+        "vacuum",
+        "edge",
+        "combined"
+      ],
+      "summary": "One portable two-sided vacuum chamber supports a sheet on either face.",
+      "sequence": "Load two sheets behind loose retaining bars and removable dark slides. Connect suction to the shared chamber when exposing a sheet. Vent the chamber and withdraw the sheets during unloading.",
+      "contact": "The two perforated mounting faces support the backs. Edge bars retain the sheets before suction.",
+      "transverse": "The perforated face pulls each sheet across its width onto a rigid plane.",
+      "longitudinal": "The same face supports the length without end tension.",
+      "tradeoffs": "This preserves an interchangeable camera back while supplying suction to both faces. It requires a pressure seal and opaque full-area contact.",
+      "relevance": "A useful study of retaining film before suction takes over and of sharing a vacuum manifold across independently loaded film planes.",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/26"
+      ],
+      "related": [
+        "US1139079A",
+        "US2131926A",
+        "US3966320A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1631479A",
+          "US2078741A"
+        ],
+        "forward": [
+          "US3597081A",
+          "US3759613A",
+          "US4452529A",
+          "US4791459A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US3237543A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/0c/d9/a8/246a0c7c625d8e/US3237543.pdf",
+      "pages": 4,
+      "sourceSha256": "228720621154e1a3317a4fcc216eb6f13b04027f1c4406f7838eae4dd57e309d",
+      "figures": [
+        {
+          "page": 1,
+          "label": "Drawing sheet",
+          "description": "Front, back and sections of the two-sided vacuum holder",
+          "file": "US3237543A-p01.png"
+        }
+      ],
+      "problem": "A precision camera needed suction flatness in an interchangeable holder that could be loaded away from the camera."
+    },
+    {
+      "id": "US3574460A",
+      "title": "High-pressure gate for photographic contact printing",
+      "priority": "1968-11-14",
+      "filing": "1968-11-14",
+      "publication": "1971-04-13",
+      "inventors": [
+        "Alvin A Snaper",
+        "Frank R Gibson"
+      ],
+      "company": "Individual",
+      "application": "Contact and optical printing",
+      "mechanisms": [
+        "pressure",
+        "bend",
+        "combined"
+      ],
+      "summary": "A pressurized shoe seats the contact-print sandwich against a transparent drum or exposure window.",
+      "sequence": "Original and print stock travel together into a shaped gap between drum and shoe. Pressure acts on the moving stack and the light exposes it while held. The film layers continue past the gap and separate downstream.",
+      "contact": "The stack itself is in image-to-image contact. Its outer side can be supported by the drum or window, with gas acting on the shoe side.",
+      "transverse": "Gas loading and the reference surfaces suppress cross-web lift and gap variation.",
+      "longitudinal": "The film follows the curved drum or the local planar window in alternative embodiments. Force is distributed along the working region.",
+      "tradeoffs": "Applying pressure without a moving clamp is attractive for continuous throughput. It still needs a controlled gap, clean gas and allowance for sandwiched film.",
+      "relevance": "An example of regulated pressure for a local window, useful when comparing vacuum, air and contact methods.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/02",
+        "G03B27/10"
+      ],
+      "related": [
+        "US2357707A",
+        "US5812245A",
+        "US5111241A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "CH438938A",
+          "US3468606A"
+        ],
+        "forward": [
+          "US3741650A",
+          "US4037957A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US3574460A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/ad/83/ad/09a371a974c5a3/US3574460.pdf",
+      "pages": 5,
+      "sourceSha256": "49d853d23345eb7f66e1eb63189f7a69005034cd8fd6898ceff9ef17e4c30e8a",
+      "figures": [
+        {
+          "page": 2,
+          "label": "Figs. 1–4",
+          "description": "Drum, pressure shoe, planar-window detail and pneumatic schematics",
+          "file": "US3574460A-p02.png"
+        }
+      ],
+      "problem": "Contact printing needed a stable pressure distribution to keep the negative and receiving stock optically close across the image."
+    },
+    {
+      "id": "US3746444A",
+      "title": "Microfiche recorder and processor",
+      "priority": "1971-11-24",
+      "filing": "1971-11-24",
+      "publication": "1973-07-17",
+      "inventors": [
+        "Rolf D. Kahle",
+        "David K. Studley",
+        "James D. Bryson"
+      ],
+      "company": "Bessemer Securities Corporation",
+      "application": "Microfilm",
+      "mechanisms": [
+        "vacuum",
+        "edge",
+        "combined"
+      ],
+      "summary": "A step-and-repeat microfiche recorder carries its own film supply on an X-Y vacuum platen.",
+      "sequence": "The moving platen holds the film while each microimage is exposed through a reference aperture. At home a clamp grips an edge and suction releases. The exposed portion is drawn off, fresh film is loaded, and a cutter separates the completed sheet.",
+      "contact": "The back of the exposed web lies against the platen. Guides and the reciprocating clamp engage its edges.",
+      "transverse": "Vacuum draws the film to the reference plate geometry across its width.",
+      "longitudinal": "The same support holds the film along-feed during the X-Y exposure pattern. The pull is used for reload.",
+      "tradeoffs": "Moving the supply with the platen avoids twisting and keeps the exposure reference fixed relative to the film. The mechanism handles long fresh stock.",
+      "relevance": "A complete precedent for separating acquisition, optical positioning and automated handoff with independent interlocks.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/58",
+        "G03B27/583",
+        "G03B27/60"
+      ],
+      "related": [
+        "US3966320A",
+        "US4249821A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US3234849A",
+          "US3557675A",
+          "US3572925A",
+          "US3591282A",
+          "US3601487A",
+          "US3627413A",
+          "US3631781A"
+        ],
+        "forward": [
+          "CN100383662C",
+          "DE2828032A1",
+          "JPS536640U",
+          "JPS536641U",
+          "US3844656A",
+          "US3848134A",
+          "US4026652A",
+          "US4035074A",
+          "US4134675A",
+          "US4175854A",
+          "US4247197A",
+          "US4297027A",
+          "US4362381A",
+          "US4576469A",
+          "US4636061A",
+          "US4668960A",
+          "US4786946A",
+          "US5389999A",
+          "US6296402B1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US3746444A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/86/c3/9f/ab2b52fc849b12/US3746444.pdf",
+      "pages": 8,
+      "sourceSha256": "153fc7d0fbe498aabb1001e7ef0f4cd22eba2049866814db99f6a8e9d0602b8b",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Vacuum platen, film supply and the film removal assembly",
+          "file": "US3746444A-p03.png"
+        },
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Section through the recorder and its optical reference",
+          "file": "US3746444A-p02.png"
+        }
+      ],
+      "problem": "Recording a grid of sharp microimages required keeping fresh stock flat while the platen moved in two axes and reloaded automatically."
+    },
+    {
+      "id": "US3966320A",
+      "title": "Microfilm camera",
+      "priority": "1974-04-10",
+      "filing": "1975-04-07",
+      "publication": "1976-06-29",
+      "inventors": [
+        "Manfred Wiessner"
+      ],
+      "company": "VEB Pentacon Dresden",
+      "application": "Microfilm",
+      "mechanisms": [
+        "vacuum",
+        "combined"
+      ],
+      "summary": "A mobile suction holder retains the sheet while a second vacuum reference seats it at exposure.",
+      "sequence": "The suction plate shifts stepwise while holding the sheet. When it is brought to the gate, a valve connects suction apertures near the film-bearing surface. The holder lifts and the gate suction is turned off before the next step.",
+      "contact": "The moving suction plate supports one face. The film-bearing parts of the gate define the local exposure reference on the other side.",
+      "transverse": "Gate suction seats the film across the exposure region.",
+      "longitudinal": "The same gated vacuum corrects local along-film position regardless of the holder's stepping location.",
+      "tradeoffs": "A second reference removes errors from translating the first. The valves, support relative heights and suction forces must cooperate.",
+      "relevance": "Consider handoff between a pickup vacuum and a capture reference with independent timing and measured film displacement.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/58",
+        "G03B27/60"
+      ],
+      "related": [
+        "US2131926A",
+        "US3746444A",
+        "US4249821A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US3306176A",
+          "US3525291A"
+        ],
+        "forward": [
+          "US20030178911A1",
+          "US4595283A",
+          "US5099277A",
+          "US6800970B2"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US3966320A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/be/65/3b/fd535aeec5dd05/US3966320.pdf",
+      "pages": 7,
+      "sourceSha256": "8827803f24ff0bf52baef88ca123b2729ca3824a635b8cd13b04e73ad4cfc78a",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Figs. 2–3",
+          "description": "Suction plate and gate, with a plan view of the bearing surface",
+          "file": "US3966320A-p03.png"
+        },
+        {
+          "page": 4,
+          "label": "Fig. 4",
+          "description": "Alternate local exposure and suction arrangement",
+          "file": "US3966320A-p04.png"
+        }
+      ],
+      "problem": "Manufacturing and positioning errors in a stepping suction plate could move individual exposures off the microfilm gate's optical plane."
+    },
+    {
+      "id": "US4145127A",
+      "title": "Film transport and control mechanism for motion picture projectors",
+      "priority": "1977-03-23",
+      "filing": "1977-03-23",
+      "publication": "1979-03-20",
+      "inventors": [
+        "Donald I. Loofbourow",
+        "Robert E. Lach"
+      ],
+      "company": "GAF Corporation",
+      "application": "Motion-picture camera and projector",
+      "mechanisms": [
+        "edge",
+        "clamp"
+      ],
+      "summary": "A selectable projector gate coordinates claw advance, still projection and clear threading.",
+      "sequence": "The operator threads through the two-format gate. The rotating cam moves a claw into perforations for intermittent feed, while selected cam sections keep it clear for still, rewind or loading modes.",
+      "contact": "Gate surfaces define the film passage and the claw touches the perforations. The disclosure focuses on the transport module.",
+      "transverse": "A selected gate and aperture constrain position across the strip. An active outward tensioning action is not specified.",
+      "longitudinal": "The claw sets the indexed position along the strip, distinct from measuring or correcting along-frame bow.",
+      "tradeoffs": "Mode switching avoids dragging the claw at loading. The design depends on perforations and advances at projector timing.",
+      "relevance": "A comparison for retractable registration and mode switching, with film planarity treated as a separate experiment.",
+      "classifications": [
+        "G03B1/00",
+        "G03B1/42",
+        "G03B1/48",
+        "G03B1/50",
+        "G03B21/00",
+        "G03B21/14",
+        "G03B21/32",
+        "G03B21/43",
+        "G03B21/44"
+      ],
+      "related": [
+        "US2063016A",
+        "US2227987A",
+        "US6501530B2"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1964209A",
+          "US2089276A",
+          "US2431254A",
+          "US3014404A",
+          "US3014626A",
+          "US3135156A",
+          "US3136209A",
+          "US3152741A",
+          "US3402006A",
+          "US3427101A",
+          "US3514196A",
+          "US3528732A",
+          "US3536388A",
+          "US3536389A",
+          "US3600074A",
+          "US3630422A",
+          "US3642356A",
+          "US3736052A",
+          "US3749482A",
+          "US3750921A",
+          "US3860332A"
+        ],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/US4145127A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/cc/23/1f/9590fe8a8ad36c/US4145127.pdf",
+      "pages": 17,
+      "sourceSha256": "b0cda16d5b41dbe5579bdaa285cf5e94ad3ed1cd62a37781424795cbccf26a6a",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "The projector gate module in two views",
+          "file": "US4145127A-p03.png"
+        },
+        {
+          "page": 4,
+          "label": "Drawing sheet",
+          "description": "Cam, claw and gate component details",
+          "file": "US4145127A-p04.png"
+        }
+      ],
+      "problem": "A common projector transport needed to advance two film formats and to clear the film safely for still projection, threading and rewind."
+    },
+    {
+      "id": "US4203658A",
+      "title": "Micro image storage and retrieval apparatus",
+      "priority": "1977-12-19",
+      "filing": "1977-12-19",
+      "publication": "1980-05-20",
+      "inventors": [
+        "Arnis E. Peters"
+      ],
+      "company": "Northern Engraving Co Inc",
+      "application": "Microfilm",
+      "mechanisms": [
+        "glass",
+        "clamp",
+        "combined"
+      ],
+      "summary": "Transparent plates open inside a cassette for address selection and close for microimage projection.",
+      "sequence": "The cassette indexes the film longitudinally and the optics select the row. An actuator separates the plates to reposition the film, then the plates close across the selected area for projection.",
+      "contact": "Transparent plates contact both sides of the selected microimage region.",
+      "transverse": "The plates impose a plane across the cassette window.",
+      "longitudinal": "The plates impose the same plane along the selected window. Longitudinal indexing occurs only after release.",
+      "tradeoffs": "Built-in transport and clean release make repeated searching easier. The optical stack includes glass, and the original mechanism assumes a cassette.",
+      "relevance": "A reference for a glass clamp with independent drive and a clear transition between transport and capture.",
+      "classifications": [
+        "G03B21/00",
+        "G03B21/10",
+        "G03B21/11"
+      ],
+      "related": [
+        "US2008982A",
+        "US3746444A",
+        "US3966320A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US2610540A",
+          "US3739069A",
+          "US3784295A",
+          "US3917389A",
+          "US4087166A",
+          "USRE22517E"
+        ],
+        "forward": [
+          "USD309621S"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US4203658A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/54/02/e5/639005eff0d149/US4203658.pdf",
+      "pages": 10,
+      "sourceSha256": "34626b535ccfb0b6d15911125c45fdd556ed0581b7ee51172f32101c3e56abf0",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Cassette-access components and microimage layout",
+          "file": "US4203658A-p03.png"
+        },
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Transparent plates and cassette assembly",
+          "file": "US4203658A-p02.png"
+        }
+      ],
+      "problem": "A cassette indexer needed to let film move between addresses while returning it to a sharp projection plane at each address."
+    },
+    {
+      "id": "US4249821A",
+      "title": "Belt microfilm camera",
+      "priority": "1979-06-21",
+      "filing": "1979-06-21",
+      "publication": "1981-02-10",
+      "inventors": [
+        "Michael W. Rudy",
+        "Forrest L. Langford",
+        "Robert D. Therien"
+      ],
+      "company": "Terminal Data Corporation",
+      "application": "Microfilm",
+      "mechanisms": [
+        "vacuum",
+        "edge",
+        "combined"
+      ],
+      "summary": "Multiple coplanar vacuum belts carry and hold film through a stationary-exposure cycle.",
+      "sequence": "Thread the film over the belts between low-inertia vacuum loops. Vacuum keeps the film moving with the belts, which stop at an exposure event and then advance under sensor-based control.",
+      "contact": "Film contacts the belts. Loop chambers buffer film supply and take-up by airflow.",
+      "transverse": "Coplanar belt runs and suction draw the web toward their common support plane.",
+      "longitudinal": "The belt bed supports the held span. Vacuum loops manage feeding tension and isolate reel inertia.",
+      "tradeoffs": "The same force couples film to the transport and reference surfaces, reducing slip during indexing. Continuous film is assumed.",
+      "relevance": "Compare whether short belts and separate vacuum zones could keep a single frame under control without obstructing transmitted light.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/46",
+        "G03B27/465",
+        "G03B27/52",
+        "G03B27/58",
+        "G03B27/60"
+      ],
+      "related": [
+        "US3007368A",
+        "US3746444A",
+        "US5028956A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US3007368A",
+          "US3197645A",
+          "US3339815A",
+          "US3645619A",
+          "US3767302A",
+          "US3844461A",
+          "US4007889A",
+          "US4042298A"
+        ],
+        "forward": [
+          "US20050219462A1",
+          "US7093939B2"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US4249821A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/0c/07/0a/71f08f50b83741/US4249821.pdf",
+      "pages": 17,
+      "sourceSha256": "d3a237ab34a555b114a7ea910060c230815320907599e72627e0d685e8eddf96",
+      "figures": [
+        {
+          "page": 4,
+          "label": "Fig. 3",
+          "description": "Coplanar vacuum belts and the film-support zone",
+          "file": "US4249821A-p04.png"
+        },
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Two states of a film-loop buffer surrounding the belt transport",
+          "file": "US4249821A-p03.png"
+        }
+      ],
+      "problem": "A step-exposure microfilm camera needed low-inertia, low-slip transport and a predictable exposure stop."
+    },
+    {
+      "id": "GB2138152A",
+      "title": "Apparatus for storing, transporting and exposing photosensitive film for camera",
+      "priority": "1983-04-11",
+      "filing": "1983-09-07",
+      "publication": "1984-10-17",
+      "inventors": [
+        "Quentin Vaughan"
+      ],
+      "company": "Visual Graphics Corporation",
+      "application": "Reproduction and copying",
+      "mechanisms": [
+        "vacuum",
+        "clamp",
+        "combined"
+      ],
+      "summary": "An embossed flexible sheet collapses onto cut film as air is evacuated from one margin.",
+      "sequence": "The carriage feeds roll stock across a fixed exposure platen and a rotary knife cuts it. The overlay and platen are evacuated from an elongated edge groove. The overlay first seats near that groove and displaces air from the remaining area. Release suction before removing the film.",
+      "contact": "The flexible overlay and rigid platen meet the film on opposite faces, with a margin adjacent to the vacuum bar.",
+      "transverse": "The platen fixes the widthwise plane as the overlay settles.",
+      "longitudinal": "Progressive evacuation across the support brings the entire exposure length to the same plane.",
+      "tradeoffs": "Embossing creates air paths and improves progressive seating. Direct full-area contact may be unsuitable for irreplaceable material or for the desired optical path.",
+      "relevance": "A precedent for purge paths and controlled collapse when using a transparent overlay above a stationary negative.",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/48",
+        "G03B17/50",
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/323",
+        "G03B27/52",
+        "G03B27/58",
+        "G03B27/60"
+      ],
+      "related": [
+        "US2131926A",
+        "US3237543A",
+        "US3574460A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "GB2042745A",
+          "GB2116734A"
+        ],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/GB2138152A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/87/55/bd/abefe58a4d6a63/GB2138152A.pdf",
+      "pages": 8,
+      "sourceSha256": "b8b2557b5ef9f28f858eadae8cd3cd6ee96efc71d7e587ee3eb9fd414cd06bc1",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Vacuum table arrangement and sections of the film-support structure",
+          "file": "GB2138152A-p03.png"
+        },
+        {
+          "page": 2,
+          "label": "Fig. 1",
+          "description": "Storage carriage, roll path and fixed platen",
+          "file": "GB2138152A-p02.png"
+        }
+      ],
+      "problem": "A reproduction camera needed to cut and expose fresh film automatically without trapping air under its flexible overlay."
+    },
+    {
+      "id": "US4483612A",
+      "title": "Device to position a copy master in a copying apparatus",
+      "priority": "1982-04-23",
+      "filing": "1983-03-29",
+      "publication": "1984-11-20",
+      "inventors": [
+        "Erich G. Binder"
+      ],
+      "company": "Gretag Aktiengesellschaft",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "combined"
+      ],
+      "summary": "Opposed flaps open around the plane for travel and close on two sides of a short copy master.",
+      "sequence": "Retract both pairs during approach. An electromagnet closes opposed upper and lower flaps onto film at the window and spring strips hold the other margins. Release the actuator before advancing.",
+      "contact": "Flap edges grip two opposite sides and elastic hold-down strips touch the other margins.",
+      "transverse": "Together the opposing contacts put the two long margins at the window plane.",
+      "longitudinal": "The complementary contacts establish the remaining sides. The mechanism is bilateral clamping rather than a designed stretching stroke.",
+      "tradeoffs": "Opening to both sides leaves a useful entry gap for short masters. Coordinated flap closure still needs accurate register and suitable clearances.",
+      "relevance": "A strong reference for handling discrete pieces with a large approach gap and low image-area contact.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6207",
+        "G03B27/625",
+        "G03B27/6257",
+        "G03G15/00",
+        "G03G15/60",
+        "G03G15/605"
+      ],
+      "related": [
+        "US2824491A",
+        "US4761675A",
+        "US5028956A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "GB336842A",
+          "US2110475A",
+          "US2174020A",
+          "US2248646A",
+          "US3132560A",
+          "US3488120A"
+        ],
+        "forward": [
+          "US4965632A",
+          "US5028956A",
+          "US5258807A",
+          "US5822045A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US4483612A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/e5/71/ed/352f1b6f328b09/US4483612.pdf",
+      "pages": 5,
+      "sourceSha256": "5f86591506a596ac045625d6b65ed133783882fc0cdd9fc35414a623cfc7bee1",
+      "figures": [
+        {
+          "page": 2,
+          "label": "Drawing sheet",
+          "description": "Opposing clamp flaps in section and window assembly in plan",
+          "file": "US4483612A-p02.png"
+        }
+      ],
+      "problem": "Short copy masters that could not be pulled taut by a long transport web still needed a planar dwell at the copying aperture."
+    },
+    {
+      "id": "US4761675A",
+      "title": "Negative carrier assembly for use with a photographic printer",
+      "priority": "1986-09-01",
+      "filing": "1987-08-31",
+      "publication": "1988-08-02",
+      "inventors": [
+        "Takashi Sawasaki"
+      ],
+      "company": "Noritsu Kenkyu Center Co., Ltd.",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "clamp",
+        "edge"
+      ],
+      "summary": "A rotatable negative-mask support switches the feed direction while a hinged presser fixes the film.",
+      "sequence": "Lift the presser arm to insert or move a negative. The presser frame lowers onto the mask to hold the film for printing. To change feed orientation, lift and re-seat the mask support rotated by 90 degrees.",
+      "contact": "A guide groove locates the negative and the apertured presser frame contacts the film around the optical opening.",
+      "transverse": "The mask and presser provide normal support relative to the chosen feed orientation.",
+      "longitudinal": "Their aperture geometry also locates the film at its end margins if those areas are present. No active pull is described.",
+      "tradeoffs": "Fast changeover preserves an optical datum. Manual resetting and compatibility of mask and strip are necessary.",
+      "relevance": "Consider a removable registration insert before committing to a single film orientation or transport geometry.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US4483612A",
+        "US5258807A",
+        "EP0935160A1"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "CA685196A",
+          "US2263025A",
+          "US4313677A",
+          "US4353645A",
+          "US4396281A",
+          "US4396282A",
+          "US4396283A"
+        ],
+        "forward": [
+          "US4965632A",
+          "US5028956A",
+          "US5055874A",
+          "US5258807A",
+          "US5357314A",
+          "US5454557A",
+          "US5644120A",
+          "US5677540A",
+          "US5701171A",
+          "US5742040A",
+          "US5880819A",
+          "US5898481A",
+          "US7141784B2"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US4761675A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/c3/82/2c/829c797a98a556/US4761675.pdf",
+      "pages": 5,
+      "sourceSha256": "00f4c0c7c46f64d0cbcf2ee5b2630b267808b883d0ddc2a174b2794009a9e1c2",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Alternative mask orientation and carrier assembly",
+          "file": "US4761675A-p03.png"
+        }
+      ],
+      "problem": "A photo printer needed fast changes of feed direction and film size while keeping each negative seated over the correct mask."
+    },
+    {
+      "id": "US4774553A",
+      "title": "Film handling mechanism",
+      "priority": "1987-11-19",
+      "filing": "1987-11-19",
+      "publication": "1988-09-27",
+      "inventors": [
+        "Douglass L. Blanding",
+        "Shaun M. Amos",
+        "Thomas C. Jessop"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "combined"
+      ],
+      "summary": "A four-edge gate keeps an adjustable frame registered for automatic printing.",
+      "sequence": "Film advances to a preview and reading position. A positioning assembly can shift and rotate the film in its own plane. The selected frame is clamped on four sides for printing and released for further motion.",
+      "contact": "Aperture clamps meet the four margins and transport parts engage the film outside the exposure opening.",
+      "transverse": "Side clamps put the borders at the printing-plane reference while preserving the selected orientation.",
+      "longitudinal": "End clamps seat transverse borders along the feed axis. The primary claim is positioning flexibility, not a prescribed lengthwise strain.",
+      "tradeoffs": "One sliding interface limits tolerance accumulation while retaining adjustment. Closure and X-Y rotation still need separate control.",
+      "relevance": "A useful reference for measuring angle and offset before applying focus-related clamp pressure.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US4483612A",
+        "EP0660170A1",
+        "US5461492A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US3953123A",
+          "US4452526A",
+          "US4545674A",
+          "US4575226A",
+          "US4603966A",
+          "US4616926A",
+          "US4645334A",
+          "US4659213A"
+        ],
+        "forward": [
+          "DE4000796A1",
+          "DE4000796C2",
+          "EP0660170A1",
+          "EP0660171A1",
+          "EP0679930A1",
+          "US20070223065A1",
+          "US5083153A",
+          "US5128714A",
+          "US5313249A",
+          "US5323206A",
+          "US5337120A",
+          "US5402206A",
+          "US5406352A",
+          "US5418597A",
+          "US5621496A",
+          "US7978309B2",
+          "WO1991008511A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US4774553A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/a3/02/b6/ebde08819cf2eb/US4774553.pdf",
+      "pages": 11,
+      "sourceSha256": "b1913cea348cd4d57d7e66ada271b6cae4e30231d6884d196b23c1e68f641c40",
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 3–4",
+          "description": "Perspective views of the film holder and pressure assembly",
+          "file": "US4774553A-p04.png"
+        }
+      ],
+      "problem": "A printer needed to align and rotate arbitrary frames precisely while avoiding accumulated tolerances in stacked slides."
+    },
+    {
+      "id": "US4835555A",
+      "title": "Film transport apparatus",
+      "priority": "1987-10-13",
+      "filing": "1987-10-13",
+      "publication": "1989-05-30",
+      "inventors": [
+        "Ian Maxwell"
+      ],
+      "company": "IMAX Systems Corporation",
+      "application": "Contact and optical printing",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "lateral",
+        "combined"
+      ],
+      "summary": "Registration pins anchor one edge while a curved blade progressively tensions the opposite side.",
+      "sequence": "An intermittent drive positions the film. Registration pins and a pad secure one side of the optical aperture. A descending blade engages the opposite edge and applies lateral tension as it clamps. The assemblies lift before the next advance.",
+      "contact": "Pins engage perforations and the pressure pad and curved blade meet opposite margins. The platen supports the gate region.",
+      "transverse": "The blade draws the far side away from the fixed margin and seats it against the gate.",
+      "longitudinal": "Pin registration fixes frame position along the strip. The aperture reference provides longitudinal support without a separate lengthwise stretch.",
+      "tradeoffs": "Registration and tension are coordinated but use different elements. Worn perforations can affect acquisition and repeatability.",
+      "relevance": "Separate the datum-side registration from the force applied at the opposite side. That is an alternative to symmetric edge belts.",
+      "classifications": [
+        "G03B1/00",
+        "G03B1/42"
+      ],
+      "related": [
+        "US2248646A",
+        "US5028956A",
+        "US6304315B2"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "FR33497E",
+          "FR660268A",
+          "US2192692A",
+          "US3776626A",
+          "US3914035A"
+        ],
+        "forward": [
+          "DE10315482A1",
+          "US20040222392A1",
+          "US5024522A",
+          "US5052796A",
+          "US5056911A",
+          "US5067807A",
+          "US5073022A",
+          "US5328073A",
+          "US5328074A",
+          "US5400117A",
+          "US5423467A",
+          "US5523820A",
+          "US5841514A",
+          "US6120151A",
+          "US6257725B1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US4835555A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/ec/c7/6b/930a84c282c736/US4835555.pdf",
+      "pages": 19,
+      "sourceSha256": "5fcba810da96a9ac5bce34c9326c2b94989c0e6db4ec8f279e6fcd9713d28f06",
+      "figures": [
+        {
+          "page": 8,
+          "label": "Drawing sheet",
+          "description": "Gate components and pre-clamp and engaged views of the tensioning blade",
+          "file": "US4835555A-p08.png"
+        },
+        {
+          "page": 6,
+          "label": "Drawing sheet",
+          "description": "Sections through the film path and registration mechanism",
+          "file": "US4835555A-p06.png"
+        }
+      ],
+      "problem": "An optical printer needed frame registration as well as removal of cross-film bow during every exposure dwell."
+    },
+    {
+      "id": "US5028956A",
+      "title": "Film clamp",
+      "priority": "1990-10-22",
+      "filing": "1990-10-22",
+      "publication": "1991-07-02",
+      "inventors": [
+        "Paul E. VanScooter"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "lateral",
+        "combined"
+      ],
+      "summary": "One edge belt feeds and anchors the strip, then a second clamp presses down and outward.",
+      "sequence": "The belt advances film into the gate. A bell crank first lowers the tie bar against the stationary belt and seats the first margin. The far-side cylinder lands later and moves away from the anchored side. Spring arms retract the grips for the next advance.",
+      "contact": "The driven belt and platen grip one long margin. The cylinder makes line contact with the opposite margin and presses it against the platen.",
+      "transverse": "The press-and-outward action tensions the section across the open aperture. The patent reports 0.0010–0.0015 in flatness versus 0.004–0.006 in for its conventional comparator over a standard 35 mm image area.",
+      "longitudinal": "The preferred embodiment has no end clamps. Longitudinal curl depends on long-edge support and remains an important separate test.",
+      "tradeoffs": "Combining feed and grip limits part count. Stretch depends on friction, available side clearance and grip sequencing. The measured values are applicant-reported.",
+      "relevance": "Direct precedent for the transport concept, with an asymmetric reference and one belt. Test release and end curl on individual frames before choosing the architecture.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US2824491A",
+        "US4835555A",
+        "US5258807A",
+        "EP0660170A1",
+        "US6002469A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US2824491A",
+          "US4483612A",
+          "US4761675A",
+          "US4955632A"
+        ],
+        "forward": [
+          "DE19743948C2",
+          "US5258807A",
+          "US5400117A",
+          "US5406352A",
+          "US5822045A",
+          "US6002469A"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5028956A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/02/14/4c/e87900dbdbdebd/US5028956.pdf",
+      "pages": 7,
+      "sourceSha256": "c7e28157a1ff3f0c97c03d2db1c0dd6a94952ef4ec3e83e20d8a753ec39934b4",
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 7A–7B",
+          "description": "Belt-side grip before and after the opposing cylinder engages",
+          "file": "US5028956A-p04.png"
+        },
+        {
+          "page": 2,
+          "label": "Figs. 1–4",
+          "description": "Comparison of downward clamping alone and lateral tension across the aperture",
+          "file": "US5028956A-p02.png"
+        },
+        {
+          "page": 3,
+          "label": "Figs. 5–6",
+          "description": "Gate assembly, drive belt and section through the transport surface",
+          "file": "US5028956A-p03.png"
+        }
+      ],
+      "problem": "A scanning gate needed both to advance short film and to flatten its transverse bow when stopped."
+    },
+    {
+      "id": "US5088813A",
+      "title": "Film scanner",
+      "priority": "1990-07-27",
+      "filing": "1990-07-27",
+      "publication": "1992-02-18",
+      "inventors": [
+        "Edward H. Wakefield"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Film scanner",
+      "mechanisms": [
+        "edge",
+        "bend",
+        "combined"
+      ],
+      "summary": "Belts carry film around supports and movable guides rescue the strip ends at the scan line.",
+      "sequence": "Two belts trap margins against rollers while film moves continuously. When a short exposed end enters or leaves the support pair, movable guides engage near the light line. The film then exits without a full-frame clamp cycle.",
+      "contact": "Belts engage the margins against rollers. The movable guides touch the film beside the scanning line when a film end needs support.",
+      "transverse": "Across-strip curvature is constrained locally where the belts and roller support the illuminated line.",
+      "longitudinal": "Roller curvature and end guides define the approach and departure shape. The complete frame is not held in a plane.",
+      "tradeoffs": "The guide sequence addresses unsupported ends and keeps motion continuous. It only needs usable focus over an illuminated line at each instant.",
+      "relevance": "Useful for transporting leading and trailing edges. Whole-frame camera capture needs an additional full-field focus test.",
+      "classifications": [
+        "H04N1/00",
+        "H04N1/04",
+        "H04N1/12",
+        "H04N1/121",
+        "H04N1/1215",
+        "H04N1/19",
+        "H04N1/191",
+        "H04N1/192",
+        "H04N1/193",
+        "H04N2201/00",
+        "H04N2201/04",
+        "H04N2201/0402",
+        "H04N2201/0404",
+        "H04N2201/0408"
+      ],
+      "related": [
+        "US4249821A",
+        "US5111241A",
+        "US5461492A",
+        "US6304315B2"
+      ],
+      "family": [
+        "US5548328A"
+      ],
+      "citations": {
+        "backward": [
+          "DE411914C",
+          "US1220195A",
+          "US2314027A",
+          "US3109924A",
+          "US3139790A",
+          "US3938721A",
+          "US4105199A",
+          "US4105316A",
+          "US4281351A",
+          "US4292621A",
+          "US4320963A",
+          "US4427273A",
+          "US4429333A"
+        ],
+        "forward": [
+          "EP0690608A3",
+          "EP0849931A3",
+          "GB2481937A",
+          "GB2481937B",
+          "US20060062572A1",
+          "US20120099080A1",
+          "US5323193A",
+          "US5543868A",
+          "US5710642A",
+          "US6037974A",
+          "US6081352A",
+          "US6100924A",
+          "US6124885A",
+          "US6169571B1",
+          "US6268936B1",
+          "US6381042B1",
+          "US6421079B1",
+          "US6529295B1",
+          "US6882359B1",
+          "US7164437B2",
+          "WO1997010670A3",
+          "WO1997031475A1",
+          "WO2000014957A1",
+          "WO2001025850A1",
+          "WO2010118870A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5088813A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/e1/cb/5d/58d5453cebd611/US5088813.pdf",
+      "pages": 7,
+      "sourceSha256": "ca1fa6ac8c8055b1dc69e2d3c76816038bfd9ab42526bc3c58b5349b4d4f4da2",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Figs. 3–4",
+          "description": "Roller and belt positions at the dynamic scanning gate",
+          "file": "US5088813A-p03.png"
+        },
+        {
+          "page": 4,
+          "label": "Drawing sheet",
+          "description": "Strip-end curvature and guides near the scanning line",
+          "file": "US5088813A-p04.png"
+        }
+      ],
+      "problem": "The leading and trailing ends of film could lose support at the imaging line as they passed through a continuous rolling gate."
+    },
+    {
+      "id": "US5111241A",
+      "title": "Bernoulli scan gate",
+      "priority": "1991-08-27",
+      "filing": "1991-08-27",
+      "publication": "1992-05-05",
+      "inventors": [
+        "Christopher J. Kralles"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "pressure",
+        "combined"
+      ],
+      "summary": "Air jets create a pressure differential and an air bearing beside a linear scan aperture.",
+      "sequence": "Rollers move the web beneath a deflector plate. Pressurized jets on both sides of the aperture generate fast flow under the film. The resulting pressure differential draws the web toward the platen while the air layer reduces sliding contact. The strip continues through.",
+      "contact": "The scanning span is intended to ride on an air layer rather than scrape the platen. Transport rollers touch outside the optical field.",
+      "transverse": "Distributed gas flow constrains the film near the illuminated width.",
+      "longitudinal": "Orifices before and after the aperture stabilize the strip close to the line. The patent does not establish static planarity over a whole frame.",
+      "tradeoffs": "An unobstructed scan window is possible without broad sliding contact. Air flow, noise, dust, flutter and leaks matter with short pieces.",
+      "relevance": "A distinct test candidate for clear-aperture planarization. Measure static behavior and disturbance during jet startup and shutdown.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/64",
+        "H04N1/00",
+        "H04N1/04",
+        "H04N1/19",
+        "H04N1/191",
+        "H04N1/192",
+        "H04N1/193"
+      ],
+      "related": [
+        "US3574460A",
+        "US5088813A",
+        "US6020952A"
+      ],
+      "family": [
+        "EP0601078A1",
+        "WO1993005440A1"
+      ],
+      "citations": {
+        "backward": [
+          "US3103850A",
+          "US3402638A",
+          "US3922086A",
+          "US3970385A",
+          "US4026653A",
+          "US4059260A",
+          "US4097146A",
+          "US4380389A",
+          "US4666293A",
+          "US4768068A"
+        ],
+        "forward": [
+          "US20040251372A1",
+          "US5400117A",
+          "US5404195A",
+          "US5406352A",
+          "US5461492A",
+          "US5555042A",
+          "US6020952A",
+          "US6942175B2",
+          "WO1995030177A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5111241A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/bf/06/1b/1fe8d2428c4a15/US5111241.pdf",
+      "pages": 7,
+      "sourceSha256": "c555c513dc554575bbdfe30c51cbc9315d0b7a87de114999a4e4c67596da74e0",
+      "figures": [
+        {
+          "page": 2,
+          "label": "Fig. 1",
+          "description": "Scan aperture, film path and air orifices",
+          "file": "US5111241A-p02.png"
+        },
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Cross-section through an orifice and the upper deflector",
+          "file": "US5111241A-p03.png"
+        }
+      ],
+      "problem": "A film or paper-backed web in a printer needed constant positioning near the measuring aperture without rubbing the platen."
+    },
+    {
+      "id": "US5258807A",
+      "title": "Multiformat film clamp",
+      "priority": "1992-06-30",
+      "filing": "1992-06-30",
+      "publication": "1993-11-02",
+      "inventors": [
+        "Stephen M. Reinke"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "lateral",
+        "longitudinal",
+        "combined"
+      ],
+      "summary": "A gimballed platen applies outward grip on four sides of replaceable apertures.",
+      "sequence": "Choose the aperture inserts for the film format. Lower the platen so angled gripping strips contact the perimeter. Further closure drives them away from the center. The two-axis gimbal equalizes closure, and lifting the platen releases the film.",
+      "contact": "The apertured base and strips grip the film around the image on four sides.",
+      "transverse": "Angled grips on opposing long margins spread outward.",
+      "longitudinal": "Angled grips at the transverse ends also spread outward, applying lengthwise tension.",
+      "tradeoffs": "Exchangeability and a gimbal help different formats seat. A short frame may have little safe material at the ends and opposing stretches can interact.",
+      "relevance": "A clear comparison to lateral-only tension. Instrument transverse and longitudinal forces individually when experimenting.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US1829332A",
+        "US5028956A",
+        "EP0660170A1",
+        "US5406352A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "CA685196A",
+          "GB336842A",
+          "US2110475A",
+          "US2174020A",
+          "US2248646A",
+          "US2263025A",
+          "US2824491A",
+          "US3132560A",
+          "US3397613A",
+          "US3488120A",
+          "US3511565A",
+          "US3944366A",
+          "US4161365A",
+          "US4252436A",
+          "US4313677A",
+          "US4353645A",
+          "US4353646A",
+          "US4396281A",
+          "US4396282A",
+          "US4396283A",
+          "US4444494A",
+          "US4483612A",
+          "US4497574A",
+          "US4545674A",
+          "US4592652A",
+          "US4736228A",
+          "US4761675A",
+          "US4965631A",
+          "US4965632A",
+          "US5028956A",
+          "US5055874A",
+          "US5073022A",
+          "US5128714A"
+        ],
+        "forward": [
+          "GB2306019A",
+          "GB2306019B",
+          "US20020171808A1",
+          "US20040179169A1",
+          "US20060038020A1",
+          "US5400117A",
+          "US5523820A",
+          "US5644120A",
+          "US5677540A",
+          "US5701171A",
+          "US5742040A",
+          "US5835202A",
+          "US5959723A",
+          "US6742896B2",
+          "US6997557B2",
+          "US7210259B2",
+          "WO2002075449A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5258807A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/66/2e/8c/ef993cf2bd53f5/US5258807.pdf",
+      "pages": 8,
+      "sourceSha256": "11610976498c3880a724589a338f959248515ff9feaea61a2f3c6307a67d6650",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Drawing sheet",
+          "description": "Mechanism and replaceable apertures in exploded view",
+          "file": "US5258807A-p03.png"
+        },
+        {
+          "page": 2,
+          "label": "Figs. 1–4",
+          "description": "The effect of outward rather than perpendicular-only gripping forces",
+          "file": "US5258807A-p02.png"
+        }
+      ],
+      "problem": "A scanner needed to flatten multiple film sizes while keeping the clamp face parallel to the interchangeable aperture."
+    },
+    {
+      "id": "US5406352A",
+      "title": "Photographic film segment flattening apparatus",
+      "priority": "1993-12-14",
+      "filing": "1993-12-14",
+      "publication": "1995-04-11",
+      "inventors": [
+        "Christopher J. Kralles",
+        "Thomas C. Jessop"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "lateral",
+        "combined"
+      ],
+      "summary": "Two coordinated gate members flatten curled negative segments carried by a side tow web.",
+      "sequence": "The attached web indexes the segment through a gap with the clamps raised. Opposed transverse and longitudinal members then close against the base at the exposure opening. The geometry addresses upward-curled leading ends and reduces the chance of a strip catching the moving clamp.",
+      "contact": "The web attaches beside the film. Clamping elements meet margins near the image and the stationary base carries the opposing contact.",
+      "transverse": "Long-edge clamping elements establish the transverse plane. The patent includes configurations applying lateral force at the longitudinal edge.",
+      "longitudinal": "End clamps bear down at the transverse borders. The tow web is part of transport and registration.",
+      "tradeoffs": "The system treats entry clearance as an explicit problem, valuable for strong end curl. It relies on a side-attached web and coordinated edge geometry.",
+      "relevance": "Use the swept clearance of every moving part as a design variable. Test curled ends in the fully retracted and partly closing states.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US4483612A",
+        "US4774553A",
+        "EP0660170A1",
+        "US5822045A"
+      ],
+      "family": [
+        "EP0660171A1"
+      ],
+      "citations": {
+        "backward": [
+          "US2199305A",
+          "US2251184A",
+          "US3288027A",
+          "US3488120A",
+          "US3542471A",
+          "US3779643A",
+          "US4181428A",
+          "US4241993A",
+          "US4353645A",
+          "US4769678A",
+          "US4774553A",
+          "US4924258A",
+          "US4965632A",
+          "US5028956A",
+          "US5055874A",
+          "US5111241A"
+        ],
+        "forward": [
+          "US20080262523A1",
+          "US20120313273A1",
+          "US5519442A",
+          "US5644120A",
+          "US5677540A",
+          "US5701171A",
+          "US5742040A",
+          "US9250511B2"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5406352A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/cd/10/ce/62d55a0af9185a/US5406352.pdf",
+      "pages": 16,
+      "sourceSha256": "e983992ff17be968716c20234d5bacc357c7ce3f695fbb7e097684e84c42a1d6",
+      "figures": [
+        {
+          "page": 5,
+          "label": "Figs. 5–7",
+          "description": "Sections through the feed gap and clamping members at different states",
+          "file": "US5406352A-p05.png"
+        },
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Exploded view of the web-fed flattening assembly",
+          "file": "US5406352A-p03.png"
+        }
+      ],
+      "problem": "High end curl in a tow-web negative segment could stub into the gate, preventing reliable automatic printing."
+    },
+    {
+      "id": "EP0660170A1",
+      "title": "Film clamp for flattening image frames in a scanning gate",
+      "priority": "1993-12-14",
+      "filing": "1994-12-10",
+      "publication": "1995-06-28",
+      "inventors": [
+        "Clyde L. Fetterman",
+        "Donald F. Grube"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "lateral",
+        "combined"
+      ],
+      "summary": "Pivoting long clamps pull outward while separate end clamps press the frame down.",
+      "sequence": "Retract the carrier to feed. Lower it toward the base so the sprung clamping members engage. Long clamps pivot and move apart as their bias is taken up. Transverse clamping blocks take up their stroke against the end margins. Raise the carrier to advance.",
+      "contact": "Two elongated clamps grip the long sides around the image. Two other members apply normal load at the frame's transverse borders.",
+      "transverse": "Pivoting long-side clamps apply an explicit outward tension while pressing onto the base.",
+      "longitudinal": "The end clamps apply normal compression to address the lengthwise shape. The preferred motion is not active end-to-end stretching.",
+      "tradeoffs": "Four controlled contacts can flatten across two axes while retaining a glassless window. Clearance and overlap at cut ends determine whether all contacts can engage.",
+      "relevance": "A direct comparison for the belt hypothesis. Try independent timing and two-axis height measurements, including negatives cut very close to the image.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285",
+        "H04N1/00",
+        "H04N1/04",
+        "H04N1/10",
+        "H04N1/1008",
+        "H04N2201/00",
+        "H04N2201/04",
+        "H04N2201/0402",
+        "H04N2201/0404",
+        "H04N2201/0422"
+      ],
+      "related": [
+        "US2248646A",
+        "US5028956A",
+        "US5258807A",
+        "US5406352A"
+      ],
+      "family": [
+        "US5400117A",
+        "JPH07199366A"
+      ],
+      "citations": {
+        "backward": [
+          "EP0312328A2",
+          "US2248646A",
+          "US4774553A",
+          "WO1991008511A1"
+        ],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/EP0660170A1/en",
+      "originalPdf": "https://data.epo.org/publication-server/rest/v1.2/patents/EP0660170NWA1/document.pdf",
+      "pages": 20,
+      "sourceSha256": "36274d568f1c1f3f7ac3882e69db738290b049dc297148d10b0a19a74e0a576e",
+      "figures": [
+        {
+          "page": 19,
+          "label": "Figs. 11–12",
+          "description": "Open and engaged cross-sections of the pivoting longitudinal film clamps",
+          "file": "EP0660170A1-p19.png"
+        },
+        {
+          "page": 16,
+          "label": "Fig. 8",
+          "description": "Exploded view of the actuator and the aperture assembly",
+          "file": "EP0660170A1-p16.png"
+        },
+        {
+          "page": 15,
+          "label": "Figs. 5–7",
+          "description": "Diagrammatic locations and force directions of the film contacts",
+          "file": "EP0660170A1-p15.png"
+        }
+      ],
+      "problem": "The scan gate sought to address transverse bow and curled ends while keeping the frame clear for transmission."
+    },
+    {
+      "id": "US5461492A",
+      "title": "Film scanner with in-line dual scanning gates",
+      "priority": "1994-02-16",
+      "filing": "1994-02-16",
+      "publication": "1995-10-24",
+      "inventors": [
+        "Robert S. Jones"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "combined"
+      ],
+      "summary": "A dual optical gate pre-scans moving film, then holds it for slow high-resolution sampling.",
+      "sequence": "Feed a negative to a pre-positioning stage. Advance it through the apertures for a low-resolution scan. Reverse to locate the frame, clamp and translate the gate as a unit, and route the completed strip out through a diverter.",
+      "contact": "Rollers and guides feed the strip. The selected aperture's clamp meets the film at the gate and a separate gate handles slides.",
+      "transverse": "The strip gate clamps the frame to its optical reference for the main scan.",
+      "longitudinal": "The clamp keeps the selected portion stationary relative to the gate while the gate translates. The patent's focus is path orchestration and two different scan speeds.",
+      "tradeoffs": "Parallel preparation improves throughput and the reverse move decouples finding a frame from sampling it. It adds drives and handoff states.",
+      "relevance": "Use an inexpensive preview to find image boundaries before entering an exposure-only clamp cycle.",
+      "classifications": [
+        "H04N1/00",
+        "H04N1/00567",
+        "H04N1/04",
+        "H04N1/10",
+        "H04N1/1008",
+        "H04N2201/00",
+        "H04N2201/04",
+        "H04N2201/0402",
+        "H04N2201/0404",
+        "H04N2201/0408",
+        "H04N2201/0416"
+      ],
+      "related": [
+        "US4774553A",
+        "US5088813A",
+        "EP0660170A1",
+        "US7106480B2"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US3644038A",
+          "US4858003A",
+          "US5093734A",
+          "US5111241A",
+          "US5155596A",
+          "US5162840A"
+        ],
+        "forward": [
+          "AU2006296787B2",
+          "CN113055542A",
+          "CN120378545A",
+          "DE19805048A1",
+          "DE19805048C2",
+          "EP0668531A1",
+          "EP0844782A3",
+          "EP0936799A3",
+          "EP0987880A2",
+          "EP1176797A3",
+          "EP1475950A1",
+          "EP1533992B1",
+          "EP2391108A1",
+          "US10313534B2",
+          "US20020109777A1",
+          "US20030012557A1",
+          "US20040056951A1",
+          "US20040179169A1",
+          "US20060256391A1",
+          "US20100171052A1",
+          "US5646747A",
+          "US5673104A",
+          "US5685502A",
+          "US5730378A",
+          "US5982477A",
+          "US5986773A",
+          "US6020952A",
+          "US6023347A",
+          "US6094541A",
+          "US6105954A",
+          "US6208770B1",
+          "US6323968B1",
+          "US6335808B1",
+          "US6346998B2",
+          "US6381042B1",
+          "US6389159B2",
+          "US6657753B2",
+          "US6785024B1",
+          "US6822674B2",
+          "US6997557B2",
+          "US7133597B2",
+          "US7225158B2",
+          "US8040575B2",
+          "US8271388B2",
+          "US8306917B2",
+          "US9029821B2",
+          "US9338330B2",
+          "WO1998023083A3",
+          "WO2007036268A3"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5461492A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/6e/70/b7/78a3dc6fa36083/US5461492.pdf",
+      "pages": 27,
+      "sourceSha256": "a0ec8a59e7d1f46931e619a370df89bf3772dcdbc7eb74910f7bf6f06970664b",
+      "figures": [
+        {
+          "page": 5,
+          "label": "Fig. 4",
+          "description": "Perspective view of the scanning gate and adjacent mechanisms",
+          "file": "US5461492A-p05.png"
+        },
+        {
+          "page": 13,
+          "label": "Drawing sheet",
+          "description": "Views of the light path and gate assembly",
+          "file": "US5461492A-p13.png"
+        }
+      ],
+      "problem": "A scanner needed both rapid frame identification and precise main scanning, with a common optical station for negatives and slides."
+    },
+    {
+      "id": "EP0588308B1",
+      "title": "Clamping arrangement for film scanning apparatus",
+      "priority": "1992-09-14",
+      "filing": "1993-09-14",
+      "publication": "1998-04-22",
+      "inventors": [
+        "Tomi Lahcanski",
+        "Eric P. Hochreiter",
+        "James M. Thomas",
+        "Mathew D. Dobbins"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "bend",
+        "edge",
+        "combined"
+      ],
+      "summary": "A laminate clamp conforms film to an arcuate scanner gate without stretching it over a flat window.",
+      "sequence": "A selection of strip, roll and mounted-film routes feeds the segment-shaped gate. A resilient laminate moves into contact and the film follows the radius during scanning. The gate opens for additional transport.",
+      "contact": "Clamp surfaces contact selected film borders or the mounting format. The radial gate has a clear scanning region.",
+      "transverse": "The clamp constrains cross-film lift near the line being sampled.",
+      "longitudinal": "The gate prescribes a curved geometry along the working path. The scanning geometry follows that radius rather than assuming a whole planar image.",
+      "tradeoffs": "A controlled optical surface can be curved in a line-scanning system. This choice would leave focus variation across a simultaneous area exposure.",
+      "relevance": "A deliberately curved reference is a useful source of transport concepts. Its end control and contact sequence can be isolated from the imaging geometry.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/50",
+        "H04N3/00",
+        "H04N3/36",
+        "H04N3/40"
+      ],
+      "related": [
+        "US5088813A",
+        "US5111241A",
+        "US6304315B2"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "BE662989A",
+          "EP0588294A1",
+          "US4736228A",
+          "US4965632A"
+        ],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/EP0588308B1/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/3a/6d/50/051cc8289c2260/EP0588308B1.pdf",
+      "pages": 29,
+      "sourceSha256": "95d7436ac72f568e5cc7ecbba734e49497ec9d28d48759647a6106a6f7a89f29",
+      "figures": [
+        {
+          "page": 23,
+          "label": "Figs. 13–14",
+          "description": "Curved gate and clamp components in the scanner",
+          "file": "EP0588308B1-p23.png"
+        },
+        {
+          "page": 20,
+          "label": "Figs. 10A–10B",
+          "description": "Perspectives of clamp and contrasting gate geometries",
+          "file": "EP0588308B1-p20.png"
+        }
+      ],
+      "problem": "A lab scanner needed a predictable local film surface across strips, rolls and mounted formats without relying on stretching a flat gate."
+    },
+    {
+      "id": "US5812245A",
+      "title": "Asynchronous contact printer for motion picture film",
+      "priority": "1996-03-26",
+      "filing": "1996-03-26",
+      "publication": "1998-09-22",
+      "inventors": [
+        "Dean K. Goodhill",
+        "Don P. Behrns"
+      ],
+      "company": "Individual",
+      "application": "Contact and optical printing",
+      "mechanisms": [
+        "pressure",
+        "clamp",
+        "combined"
+      ],
+      "summary": "An intermittent contact printer brings independently indexed film formats together during each exposure.",
+      "sequence": "Two drives advance original and copy in different perforation increments. The films are held in intimate contact at the gate while stopped for exposure, then separated sufficiently to advance independently.",
+      "contact": "The two films meet across the image. The gate and its pressure surfaces establish the position of the stack when stopped.",
+      "transverse": "The gate applies pressure across the image width to control layer separation.",
+      "longitudinal": "Aperture contact establishes the local along-film plane. Separate drives control pitch and registration rather than applying a flattening stretch.",
+      "tradeoffs": "Independent pitch supports copying between formats. Two film paths and accurate timing add complexity.",
+      "relevance": "Its separation and reconvergence sequence illustrates how to decouple positioning from the capture contact state.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/02",
+        "G03B27/04",
+        "G03B27/08"
+      ],
+      "related": [
+        "US2357707A",
+        "US3574460A",
+        "US6304315B2"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1318610A",
+          "US1835743A",
+          "US1921494A",
+          "US1999754A",
+          "US2079572A",
+          "US3285087A",
+          "US3565521A",
+          "US3606536A",
+          "US3661457A",
+          "US3689154A",
+          "US3740140A",
+          "US3762619A",
+          "US3778155A",
+          "US3819258A",
+          "US3865738A",
+          "US4053230A",
+          "US4120572A",
+          "US4143951A",
+          "US4150886A",
+          "US4243317A",
+          "US4678298A",
+          "US4697896A",
+          "US4893921A",
+          "US4900293A",
+          "US5096286A",
+          "US5144365A",
+          "US5218388A",
+          "US5312304A",
+          "US5341182A",
+          "US5359390A",
+          "US5394220A",
+          "US5424805A",
+          "US5506639A",
+          "US5529232A",
+          "US5534954A",
+          "US5537157A",
+          "US5537165A",
+          "US5539527A",
+          "US5543869A"
+        ],
+        "forward": [
+          "US20020122166A1",
+          "US20040004705A9",
+          "US20060033881A1",
+          "US6202727B1",
+          "US7400378B2",
+          "US8411931B2",
+          "US8842730B2",
+          "US9282313B2"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5812245A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/58/ef/ec/c514cd8adc2fc2/US5812245.pdf",
+      "pages": 18,
+      "sourceSha256": "40d8047b2019f8d1c12b9b3fbd594dffd60f1d324ab5612530ed6c76072de285",
+      "figures": [
+        {
+          "page": 5,
+          "label": "Fig. 3",
+          "description": "Separate film paths brought together around the exposure region",
+          "file": "US5812245A-p05.png"
+        }
+      ],
+      "problem": "Copying between incompatible perforation pitches required independent advance followed by stable contact during each exposure."
+    },
+    {
+      "id": "US5822045A",
+      "title": "Filmstrip holding apparatus and method",
+      "priority": "1995-08-24",
+      "filing": "1996-03-15",
+      "publication": "1998-10-13",
+      "inventors": [
+        "Gary Lee Erck"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "lateral",
+        "combined"
+      ],
+      "summary": "Long opposed strips capture margins beyond the aperture while leaving strong end curl clearance during travel.",
+      "sequence": "The film feeds along a channel under a raised pair of elongated clamps. They descend on both margins, optionally tensioning laterally. Raise the members to restore the travel gap. They extend past the imaged span to stabilize the edge supports.",
+      "contact": "The elongated members and channel bottom grip long side portions. Preferred operation leaves the transverse end borders free of lateral clamping members.",
+      "transverse": "Long contact and optional outward movement reduce transverse curl while the optical aperture remains clear.",
+      "longitudinal": "The extended contact spans beyond the frame but acts on the long edges. There is no independent longitudinal pull or end clamp.",
+      "tradeoffs": "A wide rest gap accepts curly strips. The edge engagement length can exceed available film on one-frame samples.",
+      "relevance": "Tests whether sufficiently long compliant edge grip can control a frame without end contacts and where that approach fails on choppy cut ends.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US5028956A",
+        "EP0660170A1",
+        "US5406352A",
+        "US6002469A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1870091A",
+          "US4241987A",
+          "US4410254A",
+          "US4483612A",
+          "US4963997A",
+          "US4965632A",
+          "US5028956A",
+          "US5400117A",
+          "US5453817A",
+          "US5523820A",
+          "US5652645A",
+          "US5663786A",
+          "US5668625A"
+        ],
+        "forward": [
+          "US20090167853A1",
+          "US20090167854A1",
+          "US20090257096A1",
+          "US6268901B1",
+          "USD595330S1",
+          "USD635176S1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US5822045A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/23/b4/7a/e553c2c8be6e4d/US5822045.pdf",
+      "pages": 13,
+      "sourceSha256": "7b48f2407359a8ea31fce4e43c321128384327780817477fa4638dc096d881e3",
+      "figures": [
+        {
+          "page": 4,
+          "label": "Figs. 3–4A",
+          "description": "Raised and lowered states of the supported edge clamp",
+          "file": "US5822045A-p04.png"
+        },
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Plan view of the strip channel and longitudinal rail contact region",
+          "file": "US5822045A-p03.png"
+        }
+      ],
+      "problem": "Strongly curled strips could strike the scanning aperture or bow during scan if guide and clamp clearance were inadequate."
+    },
+    {
+      "id": "EP0935160A1",
+      "title": "Fotoelektrische Abtastvorrichtung und damit ausgestattetes fotografisches Kopiergerät",
+      "priority": "1998-02-04",
+      "filing": "1998-02-04",
+      "publication": "1999-08-11",
+      "inventors": [
+        "Hugo Knecht"
+      ],
+      "company": "Gretag Imaging AG",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "edge",
+        "combined"
+      ],
+      "summary": "A sensor selects the guide geometry for different film formats in an inline minilab scanner.",
+      "sequence": "Film enters from a processing line after leader-card separation or through a manual inlet. Rollers move it through the measurement zone. A sensor and controller select a motorized guide platform appropriate to the detected width while the transmitted light is sampled.",
+      "contact": "Feed rollers and the selected mechanical guide contact the film. Light passes through the measuring field.",
+      "transverse": "A selected guide introduces film to the cross-film measuring position appropriate to its format.",
+      "longitudinal": "Roller transport and the guide place the film at the local scan zone. There is no explicit whole-frame end tension in the described transport.",
+      "tradeoffs": "Automatic format changeover can share the measurement optics. Performance depends on correct format detection and film-to-guide fit.",
+      "relevance": "Useful when considering one transport path for mixed film materials and when deciding which restraints should change with film width.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285",
+        "G03B27/72",
+        "G03B27/73",
+        "G03B27/735",
+        "H04N1/00",
+        "H04N1/00127",
+        "H04N1/00249",
+        "H04N1/04",
+        "H04N1/0402",
+        "H04N1/0405",
+        "H04N1/042",
+        "H04N1/0455",
+        "H04N1/12",
+        "H04N1/19",
+        "H04N1/191",
+        "H04N1/192",
+        "H04N1/193",
+        "H04N2201/00",
+        "H04N2201/0008",
+        "H04N2201/0063",
+        "H04N2201/04",
+        "H04N2201/0402",
+        "H04N2201/0404",
+        "H04N2201/0408"
+      ],
+      "related": [
+        "US4761675A",
+        "US5461492A",
+        "US6002469A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US4092067A",
+          "US4252436A",
+          "US4647190A",
+          "US5184227A",
+          "US5444514A"
+        ],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/EP0935160A1/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/15/c6/b5/eb4fb3cefcedb1/EP0935160A1.pdf",
+      "pages": 18,
+      "sourceSha256": "afa4a348c183d5bfaba4c8f0ae477a9b4cb1788f9b4c4792ed916ff4d2ea61f4",
+      "figures": [
+        {
+          "page": 11,
+          "label": "Fig. 5",
+          "description": "Perspective view of the changeover guide platform",
+          "file": "EP0935160A1-p11.png"
+        },
+        {
+          "page": 15,
+          "label": "Drawing sheet",
+          "description": "The scanning system installed in a photographic processing and printing machine",
+          "file": "EP0935160A1-p15.png"
+        }
+      ],
+      "problem": "A minilab scanner needed to handle different widths automatically while locating moving film relative to a single optical measuring zone."
+    },
+    {
+      "id": "US6002469A",
+      "title": "Apparatus for tensioning copy masters",
+      "priority": "1997-10-04",
+      "filing": "1998-09-30",
+      "publication": "1999-12-14",
+      "inventors": [
+        "Bernhard Lorenz",
+        "Georg Kurzmaier"
+      ],
+      "company": "Agfa-Gevaert AG",
+      "application": "Photographic printer",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "lateral",
+        "combined"
+      ],
+      "summary": "A moving counter-bearing carries one film margin laterally so it need not slide on a stationary base.",
+      "sequence": "Feed the copy master over the platen. The press-on member grips one margin against a movable counter-bearing and the opposite side is fixed. Outward load shifts the film and bearing together. Reopen the clamps before transport.",
+      "contact": "The gripping rail and counter-bearing roller contact opposite faces at the moving margin. The other margin and ends may be clamped against the platen.",
+      "transverse": "A laterally movable bearing or roller turns the clamp's displacement into film tension with less sliding at the base.",
+      "longitudinal": "Transverse legs can press the end regions against the platen. The main inventive force is across the film.",
+      "tradeoffs": "Lower bearing resistance addresses friction variability in fixed-platen tensioners. The mechanism adds bearings and sensitive contact alignment.",
+      "relevance": "A reference for testing co-moving film supports and grip materials in an edge-belt or flanking-gripper design.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285"
+      ],
+      "related": [
+        "US5028956A",
+        "US5258807A",
+        "EP0660170A1",
+        "US5822045A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US2959096A",
+          "US4175858A",
+          "US5028956A"
+        ],
+        "forward": [
+          "US20070295612A1",
+          "US20080000778A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US6002469A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/e6/3e/1d/66b275e3cc2608/US6002469.pdf",
+      "pages": 7,
+      "sourceSha256": "fc8bc4eb7158517c53ec86e54adbbd585aedc8afa2a0209a80d1366e6fe0cb3e",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Copy platen, clamp and moving counter-bearing arrangement",
+          "file": "US6002469A-p03.png"
+        },
+        {
+          "page": 4,
+          "label": "Fig. 3",
+          "description": "Assembly viewed toward the plane of the copy platen",
+          "file": "US6002469A-p04.png"
+        }
+      ],
+      "problem": "A tensioning grip that slid the copy master against a fixed platen depended on a friction difference that dirt could change."
+    },
+    {
+      "id": "US6020952A",
+      "title": "System and method for providing error-free optical scanning of images on film",
+      "priority": "1997-05-05",
+      "filing": "1997-05-05",
+      "publication": "2000-02-01",
+      "inventors": [
+        "Thomas Mario Cipolla",
+        "Janusz Stanislaw Wilczynski"
+      ],
+      "company": "International Business Machines Corporation",
+      "application": "Film scanner",
+      "mechanisms": [
+        "pressure",
+        "combined"
+      ],
+      "summary": "Opposed air-bearing plates maintain film position around an optical scanning window.",
+      "sequence": "Advance film into a passage between two air-bearing plates. The opposed cushions hold the film at a consistent distance while an aperture or optical-fiber array provides scan access. The film passes out continuously.",
+      "contact": "Drive components contact the film outside the air-bearing span. In the intended scanning zone the pressure cushions separate film from the plates.",
+      "transverse": "The opposed pressure fields support the web across the scan width.",
+      "longitudinal": "The passage constrains film along the working span. The document describes continual movement, rather than securing a stopped single frame with cut ends.",
+      "tradeoffs": "Opposed cushions can reduce broad contact and contamination. Gas balance and edge leakage will vary with the shape and size of disconnected samples.",
+      "relevance": "Compare two-sided pressure control against a one-sided Bernoulli gate and check whether the window still works when a frame is stationary.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/32",
+        "G03B27/52",
+        "G03B27/62",
+        "G03B27/6271",
+        "G03B27/6285",
+        "G03B27/64",
+        "H04N1/00",
+        "H04N1/04",
+        "H04N1/12",
+        "H04N1/121",
+        "H04N1/19",
+        "H04N1/191",
+        "H04N1/192",
+        "H04N1/193",
+        "H04N2201/00",
+        "H04N2201/04",
+        "H04N2201/0402",
+        "H04N2201/0404",
+        "H04N2201/0408",
+        "H04N3/00",
+        "H04N3/36",
+        "H04N3/38"
+      ],
+      "related": [
+        "US5111241A",
+        "US3574460A",
+        "US5088813A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "NL6406851A",
+          "US3081682A",
+          "US3103850A",
+          "US4226526A",
+          "US4411503A",
+          "US5111241A",
+          "US5400152A",
+          "US5404195A",
+          "US5420700A",
+          "US5461492A"
+        ],
+        "forward": [
+          "EP2320191A1",
+          "US20030123107A1",
+          "US20110107818A1",
+          "US8561455B2"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US6020952A/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/77/13/c3/84967792c166f9/US6020952.pdf",
+      "pages": 10,
+      "sourceSha256": "37148131ca6268b4241dd637db8756bd9520c1b61f3b6d53498a46a9069772dc",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Figs. 2–3",
+          "description": "Air-bearing plates, film passage and scanning aperture",
+          "file": "US6020952A-p03.png"
+        }
+      ],
+      "problem": "Continuous optical scanning needed stable image distance without leaving abrasive contact or contamination in the scanning zone."
+    },
+    {
+      "id": "US6304315B2",
+      "title": "High speed high resolution continuous optical film printer for duplicating motion films",
+      "priority": "1999-08-31",
+      "filing": "1999-08-31",
+      "publication": "2001-10-16",
+      "inventors": [
+        "David Kessler",
+        "David H. Kirkpatrick"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Contact and optical printing",
+      "mechanisms": [
+        "bend",
+        "edge",
+        "combined"
+      ],
+      "summary": "Two films travel side by side around a shared shaft and meet conjugate optical lines.",
+      "sequence": "Negative and positive stock advance synchronously on the same transport shaft, with a narrow illuminated strip projected from one to the other. The films leave the shaft continuously after exposure.",
+      "contact": "Transport components and the shaft support surfaces touch the film. The imaging path keeps negative and print stock separate.",
+      "transverse": "Across-film shape is constrained locally by the shaft and support geometry where the narrow lines pass.",
+      "longitudinal": "A prescribed wrap defines the surface along travel. The image is projected line by line across the curved support.",
+      "tradeoffs": "A shared kinematic reference can stabilize synchronous imaging, but assumes uninterrupted stock and a scanning exposure.",
+      "relevance": "Use shared drive geometry as a reference for transport synchronization. It provides no direct guarantee of area-camera focus over a flat 35 mm frame.",
+      "classifications": [
+        "G03B27/00",
+        "G03B27/02",
+        "G03B27/04",
+        "G03B27/08"
+      ],
+      "related": [
+        "US4835555A",
+        "US5088813A",
+        "EP0588308B1",
+        "US5812245A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1752753A",
+          "US1789112A",
+          "US1801450A",
+          "US1836038A",
+          "US1950092A",
+          "US2023348A",
+          "US2058415A",
+          "US2298422A",
+          "US3040619A",
+          "US3748015A",
+          "US4167677A",
+          "US4467361A",
+          "US4796984A",
+          "US4868383A",
+          "US5221975A",
+          "US5548328A",
+          "US6018383A"
+        ],
+        "forward": [
+          "US20040218162A1",
+          "US20060209277A1",
+          "US20080055578A1",
+          "US20100208319A1",
+          "US7130020B2",
+          "US7283203B2",
+          "US8274720B2",
+          "US8531750B2",
+          "US8786943B2",
+          "US8830580B2",
+          "WO2013063172A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US6304315B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/ed/c3/db/ae2dd4ed3a6fb4/US6304315.pdf",
+      "pages": 10,
+      "sourceSha256": "f47c73b4411436f906f04ab24fce76ad374b97dac5813f826cac783989253a84",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Printer geometry and shared film transport shaft",
+          "file": "US6304315B2-p03.png"
+        },
+        {
+          "page": 5,
+          "label": "Figs. 4A–4B",
+          "description": "The scanning and exposure lines and their optical relationship",
+          "file": "US6304315B2-p05.png"
+        }
+      ],
+      "problem": "High-resolution cine duplication needed synchronized film travel, optical registration and low flare at continuous throughput."
+    },
+    {
+      "id": "US6501530B2",
+      "title": "Motion picture film projector illumination system for minimizing film buckle",
+      "priority": "2000-10-19",
+      "filing": "2000-11-30",
+      "publication": "2002-12-31",
+      "inventors": [
+        "Andrew F. Kurtz",
+        "Joshua M. Cobb",
+        "Kenneth J. Repich"
+      ],
+      "company": "Eastman Kodak Company",
+      "application": "Motion-picture camera and projector",
+      "mechanisms": [
+        "thermal",
+        "combined"
+      ],
+      "summary": "Projector optics redirect unused light toward film margins to reduce heat-driven buckling.",
+      "sequence": "With conventional film feed and frame dwell, a primary beam illuminates the image and secondary optics heat selected film edges outside the projection aperture. The gate must leave those regions optically accessible.",
+      "contact": "The embodiment modifies illumination rather than adding gripping contact. Existing gate structures still guide the strip.",
+      "transverse": "Reducing the thermal gradient between center and margins can reduce the tendency for transverse bow to grow during dwell.",
+      "longitudinal": "The patent addresses whole-frame heat-driven buckling indirectly, with no independent longitudinal tensioning element.",
+      "tradeoffs": "Changing optical heat loading addresses the cause of one distortion mode. It does not correct pre-existing mechanical curl and changes gate and illumination requirements.",
+      "relevance": "A reminder to measure film shape before and during exposure and distinguish heat-induced drift from storage curl.",
+      "classifications": [
+        "G03B1/00"
+      ],
+      "related": [
+        "US2357707A",
+        "US5088813A",
+        "US5822045A"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US1750910A",
+          "US2183249A",
+          "US2186123A",
+          "US2326970A",
+          "US2803163A",
+          "US2991691A",
+          "US3000258A",
+          "US3179007A",
+          "US3241440A",
+          "US3720460A",
+          "US3941475A",
+          "US3957031A",
+          "US4003638A",
+          "US4497015A",
+          "US4560260A",
+          "US4966759A",
+          "US5289278A",
+          "US5336873A",
+          "US5744815A",
+          "US5754278A",
+          "US6024283A",
+          "US6172734A"
+        ],
+        "forward": [
+          "CN108073026A",
+          "CN108073026B",
+          "US20020126262A1",
+          "US20060152686A1",
+          "US20070273794A1",
+          "US20110018986A1",
+          "US20110025930A1",
+          "US20110025983A1",
+          "US20110234919A1",
+          "US6633650B1",
+          "US6736517B2",
+          "US7834867B2",
+          "US7956858B2",
+          "US7978189B2",
+          "US7986315B2",
+          "US8355013B2",
+          "WO2018090765A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US6501530B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/02/4c/c7/13e27730286e74/US6501530.pdf",
+      "pages": 21,
+      "sourceSha256": "94547c0b0cc7c28facd934b07abb0b93a91f56f2a5ea30560f7a79cec8728da3",
+      "figures": [
+        {
+          "page": 7,
+          "label": "Figs. 6A–6B",
+          "description": "Exploded and side views of gate and film buckle",
+          "file": "US6501530B2-p07.png"
+        },
+        {
+          "page": 12,
+          "label": "Figs. 11–12",
+          "description": "Aperture alternatives and optical treatment of film edges",
+          "file": "US6501530B2-p12.png"
+        }
+      ],
+      "problem": "A projector's illumination could heat the image area more than adjacent film, causing the frame to buckle away from focus."
+    },
+    {
+      "id": "US7106480B2",
+      "title": "Film scanning device",
+      "priority": "2002-08-23",
+      "filing": "2002-08-23",
+      "publication": "2006-09-12",
+      "inventors": [
+        "Pin-Jui Huang"
+      ],
+      "company": "Pacific Image Electronics Co., Ltd.",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "combined"
+      ],
+      "summary": "A spring-biased optical module keeps a pressure guide in contact with a moving media holder.",
+      "sequence": "Load a film holder or removable magazine. A screw drive moves the scan assembly relative to the media. Spring force around a fulcrum biases the windowed pressure guide against the holder. Remove the holder after capture.",
+      "contact": "The guide bears principally on the media holder. The patent's arm tension loads the optical module against the holder, not the film in its own plane.",
+      "transverse": "The guide-holder contact sets the distance from the film carrier to the optical line across the scan.",
+      "longitudinal": "The biased module follows the holder while the screw drive spans its length. Film tension within the holder is a separate matter.",
+      "tradeoffs": "Maintaining an optical-to-holder distance is valuable for interchangeable carriers. Accuracy also depends on the geometry between carrier and film.",
+      "relevance": "Use a replaceable carrier as the optical datum and measure film-to-carrier flatness separately from carriage tolerances.",
+      "classifications": [
+        "H04N1/00",
+        "H04N1/00567",
+        "H04N1/0057",
+        "H04N1/04"
+      ],
+      "related": [
+        "US5088813A",
+        "US5461492A",
+        "US7210259B2"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US5251072A",
+          "US5381245A",
+          "US5432622A",
+          "US5589952A",
+          "US6169611A",
+          "US6195181A",
+          "US6233065A",
+          "US6243185A"
+        ],
+        "forward": [
+          "US20040233483A1"
+        ]
+      },
+      "recordUrl": "https://patents.google.com/patent/US7106480B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/cc/df/2f/1bf63091b6cd52/US7106480.pdf",
+      "pages": 12,
+      "sourceSha256": "a70420afe9f484a17ed8a284fdfd20032280b32637e118ef5c1e49a0d55832cb",
+      "figures": [
+        {
+          "page": 3,
+          "label": "Fig. 2",
+          "description": "Scan module and pressure guide arrangement in section",
+          "file": "US7106480B2-p03.png"
+        },
+        {
+          "page": 5,
+          "label": "Figs. 3-2–3-3",
+          "description": "Two spring placements for maintaining pressure against the holder",
+          "file": "US7106480B2-p05.png"
+        }
+      ],
+      "problem": "A removable carrier scanner needed to hold the optical module at a repeatable distance from interchangeable media supports."
+    },
+    {
+      "id": "US7210259B2",
+      "title": "Film holder",
+      "priority": "2004-08-18",
+      "filing": "2005-02-03",
+      "publication": "2007-05-01",
+      "inventors": [
+        "Kuang Yao Liu"
+      ],
+      "company": "Microtek International Inc.",
+      "application": "Film scanner",
+      "mechanisms": [
+        "clamp",
+        "edge",
+        "lateral",
+        "combined"
+      ],
+      "summary": "Sliding the lid drives a guided, frictional film-flattening element.",
+      "sequence": "Load film on the base panel and mount the cover. As the cover slides, cylindrical followers travel in shaped slots, displacing a spring-biased rod and its contact plate. Reverse the sliding movement to release the grip.",
+      "contact": "The contact plate and film panel meet the film, with mechanisms positioned near the carrier sides.",
+      "transverse": "The shaped guides drive the contact plate across the film as the lid slides along its track. Friction transmits the flattening stroke.",
+      "longitudinal": "The film panel sets the along-length reference. The patent does not show a second independently driven end stretch.",
+      "tradeoffs": "A small manual motion generates repeatable lateral displacement. Travel, force and surface friction determine where the film actually moves.",
+      "relevance": "A passive cross-motion linkage could be driven by an actuator. Measure grip displacement independently of lid displacement.",
+      "classifications": [
+        "G03B17/00",
+        "G03B17/28",
+        "G03B17/32"
+      ],
+      "related": [
+        "US2824491A",
+        "US5028956A",
+        "US6002469A",
+        "US20240364825A1"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "US3974582A",
+          "US4051487A",
+          "US4942684A",
+          "US5073022A",
+          "US5078271A",
+          "US5258807A",
+          "US5787624A",
+          "US6295418A"
+        ],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/US7210259B2/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/54/dc/98/118bf1162ef46a/US7210259.pdf",
+      "pages": 11,
+      "sourceSha256": "02c9197df410277d93d7a71726e68bcbc03876c2e36ff3a4f99b1daa0f68ef3c",
+      "figures": [
+        {
+          "page": 4,
+          "label": "Fig. 3",
+          "description": "Exploded carrier showing base and sliding lid",
+          "file": "US7210259B2-p04.png"
+        },
+        {
+          "page": 7,
+          "label": "Figs. 6 and 8",
+          "description": "Sections comparing the holder mechanism in two positions",
+          "file": "US7210259B2-p07.png"
+        }
+      ],
+      "problem": "A conventional flexible-arm carrier had limited frictional travel, leaving some film sufficiently curved to lose scan focus."
+    },
+    {
+      "id": "US20240364825A1",
+      "title": "Film clamping device",
+      "priority": "2023-04-28",
+      "filing": "2024-03-05",
+      "publication": "2024-10-31",
+      "inventors": [
+        "Yun Long Lai",
+        "Chi Cheng Chuang"
+      ],
+      "company": "Foxlink Image Technology Co., Ltd.",
+      "application": "Film scanner",
+      "mechanisms": [
+        "glass",
+        "clamp",
+        "combined"
+      ],
+      "summary": "A flat removable cap pushes negative film directly onto the scanner glass.",
+      "sequence": "Set film into a through-slot surrounded by elastic locating pads and fit the cap. The cap's flat bottom presses the film toward the scanner's glass. Remove the cap to release the film. Separate slots can accommodate mounted positives.",
+      "contact": "Scan glass and cap contact the negative faces and pads guide the perimeter. Image-area contact is intentional.",
+      "transverse": "The rigid glass establishes the plane across the negative.",
+      "longitudinal": "The same glass establishes the along-strip reference without edge stretch.",
+      "tradeoffs": "Direct contact controls bow without needing traction at the margins. Dust, face abrasion and optical interference should be checked experimentally.",
+      "relevance": "A contemporary baseline for comparing near-complete face support with a clamped open aperture on the same curled frame.",
+      "classifications": [
+        "H04N1/00",
+        "H04N1/00567",
+        "H04N1/0066",
+        "H04N1/04",
+        "H04N1/10",
+        "H04N1/1061"
+      ],
+      "related": [
+        "US2008982A",
+        "US4203658A",
+        "US7210259B2"
+      ],
+      "family": [],
+      "citations": {
+        "backward": [
+          "CN1755518A",
+          "CN209524411U",
+          "KR101944634B1"
+        ],
+        "forward": []
+      },
+      "recordUrl": "https://patents.google.com/patent/US20240364825A1/en",
+      "originalPdf": "https://patentimages.storage.googleapis.com/c0/98/1e/7c01f5648809ed/US20240364825A1.pdf",
+      "pages": 12,
+      "sourceSha256": "19fcab1400318db66562949a7851359ece8a28ecad40bd376859929c9a2ff992",
+      "figures": [
+        {
+          "page": 4,
+          "label": "Fig. 3",
+          "description": "Cross-section showing the negative in direct contact with the scanning glass",
+          "file": "US20240364825A1-p04.png"
+        },
+        {
+          "page": 2,
+          "label": "Fig. 1",
+          "description": "Exploded view of holder, negative and removable cap",
+          "file": "US20240364825A1-p02.png"
+        }
+      ],
+      "problem": "A carrier that only clamped the rim could let the middle of the negative bow outside the scanner's depth of field."
+    }
+  ]
+}

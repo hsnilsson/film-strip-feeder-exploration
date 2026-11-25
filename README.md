@@ -1,5 +1,7 @@
 # Film Strip Feeder Exploration
 
+[Documentation website](https://hsnilsson.github.io/film-strip-feeder-exploration/) · [Historical film-flatness patent archive](research/film-flatness-patents/index.md)
+
 ## Introduction
 
 This is an exploration of automatic film scanning and a collection ideas for how to build something like "the best possible automatic batch film strip feeder and autocarrier for cut and uncut strips". It is my very informal braindump of how to possibly solve some shortcomings of the current intents.

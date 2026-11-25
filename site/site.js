@@ -25,11 +25,18 @@ const explorer = document.querySelector('#patent-explorer');
 if (explorer) {
   const controls = explorer.querySelector('.explorer-controls');
   const filters = controls.querySelector('form');
+  const extraFilters = filters.querySelector('details');
   const results = explorer.querySelector('#patent-results');
   const status = explorer.querySelector('#result-count');
   const views = [...controls.querySelectorAll('[data-view]')];
   const cards = [...results.children];
   let view = 'gallery';
+
+  function updateFilters() {
+    extraFilters.open = !mobile.matches;
+  }
+  updateFilters();
+  mobile.addEventListener('change', updateFilters);
 
   function normalise(value) {
     return value.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '');

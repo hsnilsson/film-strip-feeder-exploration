@@ -122,28 +122,31 @@ function renderMarkdown(file, source) {
 }
 
 function select(id, label, options) {
-  return '<label>' + label + '<select name="' + id + '"><option value="">All</option>' +
+  return '<div class="filter"><label for="filter-' + id + '">' + label + '</label>' +
+    '<select id="filter-' + id + '" name="' + id + '"><option value="">All</option>' +
     options.map(([value, name]) => '<option value="' + escape(value) + '">' + escape(name) + '</option>').join('') +
-    '</select></label>';
+    '</select></div>';
 }
 
 function archiveGallery(file) {
   const distinct = (values) => [...new Set(values)].sort().map((value) => [value, value]);
   const entries = Object.entries(catalog.mechanisms);
   const years = patents.map((patent) => Number(patent.publication.slice(0, 4)));
-  const yearInput = (name, label) => '<label>' + label + '<input type="number" name="' + name +
+  const yearInput = (name, label) => '<div class="filter"><label for="filter-' + name + '">' + label +
+    '</label><input id="filter-' + name + '" type="number" name="' + name +
     '" min="' + Math.min(...years) + '" max="' + Math.max(...years) + '" placeholder="' +
-    (name === 'from' ? Math.min(...years) : Math.max(...years)) + '"></label>';
-  const cards = patents.map((patent) => {
-    const { id, title, company, application, publication, mechanisms, summary, figures, inventors, keywords } = patent;
+    (name === 'from' ? Math.min(...years) : Math.max(...years)) + '"></div>';
+  const cards = patents.map((patent, index) => {
+    const { id, title, company, application, publication, mechanisms, summary, figures, inventors, classifications } = patent;
     const [figure] = figures;
     const linkToPatent = href(file, patentPage(patent));
-    const description = escape([id, title, company, application, summary, ...inventors, ...keywords,
+    const description = escape([id, title, company, application, summary, ...inventors, ...classifications,
+      patent.problem, patent.sequence, patent.contact, patent.transverse, patent.longitudinal,
       ...mechanisms.map((key) => catalog.mechanisms[key])].join(' '));
     return `<article class="patent-card" data-year="${publication.slice(0, 4)}" data-company="${escape(company)}"
       data-application="${escape(application)}" data-mechanisms="${mechanisms.join(' ')}" data-search="${description}">
       <a class="card-image" href="${href(file, archive + '/figures/' + figure.file)}" aria-label="${escape(id + ' · ' + figure.label + ' · open drawing')}">
-        <img src="${href(file, archive + '/figures/' + figure.file)}" alt="${escape(figure.description)}" loading="lazy" decoding="async">
+        <img src="${href(file, archive + '/figures/' + figure.file)}" alt="${escape(figure.description)}" loading="${index < 4 ? 'eager' : 'lazy'}" decoding="async">
       </a>
       <div class="card-content">
         <div class="card-meta">${escape(publication.slice(0, 4) + ' · ' + id + ' · ' + figure.label)}</div>
@@ -156,11 +159,16 @@ function archiveGallery(file) {
   return `<section id="patent-explorer" aria-label="Explore the archive">
     <div class="explorer-controls" hidden>
       <form class="filters" role="search">
-        <label class="query">Search the archive<input type="search" name="q" placeholder="Patent, inventor or mechanism"></label>
-        ${select('mechanism', 'Mechanism', entries)}
-        ${select('application', 'Application', distinct(patents.map((entry) => entry.application)))}
-        ${select('company', 'Company', distinct(patents.map((entry) => entry.company)))}
-        ${yearInput('from', 'From year')}${yearInput('to', 'To year')}
+        <div class="filter query"><label for="filter-q">Search the archive</label><input id="filter-q" type="search" name="q" placeholder="Patent, inventor or mechanism"></div>
+        <details class="extra-filters" open>
+          <summary>Filters</summary>
+          <div class="filter-fields">
+            ${select('mechanism', 'Mechanism', entries)}
+            ${select('application', 'Application', distinct(patents.map((entry) => entry.application)))}
+            ${select('company', 'Company', distinct(patents.map((entry) => entry.company)))}
+            ${yearInput('from', 'From year')}${yearInput('to', 'To year')}
+          </div>
+        </details>
       </form>
       <div class="explorer-toolbar">
         <div class="views" role="group" aria-label="Display mode">
@@ -200,7 +208,7 @@ await rm(out, { recursive: true, force: true });
 await mkdir(resolve(out, 'site-assets'), { recursive: true });
 await Promise.all([
   ...['assets', 'images', archive + '/figures', archive + '/sources'].map(copyDirectory),
-  ...['style.css', 'site.js'].map((file) => cp(resolve(root, 'site', file), resolve(out, 'site-assets', file))),
+  ...['style.css', 'site.js', 'film.svg'].map((file) => cp(resolve(root, 'site', file), resolve(out, 'site-assets', file))),
   cp(resolve(dirname(require.resolve('mermaid/package.json')), 'dist/mermaid.min.js'), resolve(out, 'site-assets/mermaid.min.js')),
   writeFile(resolve(out, '.nojekyll'), ''),
 ]);
@@ -223,6 +231,7 @@ for (const [file, output] of outputs) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1d2d26">
   <title>${escape(title)} · Film Strip Feeder Exploration</title>
+  <link rel="icon" href="${asset('film.svg')}" type="image/svg+xml">
   <link rel="stylesheet" href="${asset('style.css')}">
   ${mermaid ? '<script defer src="' + asset('mermaid.min.js') + '"></script>' : ''}
   <script defer src="${asset('site.js')}"></script>
