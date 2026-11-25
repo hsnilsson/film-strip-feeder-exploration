@@ -64,12 +64,13 @@ if (explorer) {
   }
 
   function render() {
-    const { q, mechanism, application, company, from, to } = Object.fromEntries(new FormData(filters));
+    const { q, mechanism, application, company, status: legalStatus, from, to } = Object.fromEntries(new FormData(filters));
     const words = normalise(q).trim().split(/\s+/).filter(Boolean);
     const visible = cards.filter(({ dataset }) =>
       (!mechanism || dataset.mechanisms.split(' ').includes(mechanism)) &&
       (!application || dataset.application === application) &&
       (!company || dataset.company === company) &&
+      (!legalStatus || dataset.status === legalStatus) &&
       (!from || Number(dataset.year) >= Number(from)) &&
       (!to || Number(dataset.year) <= Number(to)) &&
       words.every((word) => normalise(dataset.search).includes(word)));

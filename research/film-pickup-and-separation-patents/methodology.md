@@ -16,6 +16,8 @@ Each saved PDF is the complete publication. Drawing images are cropped from one-
 
 Commercial notes distinguish manufacturer evidence, independently documented physical examples, patent-family relations and unresolved product identity. A device can establish that a mechanism category was used without proving that a specific patent embodiment shipped. Evidence about a mounted slide or a large X-ray sheet cannot establish the minimum length for unmounted 35 mm negatives.
 
+Status links concern the recorded jurisdiction. Dated events, index-only status and ordinary-term estimates are identified in the catalog. PCT publications link to the international application and use Unknown for national or regional rights. [PCT filing and national phases](https://www.wipo.int/en/web/pct-system/introduction)
+
 ## Gaps
 
 The evidence is strongest for the disclosed operating sequences and weakest for commercial adoption of particular embodiments. Additional model-level service manuals, parts lists and dated teardown photographs would improve that comparison. Coverage is weighted toward English-searchable publications and EPO facsimiles. Arcuate curl, static, adhesion, damaged perforations and abrasive contact remain test variables. The current sources leave the reliable one-frame boundary open for loose cut strips.

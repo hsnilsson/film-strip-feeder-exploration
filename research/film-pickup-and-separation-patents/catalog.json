@@ -66,7 +66,18 @@
           "USRE30792E"
         ]
       },
-      "sourceSha256": "fa6588289055b75ea6c348d9c4a8cc91c6349d67ee0136f6da4c74659b52cb68"
+      "sourceSha256": "fa6588289055b75ea6c348d9c4a8cc91c6349d67ee0136f6da4c74659b52cb68",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US571470A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1913-11-17",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US735746A",
@@ -119,7 +130,18 @@
         ]
       },
       "sourceSha256": "31223c511992bba623aac2f4fde96372d59f3e53767b6e0fd604e032c39c7314",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US735746A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1920-08-11",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US758453A",
@@ -177,7 +199,18 @@
         ]
       },
       "sourceSha256": "345f379dcdefaa6cb901e84d8172bffaa56ed86cb9f79a92cf907bfdc8323f05",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US758453A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1921-04-26",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US1646681A",
@@ -238,7 +271,18 @@
         "forward": []
       },
       "sourceSha256": "f4b233abe8af666a87e7bb7794e1b0945cac373ab951471949ca89f63fa4d18b",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US1646681A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1944-10-25",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US2423404A",
@@ -292,7 +336,18 @@
         "forward": []
       },
       "sourceSha256": "c9469a573d8d46363dbea95ded20a29b2da2a173edd06ba23ca1751ab47a3b9a",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US2423404A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1964-07-01",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US3469834A",
@@ -409,7 +464,18 @@
         ]
       },
       "sourceSha256": "c69cd1cf7f3534f5fbeb28f3f0b144c103f51c9fcdf61e266dd2dffa9b3a9b66",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US3469834A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1986-09-30",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US3650751A",
@@ -472,7 +538,18 @@
           "US3745900A"
         ]
       },
-      "sourceSha256": "33baa388d70a1f801cf75b5cdbc7e6fc42df0e735fd2a00375a0bc9d84053765"
+      "sourceSha256": "33baa388d70a1f801cf75b5cdbc7e6fc42df0e735fd2a00375a0bc9d84053765",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US3650751A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1989-03-21",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US3955092A",
@@ -551,7 +628,18 @@
           "US6267370B1"
         ]
       },
-      "sourceSha256": "03b39eafff60201c3745595ab7c577d5b93a271719541322ae796e827b63f0d1"
+      "sourceSha256": "03b39eafff60201c3745595ab7c577d5b93a271719541322ae796e827b63f0d1",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US3955092A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1993-05-04",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US3966189A",
@@ -632,7 +720,18 @@
         ]
       },
       "sourceSha256": "acd5e8b722ac8ee523efc44d4a383bdd53732fa0f7e58a849b13974a21918ee2",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US3966189A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1993-06-29",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US4179114A",
@@ -694,7 +793,18 @@
         "forward": []
       },
       "sourceSha256": "0bfc6ea8eb1c70e1bf9e648318b4a32d5dd78e76a3c4e26d983d98fb4ab890d9",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US4179114A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1997-12-15",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US4239202A",
@@ -759,7 +869,18 @@
         "forward": []
       },
       "sourceSha256": "6dd68e367586659d8b17f8187a68502151a6efc0d1a0cb1c9fb5debdead1f2b6",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US4239202A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1998-03-16",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US4365793A",
@@ -835,7 +956,18 @@
           "US8708327B2"
         ]
       },
-      "sourceSha256": "0ad83175ac187599ce6449f82378734134ef18222f7daf815f1dc9a80fc743ee"
+      "sourceSha256": "0ad83175ac187599ce6449f82378734134ef18222f7daf815f1dc9a80fc743ee",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US4365793A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "1999-12-28",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US4451028A",
@@ -971,7 +1103,17 @@
         ]
       },
       "sourceSha256": "8db668fd4e44a38191b3bf65c1983490d91392a52376034cadaf6248777e4143",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US4451028A/en",
+        "checkedOn": "2026-11-26",
+        "verified": true,
+        "basis": "recorded-event",
+        "expiresOn": "1996-05-29",
+        "expiryBasis": "recorded"
+      }
     },
     {
       "id": "US4627605A",
@@ -1069,7 +1211,18 @@
         ]
       },
       "sourceSha256": "9ae2ffb6891abee57c81dfea9f39d50a59631b7b964d00a080c8100d2f8729fb",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US4627605A/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "2005-11-06",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "US4979729A",
@@ -1134,7 +1287,17 @@
         ]
       },
       "sourceSha256": "239421e55f6184b986a5270a1dd0eaa47c0a8ee046bbd12d2a30830c893f6a72",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US4979729A/en",
+        "checkedOn": "2026-11-26",
+        "verified": true,
+        "basis": "recorded-event",
+        "expiresOn": "1998-12-25",
+        "expiryBasis": "recorded"
+      }
     },
     {
       "id": "EP0521459A1",
@@ -1197,7 +1360,19 @@
         "forward": []
       },
       "sourceSha256": "b8b6f88a10a7b9a0b2c1d02f21da685689d53cd12cfb5a944cad9dbb8290f9f9",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP0521459A1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2012-06-30",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP0521459B1"
+      }
     },
     {
       "id": "EP0405466B1",
@@ -1270,7 +1445,19 @@
         ]
       },
       "sourceSha256": "1328aef4d9742535b16adf41146cc488fc5362192a3c91e83d59d3883b0669bc",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP0405466B1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2010-06-26",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP0405466B1"
+      }
     },
     {
       "id": "EP0512084B1",
@@ -1343,7 +1530,19 @@
         "forward": []
       },
       "sourceSha256": "a71f8ce554d2f8c3a97b59eb0ce4718a634b1e282bc25930c988703c2fe4f372",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP0512084B1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2011-11-15",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP0512084B1"
+      }
     },
     {
       "id": "US5555042A",
@@ -1428,7 +1627,17 @@
         ]
       },
       "sourceSha256": "5dc94d2ac968ce90b1f512c39af6c99e23217c94799622065ed17b55341d14e6",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US5555042A/en",
+        "checkedOn": "2026-11-26",
+        "verified": true,
+        "basis": "recorded-event",
+        "expiresOn": "2008-09-10",
+        "expiryBasis": "recorded"
+      }
     },
     {
       "id": "EP0467203B1",
@@ -1494,7 +1703,19 @@
         "forward": []
       },
       "sourceSha256": "150044ffe068748c9f24b8745d272f69981b2acf6d8d8e7e7fa04f678182fca7",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP0467203B1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2011-07-10",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP0467203B1"
+      }
     },
     {
       "id": "EP0750228A1",
@@ -1559,7 +1780,19 @@
           "WO2001016651A1"
         ]
       },
-      "sourceSha256": "2eb5213bb734986c70a980b7014acdf3435bfc06bb8b7f5c9a996cdd55b0a6e2"
+      "sourceSha256": "2eb5213bb734986c70a980b7014acdf3435bfc06bb8b7f5c9a996cdd55b0a6e2",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP0750228A1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2016-06-20",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP0750228B1"
+      }
     },
     {
       "id": "US6556276B2",
@@ -1656,7 +1889,17 @@
           "WO2007127960A3"
         ]
       },
-      "sourceSha256": "f4a5cbffc08e9321f56566eac877042dde406728f9909d54ff89190d1225cd7f"
+      "sourceSha256": "f4a5cbffc08e9321f56566eac877042dde406728f9909d54ff89190d1225cd7f",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US6556276B2/en",
+        "checkedOn": "2026-11-26",
+        "verified": true,
+        "basis": "recorded-event",
+        "expiresOn": "2011-04-29",
+        "expiryBasis": "recorded"
+      }
     },
     {
       "id": "WO2004079448A1",
@@ -1725,7 +1968,17 @@
         "forward": []
       },
       "sourceSha256": "1a48425d7d1f8d46d9d69de3ac1e5cb7a46b0dc62ca9fc2e981c4dc3b25d4910",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Unknown",
+        "jurisdiction": "PCT",
+        "source": "https://patents.google.com/patent/WO2004079448A1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "unknown",
+        "indexedStatus": "Ceased",
+        "note": "The international publication is an application. National or regional grants have their own status."
+      }
     },
     {
       "id": "EP1267203B1",
@@ -1802,7 +2055,19 @@
         "forward": []
       },
       "sourceSha256": "2df391e15d228820af730619cf5889482a8a5ac44976841858958f9126f67c72",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP1267203B1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2022-06-11",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP1267203B1"
+      }
     },
     {
       "id": "US6932338B1",
@@ -1900,7 +2165,18 @@
         ]
       },
       "sourceSha256": "dd1de0e87824018e639f0663b2fee2710442eeaa21fd6d70e4abca8e586326ee",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US6932338B1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.uspto.gov/patents/laws/patent-term-calculator",
+        "expiresOn": "2023-10-30",
+        "expiryBasis": "ordinary-term"
+      }
     },
     {
       "id": "WO2007019045A1",
@@ -1978,7 +2254,17 @@
         "forward": []
       },
       "sourceSha256": "faa475190b936576b86328448f9367be7875d35614c1c5a15796a724a94ae583",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Unknown",
+        "jurisdiction": "PCT",
+        "source": "https://patents.google.com/patent/WO2007019045A1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "unknown",
+        "indexedStatus": "Ceased",
+        "note": "The international publication is an application. National or regional grants have their own status."
+      }
     },
     {
       "id": "EP1197450B1",
@@ -2049,7 +2335,19 @@
         "forward": []
       },
       "sourceSha256": "acb10d856e503e039f3ca55f49232e3bca2a36d7d21f70d0913206149cfbad9c",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP1197450B1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2021-10-10",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP1197450B1"
+      }
     },
     {
       "id": "US7654522B2",
@@ -2138,7 +2436,17 @@
         ]
       },
       "sourceSha256": "6066695da1d58ab74df4d04bec6c070b5e4ae9f7ab011daebf1bf821d71af2f6",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US7654522B2/en",
+        "checkedOn": "2026-11-26",
+        "verified": true,
+        "basis": "recorded-event",
+        "expiresOn": "2022-02-02",
+        "expiryBasis": "recorded"
+      }
     },
     {
       "id": "US7819396B2",
@@ -2213,7 +2521,17 @@
         ]
       },
       "sourceSha256": "02ecfa8abb16e3899c26f8512e603127d58588c82ff48957b65903a4beb54e28",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US7819396B2/en",
+        "checkedOn": "2026-11-26",
+        "verified": true,
+        "basis": "recorded-event",
+        "expiresOn": "2022-10-26",
+        "expiryBasis": "recorded"
+      }
     },
     {
       "id": "EP1721846B1",
@@ -2287,7 +2605,19 @@
         "forward": []
       },
       "sourceSha256": "e9699d5b6742aa4538ff66d69ec12d1920d60a26181e90283c0476ce958f33e5",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "EP",
+        "source": "https://patents.google.com/patent/EP1721846B1/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "ordinary-term",
+        "termSource": "https://www.epo.org/en/legal/epc/2020/a63.html",
+        "expiresOn": "2026-05-08",
+        "expiryBasis": "ordinary-term",
+        "grant": "EP1721846B1"
+      }
     },
     {
       "id": "US7950654B2",
@@ -2356,7 +2686,17 @@
         "backward": [],
         "forward": []
       },
-      "sourceSha256": "6d3c1881b078505ea6f367d8a098bd3a1c813d4666b9b063f71307e71ed6c9fb"
+      "sourceSha256": "6d3c1881b078505ea6f367d8a098bd3a1c813d4666b9b063f71307e71ed6c9fb",
+      "legalStatus": {
+        "status": "Expired",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US7950654B2/en",
+        "checkedOn": "2026-11-26",
+        "verified": true,
+        "basis": "recorded-event",
+        "expiresOn": "2015-05-31",
+        "expiryBasis": "recorded"
+      }
     },
     {
       "id": "US20230202784A1",
@@ -2448,7 +2788,18 @@
         "forward": []
       },
       "sourceSha256": "4a952f6360002cd3b2485f9df39d3d8f383ac0d0b1b7dfaea2f757d5c8bff147",
-      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified."
+      "lengthEvidence": "The stated media and geometry establish the application on this page. Published pickup limits for loose, cut 35 mm strips remain unverified.",
+      "legalStatus": {
+        "status": "Active",
+        "jurisdiction": "US",
+        "source": "https://patents.google.com/patent/US12162714B2/en",
+        "checkedOn": "2026-11-26",
+        "verified": false,
+        "basis": "index",
+        "grant": "US12162714B2",
+        "expiresOn": "2043-03-23",
+        "expiryBasis": "indexed-adjusted"
+      }
     }
   ]
 }

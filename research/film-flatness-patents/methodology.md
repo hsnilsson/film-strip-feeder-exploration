@@ -14,6 +14,10 @@ The catalog documents 47 selected publications from 1890 to 2024, with 47 comple
 
 The PDFs are complete facsimiles. PNGs are crops of original drawing sheets with their figure labels. The caption identifies the publication and one-based PDF page. Page numbers refer to the local facsimile, including front matter. Technical descriptions paraphrase the patent. Discussion of trade-offs and camera-scanning relevance is engineering interpretation. Evidence that a patent exists, or even reports testing, establishes neither the sale of a product nor its use of the stated mechanism.
 
+Status links concern the recorded jurisdiction. The catalog distinguishes dated events in the patent index, index-only status and ordinary-term estimates. Exact lapse dates are supplied where the record supports them. [US term rules](https://www.uspto.gov/patents/laws/patent-term-calculator) · [European term rules](https://www.epo.org/en/legal/epc/2020/a63.html)
+
+[Product and component evidence for all 47 publications (Swedish)](../film-flatness-product-trace.md)
+
 ## Remaining gaps
 
 This is a selected archive. The search is strongest for English-language and US-indexed patents and two Kodak citation chains. German and Japanese documents were surfaced, but untranslated and hard-to-retrieve sources were examined less deeply. Additional work could close gaps in nineteenth-century plate and roll-film holders, non-US optical-printer patents, commercial microfilm equipment and later film scanners. Manufacturer manuals, parts diagrams and documented teardown evidence are needed to establish model-level commercial use. Untested issues include friction at aged emulsion, corner height on individual frames, performance after repeated cycles and mixed curl.
