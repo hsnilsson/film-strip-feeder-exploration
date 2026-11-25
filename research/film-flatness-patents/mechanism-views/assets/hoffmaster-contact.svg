@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 222" role="img" aria-labelledby="title description">
+  <title id="title">4–5 · Hoffmaster right-hand contact</title>
+  <desc id="description">As the knee lowers, the tilted grip rotates and moves outward beneath the resilient lip. The rough underside stays in contact with the film.</desc>
+  <style>
+    text { font: 20px system-ui, sans-serif; fill: #1c2c26; }
+    .body { fill: #d9e0de; stroke: #50645e; stroke-width: 2; }
+    .flange { fill: none; stroke: #64536f; stroke-width: 7; stroke-linejoin: round; }
+    .film { fill: none; stroke: #116f61; stroke-width: 5; }
+    .leader { fill: none; stroke: #52625a; stroke-width: 1.5; }
+  </style>
+  <rect width="620" height="222" fill="#f8f8f4"/>
+  <text x="27" y="34" font-weight="700">4 · Initial contact</text>
+  <text x="328" y="34" font-weight="700">5 · Seated under lip</text>
+  <g transform="translate(0 40)">
+    <path class="body" d="M28 101h250v20H28Z M328 101h262v20H328Z"/>
+    <path class="film" d="M40 98h119m181 0h119"/>
+    <path class="flange" d="M156 57l10 10h16l19 30h62M444 58l10 10h16l19 29h82"/>
+    <path d="M52 43l91 29 16 5-7 20-22-2-10-13-75-25Z M346 72h107l9 4v21H346Z" fill="#edaa59" stroke="#70471e" stroke-width="2"/>
+    <path d="M130 95l3 3 3-2 4 2 3-2 4 2 3-2" fill="none" stroke="#70471e" stroke-width="2"/>
+    <path class="leader" d="M96 151l40-50m383 49-54-80"/>
+    <text x="33" y="168">21 · Rough underside</text>
+    <text x="409" y="168">13a · Resilient lip</text>
+  </g>
+</svg>

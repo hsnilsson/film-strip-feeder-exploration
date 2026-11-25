@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 282" role="img" aria-labelledby="title description">
+  <title id="title">7A · Kodak film advance</title>
+  <desc id="description">The lower belt run touches the film while the tie bar is free of the belt and the cylinder is raised.</desc>
+  <style>
+    text { font: 20px system-ui, sans-serif; fill: #1c2c26; }
+    .body { fill: #d9e0de; stroke: #50645e; stroke-width: 2; }
+    .moving { fill: #f4c57d; stroke: #70471e; stroke-width: 2; }
+    .belt { fill: #3f4e58; }
+    .arm { fill: none; stroke: #70471e; stroke-width: 4; stroke-linecap: round; }
+    .leader { fill: none; stroke: #52625a; stroke-width: 1.5; }
+  </style>
+  <rect width="620" height="282" fill="#f8f8f4"/>
+  <text x="23" y="34" font-weight="700">7A · Advance</text>
+  <path class="body" d="M36 140h33v36h120v10h45l-34 56H36Z M480 186h63v-24h39v80h-68Z"/>
+  <path d="M194 183H533" fill="none" stroke="#116f61" stroke-width="5"/>
+  <path class="belt" d="M190 103h27v9h-27z M190 171h27v10h-27z"/>
+  <path class="moving" d="M192 137h24v31h-24z M497 133h24v20h-24z"/>
+  <circle class="moving" cx="509" cy="157" r="9"/>
+  <path class="arm" d="M38 140h173q17 0 26-15l21-25q9-13 28-8l177 42q9 2 21 2h39"/>
+  <path d="M97 70h208v19H122v32H97Z" fill="#edf0ea" stroke="#50645e" stroke-width="2"/>
+  <path class="leader" d="M338 58l-53 20 M138 101l51 7 M306 143l-89 13 M442 105l65 44 M405 193l24-10"/>
+  <text x="336" y="55">21 · Crank finger</text>
+  <text x="48" y="101">14 · Belt</text>
+  <text x="309" y="148">18 · Tie bar</text>
+  <text x="400" y="102">15 · Cylinder</text>
+  <text x="363" y="211">1 · Film</text>
+  <text x="50" y="226">3 · Platen</text>
+  <text x="260" y="233">5 · Aperture</text>
+</svg>

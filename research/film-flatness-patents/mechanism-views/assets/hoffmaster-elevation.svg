@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 494" role="img" aria-labelledby="title description">
+  <title id="title">Hoffmaster film holder in end elevation</title>
+  <desc id="description">The raised knee holds the bars closer together. Lowering the knee spreads both bars beneath the flanges and presses the end margin down.</desc>
+  <style>
+    text { font: 20px system-ui, sans-serif; fill: #1c2c26; }
+    .heading { font-weight: 700; font-size: 24px; }
+    .small { font-size: 18px; fill: #41534d; }
+    .body { fill: #d9e0de; stroke: #50645e; stroke-width: 2; }
+    .flange { fill: none; stroke: #64536f; stroke-width: 7; stroke-linejoin: round; }
+    .arm-outline { fill: none; stroke: #70471e; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; }
+    .arm { fill: none; stroke: #edaa59; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+    .pin { fill: #fff5df; stroke: #70471e; stroke-width: 2; }
+    .film { fill: none; stroke: #116f61; stroke-width: 5; }
+    .leader { fill: none; stroke: #52625a; stroke-width: 1.5; }
+    .force { fill: none; stroke: #2456a0; stroke-width: 3; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#2456a0"/>
+    </marker>
+    <g id="base">
+      <rect x="45" y="109" width="530" height="21" rx="2" class="body"/>
+      <path class="flange" d="M65 105h28l17-26h34m332 0h34l17 26h28"/>
+    </g>
+  </defs>
+
+  <rect width="620" height="494" fill="#f8f8f4"/>
+  <rect x="9" y="9" width="602" height="229" rx="10" fill="#fff" stroke="#d6ded5"/>
+  <rect x="9" y="256" width="602" height="229" rx="10" fill="#fff" stroke="#d6ded5"/>
+  <g transform="translate(0 70)">
+    <text x="29" y="-31" class="heading">2 · Toggle raised</text>
+    <text x="29" y="-6" class="small">The bars rest on the long margins.</text>
+    <use href="#base"/>
+    <path class="film" d="M137 106c65 0 105-12 173-12s108 12 173 12"/>
+    <path class="arm-outline" d="M156 98 310 51 464 98"/>
+    <path class="arm" d="M156 98 310 51 464 98"/>
+    <path d="M128 90l26-11 12 23-25 4Z M492 90l-26-11-12 23 25 4Z" fill="#edaa59" stroke="#70471e" stroke-width="2"/>
+    <circle cx="310" cy="51" r="7" class="pin"/>
+    <path class="leader" d="M130 51l23 39m181-66-20 20m142 11 42 20m-137 79-17-53"/>
+    <text x="50" y="47">14 · Bar</text>
+    <text x="335" y="25">16 · Pin</text>
+    <text x="422" y="52">13a · Flange</text>
+    <text x="362" y="157" class="small">11 · Film</text>
+  </g>
+  <g transform="translate(0 317)">
+    <text x="29" y="-31" class="heading">3 · Toggle seated</text>
+    <text x="29" y="-6" class="small">The bars wedge beneath the flanges.</text>
+    <use href="#base"/>
+    <path class="film" d="M126 106H494"/>
+    <path class="arm-outline" d="M139 97H481"/>
+    <path class="arm" d="M139 97H481"/>
+    <path d="M120 86h33v19h-34Z M500 86h-33v19h34Z" fill="#edaa59" stroke="#70471e" stroke-width="2"/>
+    <circle cx="310" cy="99" r="5" class="pin"/>
+    <path class="force" d="M305 48v31"/>
+    <path class="force" d="M210 64h-40"/>
+    <path class="force" d="M410 64h40"/>
+    <text x="323" y="49">Pin lowers</text>
+    <path class="leader" d="M272 151l16-46"/>
+    <text x="216" y="157" class="small">Arms seat the end margin</text>
+  </g>
+</svg>

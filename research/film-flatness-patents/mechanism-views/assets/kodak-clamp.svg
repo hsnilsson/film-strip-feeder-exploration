@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 282" role="img" aria-labelledby="title description">
+  <title id="title">7B · Kodak film clamping and tension</title>
+  <desc id="description">The tie bar presses the lower belt run on the film at the datum side. The cylinder then bears down and outward. The spring arm bends under the crank finger.</desc>
+  <style>
+    text { font: 20px system-ui, sans-serif; fill: #1c2c26; }
+    .body { fill: #d9e0de; stroke: #50645e; stroke-width: 2; }
+    .moving { fill: #f4c57d; stroke: #70471e; stroke-width: 2; }
+    .belt { fill: #3f4e58; }
+    .arm { fill: none; stroke: #70471e; stroke-width: 4; stroke-linecap: round; }
+    .leader { fill: none; stroke: #52625a; stroke-width: 1.5; }
+    .motion { fill: none; stroke: #2456a0; stroke-width: 2.5; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#2456a0"/>
+    </marker>
+  </defs>
+  <rect width="620" height="282" fill="#f8f8f4"/>
+  <text x="23" y="34" font-weight="700">7B · Anchor and tension</text>
+  <path class="body" d="M36 140h33v36h120v10h45l-34 56H36Z M480 186h63v-24h39v80h-68Z"/>
+  <path d="M189 183H528" fill="none" stroke="#116f61" stroke-width="5"/>
+  <path class="belt" d="M190 103h27v9h-27z M190 171h27v10h-27z"/>
+  <path class="moving" d="M192 147h24v24h-24z M510 146h24v22h-24z"/>
+  <circle class="moving" cx="522" cy="171" r="9"/>
+  <path class="arm" d="M38 140h31q59-15 121 9l22 1q12 0 23-12l26-33q11-13 27-7l194 46q9 3 21 3h34"/>
+  <path d="M97 76h208v19H122v30H97Z" fill="#edf0ea" stroke="#50645e" stroke-width="2"/>
+  <path class="motion" d="M209 118v22 M469 155l30 17"/>
+  <path class="leader" d="M328 117l37-1 M157 199l31-17 M514 207l22-24"/>
+  <text x="40" y="165">1 · Down</text>
+  <text x="392" y="164">2 · Out</text>
+  <text x="326" y="108">19 · Spring arm</text>
+  <text x="53" y="217">6 · Datum edge</text>
+  <text x="401" y="224">24 · Clearance</text>
+  <text x="247" y="233">5 · Aperture</text>
+</svg>

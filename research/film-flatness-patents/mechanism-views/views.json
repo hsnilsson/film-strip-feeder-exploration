@@ -1,0 +1,1376 @@
+{
+  "US432990A": [
+    {
+      "page": 1,
+      "figure": "Fig. 3",
+      "title": "Tension across the exposure support",
+      "crop": [
+        10,
+        51,
+        88,
+        75
+      ],
+      "marks": [
+        [
+          32,
+          59,
+          "At each end of the support the web turns over a guide roller. One of these rollers meters the travel."
+        ],
+        [
+          55,
+          59,
+          "The web spans the fixed exposure support G, between the rollers."
+        ]
+      ],
+      "reading": "The winding key pulls through the take-up reel. A pawl resists reverse movement of the drive, so this is lengthwise tension through the web."
+    },
+    {
+      "page": 2,
+      "figure": "Figs. 4–5",
+      "title": "Drive and measuring linkage",
+      "crop": [
+        12,
+        4,
+        90,
+        28
+      ],
+      "marks": [
+        [
+          36,
+          16,
+          "The linkage senses and marks travel from the measuring roller."
+        ],
+        [
+          69,
+          16,
+          "The companion view shows the spool locked."
+        ]
+      ],
+      "reading": "A locked drive can hold an already tensioned span. The linkage in these details acts on the drive, outside the optical surface."
+    }
+  ],
+  "US450794A": [
+    {
+      "page": 1,
+      "figure": "Figs. 2–3",
+      "title": "Supply restraint and winding path",
+      "crop": [
+        3,
+        39,
+        94,
+        77
+      ],
+      "marks": [
+        [
+          19,
+          51,
+          "The hinged plate 9 and its springs 10 bear on the supply roll in the compartment."
+        ],
+        [
+          71,
+          68,
+          "The guide frames and end flanges support the exposed run and set the route to the winding assembly."
+        ]
+      ],
+      "reading": "The spring plate retains the roll. Guide flanges and the winding path establish longitudinal tautness. The specification describes variants with and without the separate tension devices."
+    }
+  ],
+  "US813531A": [
+    {
+      "page": 1,
+      "figure": "Perspective view",
+      "title": "Hinge spring catches the paper",
+      "crop": [
+        8,
+        13,
+        89,
+        75
+      ],
+      "marks": [
+        [
+          24,
+          58,
+          "Spring F winds around the pintle at D. Its fixed end moves with one member and its free end sweeps across the other."
+        ],
+        [
+          56,
+          65,
+          "The negative or film lies on the glass face H in the lower frame. The spring's free end catches the backing paper first."
+        ]
+      ],
+      "reading": "This is an anti-slip action during hand closing. The spring rests slightly above the negative when open, so the paper can be positioned underneath it."
+    }
+  ],
+  "US1139079A": [
+    {
+      "page": 1,
+      "figure": "Fig. 3",
+      "title": "Inclined slots turn the margins",
+      "crop": [
+        5,
+        63,
+        86,
+        81
+      ],
+      "marks": [
+        [
+          13,
+          71,
+          "One edge is captured in an inclined slot, shown in section."
+        ],
+        [
+          62,
+          72,
+          "The central portion of the sheet is supported by the flat back."
+        ]
+      ],
+      "reading": "The fixed slot angles bend the margins. The flexible film itself supplies the restoring reaction against the backing. The sheet is fed lengthwise into the slots."
+    }
+  ],
+  "US1581999A": [
+    {
+      "page": 3,
+      "figure": "Fig. IV",
+      "title": "Glass reference and negative assembly",
+      "crop": [
+        12,
+        10,
+        88,
+        32
+      ],
+      "marks": [
+        [
+          51,
+          24,
+          "The glass and negative are retained in the frame above the working opening."
+        ],
+        [
+          27,
+          26,
+          "The outline at the sides shows the support around the optical area."
+        ]
+      ],
+      "reading": "The glass and negative sit together in the sliding frame. Fig. III shows the printing platen on hinges below it. In contact use the paper is raised to the negative."
+    }
+  ],
+  "US1829332A": [
+    {
+      "page": 2,
+      "figure": "Figs. 4–6",
+      "title": "A resilient rim levels under pressure",
+      "crop": [
+        15,
+        24,
+        92,
+        83
+      ],
+      "marks": [
+        [
+          54,
+          38,
+          "The section locates the backing plate directly opposite the raised rim."
+        ],
+        [
+          70,
+          53,
+          "The separate aperture frame has raised portions. They contact first and yield as the backing plate descends."
+        ]
+      ],
+      "reading": "The drive lowers the pressure plate during the exposure dwell. The patent describes an acute undercut but gives no dimensioned loaded rim deflection for reconstructing the contact profile."
+    }
+  ],
+  "US2008982A": [
+    {
+      "page": 3,
+      "figure": "Figs. 4 and 6",
+      "title": "Glass carrier around the optical axis",
+      "crop": [
+        10,
+        13,
+        90,
+        74
+      ],
+      "marks": [
+        [
+          53,
+          43,
+          "The glass faces sit together in the hinged carrier above the lower optical housing."
+        ],
+        [
+          68,
+          63,
+          "The detailed view separates the film carrier from the lower lens and its mounting hardware."
+        ]
+      ],
+      "reading": "Carrier spring 21 urges the glass frames together about hinge 20. The operator can shift the film with the carrier released. The separate interlock prevents advance with the glass closed."
+    }
+  ],
+  "US2063016A": [
+    {
+      "page": 3,
+      "figure": "Fig. 3",
+      "title": "Rocking gate and sprung framing rails",
+      "crop": [
+        26,
+        5,
+        87,
+        53
+      ],
+      "marks": [
+        [
+          66,
+          21,
+          "The recessed guide leaf gives the image area room during the feed phase."
+        ],
+        [
+          64,
+          40,
+          "The rail springs act about the framing edges near the fixed gate surface."
+        ]
+      ],
+      "reading": "The registering pins engage through the film perforations at dwell. The resilient connection lets the rocking leaf bear on the film while the spring-biased rails finish closing."
+    }
+  ],
+  "US2131926A": [
+    {
+      "page": 4,
+      "figure": "Fig. 6",
+      "title": "Vacuum back and withdrawal clearance",
+      "crop": [
+        8,
+        8,
+        92,
+        66
+      ],
+      "marks": [
+        [
+          51,
+          44,
+          "The switching pressure assembly brings the back into its working position at the film plane."
+        ],
+        [
+          75,
+          55,
+          "The section shows the mounting between the moving back and fixed positioning assembly."
+        ]
+      ],
+      "reading": "Suction flattens the film at dwell. Springs raise the back after release, and the web path over the rollers gives clearance during winding."
+    }
+  ],
+  "US2168688A": [
+    {
+      "page": 3,
+      "figure": "Figs. 5 and 7–8",
+      "title": "Spring-loaded cruciform platen",
+      "crop": [
+        32,
+        13,
+        90,
+        47
+      ],
+      "marks": [
+        [
+          50,
+          29,
+          "The cruciform plate fits through reliefs in the guide structure and leaves a central opening."
+        ],
+        [
+          73,
+          22,
+          "The spring arrangement biases the platen toward the gate."
+        ]
+      ],
+      "reading": "The contacting rib bears at the perforated margin while the gate locates the strip. The hairpin springs supply seating force. The shutter has its own motion.",
+      "turn": 90
+    }
+  ],
+  "US2227987A": [
+    {
+      "page": 5,
+      "figure": "Figs. 6–9",
+      "title": "Film indexing drive and release",
+      "crop": [
+        4,
+        5,
+        92,
+        74
+      ],
+      "marks": [
+        [
+          36,
+          19,
+          "The section locates the timed shaft, clutch and adjacent sprocket drive."
+        ],
+        [
+          80,
+          54,
+          "The companion detail shows a spring-loaded control in the drive train."
+        ]
+      ],
+      "reading": "The sprockets act at marginal perforations. Compliance in the sprocket mounting creates tension in the span. The indexed dwell holds position for projection."
+    }
+  ],
+  "US2248646A": [
+    {
+      "page": 2,
+      "figure": "Figs. V–VII",
+      "title": "Two spring actions in the spreading gate",
+      "crop": [
+        7,
+        7,
+        88,
+        61
+      ],
+      "marks": [
+        [
+          42,
+          16,
+          "An arched spring spans the roughened gripping bars. Flattening the arch moves its ends apart."
+        ],
+        [
+          43,
+          54,
+          "The released cross-section shows the lever and spring system that lifts the bars from the working surface."
+        ]
+      ],
+      "reading": "The bars have to seat on the margins before appreciable lateral traction can build. The hairpin return springs lift the levers. The arched springs spread the bars under load."
+    }
+  ],
+  "US2357707A": [
+    {
+      "page": 1,
+      "figure": "Figs. 3–4",
+      "title": "Pressure rollers at the contact aperture",
+      "crop": [
+        13,
+        42,
+        92,
+        79
+      ],
+      "marks": [
+        [
+          29,
+          55,
+          "The narrow section shows three rollers on the pressure pad and the film paths at the aperture."
+        ],
+        [
+          72,
+          61,
+          "The face view shows the rollers spanning the width, across the direction of pulldown."
+        ]
+      ],
+      "reading": "Outer rollers converge the two strips before the central contact. The main roller presses their outer face while the film-to-film contact suppresses the air gap."
+    }
+  ],
+  "US2741154A": [
+    {
+      "page": 2,
+      "figure": "Figs. 3–5",
+      "title": "Hinge engagement through the closing arc",
+      "crop": [
+        45,
+        12,
+        90,
+        74
+      ],
+      "marks": [
+        [
+          57,
+          41,
+          "The end detail shows the angled upper plate and the film leading into the grip."
+        ],
+        [
+          57,
+          64,
+          "The second profile shows the hinge and spring in a different angular position."
+        ]
+      ],
+      "reading": "In the preferred hinge the spring holds the cover open at the loading angle. As the cover swings down, the gripping action starts before the plates close completely. The angular threshold is described functionally."
+    }
+  ],
+  "US2824491A": [
+    {
+      "page": 1,
+      "figure": "Fig. 1",
+      "title": "One rigid side member spans both ends",
+      "crop": [
+        18,
+        10,
+        90,
+        47
+      ],
+      "marks": [
+        [
+          62,
+          15,
+          "Two strut arms meet at pin 16 at each short end. The pins project outward for lifting."
+        ],
+        [
+          54,
+          38,
+          "Each long gripping bar 14 is rigidly connected to the strut arms at its ends."
+        ]
+      ],
+      "reading": "Both end toggles belong to the same removable assembly. Each bar changes angle with the rigid half-frame when the knees are raised, then sits flatter and farther out in the seated state."
+    },
+    {
+      "page": 1,
+      "figure": "Figs. 2–3",
+      "title": "Early seating and flattened toggle",
+      "crop": [
+        9,
+        46,
+        94,
+        71
+      ],
+      "marks": [
+        [
+          55,
+          52,
+          "In the early state the pivot pin is above the film plane, and the two long bars make initial margin contact."
+        ],
+        [
+          54,
+          64,
+          "In the later state the arms are nearly in line and press the end margin while the bars have moved outward."
+        ]
+      ],
+      "reading": "The film bows in fig. 2. Fig. 3 represents the loaded geometry. Compare the outer contacts in the enlarged drawings before interpreting the linkage as a simple symmetric hinge."
+    },
+    {
+      "page": 1,
+      "figure": "Figs. 4–5",
+      "title": "Rough pad, resilient lip and low pin axis",
+      "crop": [
+        9,
+        71,
+        94,
+        86
+      ],
+      "marks": [
+        [
+          23,
+          77,
+          "In fig. 4 the rough underside 21 of bar 14 bears on the film before the bar is fully wedged under lip 13a."
+        ],
+        [
+          68,
+          78,
+          "In fig. 5 the bar has seated beneath the resilient lip, which presses on the bar and holds the film at the base."
+        ]
+      ],
+      "reading": "The flange can yield as the bar enters and then supplies the reaction. The specification locates the flattened hinge axis below the line of horizontal flange reaction. A true locking angle or spring deflection requires dimensions and spring data."
+    }
+  ],
+  "US2964995A": [
+    {
+      "page": 6,
+      "figure": "Fig. 8",
+      "title": "Gate pressure on a film stack",
+      "crop": [
+        8,
+        67,
+        73,
+        94
+      ],
+      "marks": [
+        [
+          45,
+          83,
+          "The enlarged section locates the two facing gate parts at the film plane."
+        ],
+        [
+          18,
+          82,
+          "The drive detail sits to the side of the film-facing plates."
+        ]
+      ],
+      "reading": "The fixed aperture plate registers the side of the stack. Clearance at the pressure plate is adjusted for the stock combination before the intermittent drive brings the films through together."
+    }
+  ],
+  "US3007368A": [
+    {
+      "page": 1,
+      "figure": "Figs. 1–2",
+      "title": "Slack transfer while the platen holds",
+      "crop": [
+        12,
+        4,
+        88,
+        77
+      ],
+      "marks": [
+        [
+          50,
+          31,
+          "The fixed exposure area is between the two loops, close to the main arm linkage."
+        ],
+        [
+          46,
+          68,
+          "The second state shows the guides in a different position around the reels."
+        ]
+      ],
+      "reading": "The platen can stop the exposure span while the reels keep running. Movement of the linked buffer arm takes up web on one side and gives it back on the other. Releasing suction frees the span."
+    }
+  ],
+  "US3237543A": [
+    {
+      "page": 1,
+      "figure": "Figs. 4–5",
+      "title": "Both faces of one vacuum holder",
+      "crop": [
+        53,
+        7,
+        90,
+        82
+      ],
+      "marks": [
+        [
+          69,
+          23,
+          "The section shows the back-to-back support faces with the middle vacuum space between them."
+        ],
+        [
+          69,
+          69,
+          "The enlarged section distinguishes the film-retaining geometry from the backing face that receives suction."
+        ]
+      ],
+      "reading": "The dark slides and edge retainers have separate jobs. The perforated back draws the face of each sheet against the holder without a mechanical spreading motion."
+    }
+  ],
+  "US3574460A": [
+    {
+      "page": 2,
+      "figure": "Figs. 1–2",
+      "title": "Gas pressure around the printing drum",
+      "crop": [
+        8,
+        3,
+        95,
+        48
+      ],
+      "marks": [
+        [
+          49,
+          24,
+          "The two moving stocks lie together at the curved drum surface, below the pressure shoe."
+        ],
+        [
+          81,
+          38,
+          "The sectional detail shows how the shoe-to-drum gap is established across the film width."
+        ]
+      ],
+      "reading": "The shoe directs pressurized gas toward the sandwich and the gas escapes through the narrow gap. The drum sets the path. The films nest together rather than being spread sideways."
+    }
+  ],
+  "US3746444A": [
+    {
+      "page": 3,
+      "figure": "Fig. 2",
+      "title": "A flat platen moves with its stock",
+      "crop": [
+        11,
+        1,
+        84,
+        95
+      ],
+      "marks": [
+        [
+          54,
+          38,
+          "The film handling assembly and its stock are carried on the movable platen."
+        ],
+        [
+          43,
+          57,
+          "The removal and drive parts sit along the film outlet, on the same assembly."
+        ]
+      ],
+      "reading": "Vacuum fixes the film to a flat reference while the stage steps across the optical opening. The removal clamp grips an edge at the unloading position and the vacuum releases for extraction.",
+      "turn": 90
+    }
+  ],
+  "US3966320A": [
+    {
+      "page": 3,
+      "figure": "Figs. 2–3",
+      "title": "Transfer from suction plate to gate",
+      "crop": [
+        9,
+        6,
+        91,
+        87
+      ],
+      "marks": [
+        [
+          49,
+          34,
+          "The horizontally movable suction plate is shown raised above the stationary gate in fig. 2."
+        ],
+        [
+          55,
+          73,
+          "The local section shows suction channels near the exposure opening."
+        ]
+      ],
+      "reading": "The upper vacuum grip retains the sheet during positioning. At exposure the gate applies a second suction reference against the film-bearing surface. The two vacuum circuits have different functions."
+    }
+  ],
+  "US4145127A": [
+    {
+      "page": 4,
+      "figure": "Figs. 6–7",
+      "title": "Cam-guided claw engagement",
+      "crop": [
+        11,
+        1,
+        94,
+        41
+      ],
+      "marks": [
+        [
+          29,
+          25,
+          "The gate section separates the film passage from the moving claw and shuttle."
+        ],
+        [
+          64,
+          19,
+          "The axial section shows the rotating cam stack that drives the two components of the shuttle motion."
+        ]
+      ],
+      "reading": "Entry into the perforation and pulldown are phased. The selected cam position clears the claw for still projection or threading. Any optional flexure of the claw serves bias, rather than flattening the exposed frame."
+    }
+  ],
+  "US4203658A": [
+    {
+      "page": 3,
+      "figure": "Fig. 5",
+      "title": "The glass sandwich can separate",
+      "crop": [
+        7,
+        0,
+        58,
+        24
+      ],
+      "marks": [
+        [
+          22,
+          13,
+          "The film path passes through the transparent plates."
+        ],
+        [
+          49,
+          12,
+          "The separated supports at the end allow the plates to open for transport."
+        ]
+      ],
+      "reading": "The optical faces contact both sides of the film in the reading state. Releasing the plate pressure before indexing avoids dragging the film between loaded glass faces."
+    }
+  ],
+  "US4249821A": [
+    {
+      "page": 4,
+      "figure": "Fig. 3",
+      "title": "Vacuum lands between driven belts",
+      "crop": [
+        17,
+        3,
+        62,
+        77
+      ],
+      "marks": [
+        [
+          40,
+          26,
+          "Several parallel, mechanically driven belt runs support the film in a common plane."
+        ],
+        [
+          48,
+          35,
+          "The ports and spaces next to the runs communicate the pressure difference to the film."
+        ]
+      ],
+      "reading": "Suction holds the web to the moving belts, including during the stationary exposure dwell. Fig. 2 locates the buffer loops separate from the exposure support."
+    }
+  ],
+  "GB2138152A": [
+    {
+      "page": 3,
+      "figure": "Figs. 2–4",
+      "title": "The overlay seals and drains from an edge",
+      "crop": [
+        0,
+        1,
+        94,
+        99
+      ],
+      "marks": [
+        [
+          20,
+          51,
+          "The large view shows the rectangular working area and the edge manifold."
+        ],
+        [
+          69,
+          13,
+          "The lateral section locates the film stack under the flexible face and beside the evacuation groove."
+        ]
+      ],
+      "reading": "The platen is rigid. The overlay progressively conforms from the suction edge, and its embossing lets air escape from beneath it. Film loading and cutting are performed by the carriage before exposure.",
+      "turn": 90
+    }
+  ],
+  "US4483612A": [
+    {
+      "page": 2,
+      "figure": "Figs. 1–3",
+      "title": "Opposed flaps above and below the film",
+      "crop": [
+        9,
+        5,
+        89,
+        87
+      ],
+      "marks": [
+        [
+          32,
+          19,
+          "The flap working edges approach the film plane from opposite faces."
+        ],
+        [
+          63,
+          66,
+          "The plan view locates the additional hold-down strips beside the exposure window."
+        ]
+      ],
+      "reading": "The electromagnet rotates the paired flaps in opposite directions. The sprung side strips provide the remaining normal hold-down force. The flap stroke is an opening and closing motion, without an outward stretching stroke."
+    }
+  ],
+  "US4761675A": [
+    {
+      "page": 3,
+      "figure": "Figs. 4–5",
+      "title": "A reversible mask and a hinged presser",
+      "crop": [
+        9,
+        0,
+        90,
+        86
+      ],
+      "marks": [
+        [
+          49,
+          25,
+          "The guide groove and frame sit around the optical mask in the rotated orientation."
+        ],
+        [
+          55,
+          63,
+          "In the exploded view the presser stands directly above the film opening."
+        ]
+      ],
+      "reading": "The presser opens to admit or release the strip and closes normally against the mask. Rotating the detachable mask support through 90° changes the feed direction, not the presser stroke."
+    }
+  ],
+  "US4774553A": [
+    {
+      "page": 4,
+      "figure": "Figs. 3–4",
+      "title": "Registration stage and perimeter hold",
+      "crop": [
+        9,
+        0,
+        90,
+        72
+      ],
+      "marks": [
+        [
+          40,
+          18,
+          "The perimeter frame supports the selected film aperture on top of the adjustable stage."
+        ],
+        [
+          59,
+          58,
+          "The transverse section separates the moving stage from its drive and support below."
+        ]
+      ],
+      "reading": "The position and rotation adjustments are in the film plane. Once the crop is located, the four-edge clamp holds the frame for exposure."
+    }
+  ],
+  "US4835555A": [
+    {
+      "page": 8,
+      "figure": "Figs. 11–13",
+      "title": "Registration and progressive blade contact",
+      "crop": [
+        13,
+        0,
+        88,
+        75
+      ],
+      "marks": [
+        [
+          31,
+          19,
+          "The pin-side components register perforations against one side of the gate."
+        ],
+        [
+          50,
+          64,
+          "The two small sections isolate the changing opposing-side contact profile."
+        ]
+      ],
+      "reading": "A pad and pins locate one margin first. As the opposite curved blade bears against the other margin, it draws the film away from the pin side. Figs. 12–13 illustrate the changing contact rather than a travel dimension."
+    }
+  ],
+  "US5028956A": [
+    {
+      "page": 4,
+      "figure": "Fig. 7A",
+      "title": "Belt contact before the far side closes",
+      "crop": [
+        6,
+        9,
+        93,
+        45
+      ],
+      "marks": [
+        [
+          48,
+          26,
+          "The black film line passes under the belt 14. Tie bar 18 is in the loop and can load its lower run."
+        ],
+        [
+          77,
+          29,
+          "Cylinder 15 is lifted clear of the other long margin."
+        ]
+      ],
+      "reading": "The running belt already bears on the film. This is the advance position, so belt-to-film contact and the scan clamp load are distinct."
+    },
+    {
+      "page": 4,
+      "figure": "Fig. 7B",
+      "title": "The datum edge anchors before tension",
+      "crop": [
+        7,
+        51,
+        94,
+        90
+      ],
+      "marks": [
+        [
+          49,
+          68,
+          "Bell-crank finger 21 drives arm 19. The tie bar loads the lower belt run and the film moves against guide edge 6."
+        ],
+        [
+          79,
+          75,
+          "At the other side the cylinder comes down and outward. Clearance 24 at edge 7 allows travel."
+        ]
+      ],
+      "reading": "The spring arms themselves deflect under the finger load and return upon release. No pivot or stroke angle for the cylinder can be measured from this pair of sections."
+    },
+    {
+      "page": 3,
+      "figure": "Fig. 6",
+      "title": "Belt wrap in the feed direction",
+      "crop": [
+        7,
+        69,
+        87,
+        99
+      ],
+      "marks": [
+        [
+          18,
+          80,
+          "The belt turns around a pulley 16 and meets the end ramp 8."
+        ],
+        [
+          48,
+          84,
+          "The lower belt run follows the flat working surface 9 between the ramp regions."
+        ]
+      ],
+      "reading": "The patent gives about 10° for the end ramps relative to the platen. This section is along the film. That angle does not describe the cylinder motion in the transverse sections."
+    }
+  ],
+  "US5088813A": [
+    {
+      "page": 4,
+      "figure": "Figs. 7a–7d",
+      "title": "Guides keep both strip ends in the scan line",
+      "crop": [
+        23,
+        38,
+        88,
+        94
+      ],
+      "marks": [
+        [
+          51,
+          49,
+          "The upper pair contrasts a bent strip end with the controlled end geometry."
+        ],
+        [
+          48,
+          80,
+          "The other pair illustrates the opposite direction of end curl."
+        ]
+      ],
+      "reading": "Rollers 12 support the film; belts 20 drive at the margins. Guides are moved into place for ends that lack support, so the full cross-width line can pass within the focal region."
+    }
+  ],
+  "US5111241A": [
+    {
+      "page": 3,
+      "figure": "Fig. 2",
+      "title": "An air film under the moving strip",
+      "crop": [
+        11,
+        23,
+        90,
+        76
+      ],
+      "marks": [
+        [
+          49,
+          54,
+          "Gas enters through orifice 17 and accelerates along the narrow region beneath the strip."
+        ],
+        [
+          63,
+          51,
+          "The strip above the flowing air experiences a pressure difference while the air layer separates it from the platen."
+        ]
+      ],
+      "reading": "The support acts locally at the linear scan opening. The rollers guide the moving web outside this section; there is no loaded mechanical clamp at the optical line."
+    }
+  ],
+  "US5258807A": [
+    {
+      "page": 3,
+      "figure": "Figs. 5–7",
+      "title": "Two-axis seating and four outward grip edges",
+      "crop": [
+        8,
+        0,
+        94,
+        97
+      ],
+      "marks": [
+        [
+          43,
+          24,
+          "The perspective shows paired aperture inserts and their supporting mechanism."
+        ],
+        [
+          63,
+          75,
+          "The section isolates the inclined gripping contact, showing force components relative to the film."
+        ]
+      ],
+      "reading": "The mount gives the moving insert two angular freedoms to bring its gripping faces into even contact. The inclined faces then flex or displace outward on each side as the holders close."
+    }
+  ],
+  "US5406352A": [
+    {
+      "page": 5,
+      "figure": "Figs. 5–7",
+      "title": "Empty gate and both directions of film curl",
+      "crop": [
+        5,
+        3,
+        95,
+        99
+      ],
+      "marks": [
+        [
+          47,
+          34,
+          "The upwardly bowed segment approaches the raised frames with side attachments guiding it."
+        ],
+        [
+          52,
+          65,
+          "The lowest section shows a downward bow toward the opening. In both film views the clamps remain retracted."
+        ]
+      ],
+      "reading": "The shaped frame and gap protect against a curled leading edge catching during transport. Contact occurs at the image margins in the clamp cycle. The tow web transmits the feed, which is a different load path."
+    }
+  ],
+  "EP0660170A1": [
+    {
+      "page": 19,
+      "figure": "Figs. 11–12",
+      "title": "The long sides pivot and spread at closure",
+      "crop": [
+        0,
+        4,
+        97,
+        99
+      ],
+      "marks": [
+        [
+          25,
+          21,
+          "With the carrier away from the base, the contacting edge is above the moving member."
+        ],
+        [
+          72,
+          74,
+          "During engagement the pivoting member presses the long edge and displaces it sideways against the base reference."
+        ]
+      ],
+      "reading": "These sections show the long clamps. The separate transverse members illustrated with the assembly press the short margins down. Their straight pressing motion does not add a separate lengthwise stretch."
+    }
+  ],
+  "US5461492A": [
+    {
+      "page": 13,
+      "figure": "Figs. 12–13",
+      "title": "The slide-gate jaws and stops",
+      "crop": [
+        5,
+        3,
+        90,
+        96
+      ],
+      "marks": [
+        [
+          53,
+          31,
+          "The rear perspective shows the support and opposing jaws around the mounted slide."
+        ],
+        [
+          39,
+          68,
+          "The front perspective locates the optical window and the stops for the mount."
+        ]
+      ],
+      "reading": "These views show the mounted-slide gate. The negative strip uses a separate gate on the same carriage, so the jaws here do not touch a bare film frame.",
+      "turn": 90
+    },
+    {
+      "page": 5,
+      "figure": "Fig. 4",
+      "title": "Common carriage, two separate gates",
+      "crop": [
+        3,
+        0,
+        97,
+        86
+      ],
+      "marks": [
+        [
+          33,
+          55,
+          "The nearer rectangular gate supports a slide mount."
+        ],
+        [
+          58,
+          27,
+          "The filmstrip path feeds the other gate, farther along the carriage."
+        ]
+      ],
+      "reading": "The strip can traverse the station for a preliminary scan, reverse for registration and then remain clamped while the gate moves for the main scan. The strip and mounted-slide holders coexist on the carriage.",
+      "turn": 90
+    }
+  ],
+  "EP0588308B1": [
+    {
+      "page": 23,
+      "figure": "Figs. 13–14",
+      "title": "Radial gate for different film edges",
+      "crop": [
+        0,
+        0,
+        100,
+        91
+      ],
+      "marks": [
+        [
+          50,
+          29,
+          "The film wraps over the arcuate opening 315 in gate 314 in the first-order arrangement."
+        ],
+        [
+          59,
+          73,
+          "The alternate arrangement shows the attached paper laminate P and the separate engaging structure 320–321."
+        ]
+      ],
+      "reading": "The curvature sets the film path at the optical gate. The second drawing changes the edge format and engagement. It does not show a flat mode or a different curvature setting."
+    }
+  ],
+  "US5812245A": [
+    {
+      "page": 5,
+      "figure": "Fig. 3",
+      "title": "Two film drives converge at the platens",
+      "crop": [
+        1,
+        26,
+        97,
+        65
+      ],
+      "marks": [
+        [
+          44,
+          45,
+          "The two optically aligned platens hold original and print film against each other during exposure."
+        ],
+        [
+          77,
+          43,
+          "The two sets of rollers and their separate drives leave each stock free to advance by its own frame pitch when released."
+        ]
+      ],
+      "reading": "A moving platen assembly separates the films between exposures. The return spring brings the sections together, and optical contact occurs at the common aperture."
+    }
+  ],
+  "US5822045A": [
+    {
+      "page": 4,
+      "figure": "Figs. 3 and 4A",
+      "title": "Long edge supports in two positions",
+      "crop": [
+        0,
+        3,
+        99,
+        97
+      ],
+      "marks": [
+        [
+          28,
+          28,
+          "The elongated member shown with clearance permits curled stock to move through the channel."
+        ],
+        [
+          78,
+          30,
+          "The corresponding position brings the member up to the opposed support along the film edge."
+        ]
+      ],
+      "reading": "Clamps extend along the strip beyond the scanned area. The transverse ends remain open for transport. Compare with fig. 2 to see how this differs from a four-sided clamp around an image.",
+      "turn": 90
+    }
+  ],
+  "EP0935160A1": [
+    {
+      "page": 11,
+      "figure": "Fig. 6",
+      "title": "Format change on the guide platform",
+      "crop": [
+        3,
+        3,
+        98,
+        91
+      ],
+      "marks": [
+        [
+          43,
+          43,
+          "Transport rollers 120 are carried in pairs on shafts 121, with the film held in the selected guide path."
+        ],
+        [
+          71,
+          24,
+          "The exchange platform is moved under motor and sensor control to present the appropriate guide geometry."
+        ]
+      ],
+      "reading": "Switching the platform puts the chosen format at the measuring slit. The mechanism locates and transports the moving film through the sampled line.",
+      "turn": 90
+    }
+  ],
+  "US6002469A": [
+    {
+      "page": 3,
+      "figure": "Fig. 2",
+      "title": "The counter-bearing moves with the film",
+      "crop": [
+        23,
+        4,
+        91,
+        70
+      ],
+      "marks": [
+        [
+          63,
+          25,
+          "The longitudinal clamping rail bears on a film margin while roller 15 provides the counter-bearing."
+        ],
+        [
+          71,
+          56,
+          "The opposing clamping region establishes the fixed side of the span."
+        ]
+      ],
+      "reading": "The loaded roller can turn as the clamped edge is moved laterally. That allows its surface to follow the film rather than rubbing a stationary counter-bearing. The rail still supplies the normal gripping force.",
+      "turn": 90
+    }
+  ],
+  "US6020952A": [
+    {
+      "page": 3,
+      "figure": "Figs. 2–3",
+      "title": "Opposed air bearings and the scan path",
+      "crop": [
+        2,
+        0,
+        99,
+        98
+      ],
+      "marks": [
+        [
+          57,
+          30,
+          "Upper plate 15 opposes the lower air-bearing assembly across the moving film."
+        ],
+        [
+          58,
+          77,
+          "The lower view shows the passages and optical access around the strip."
+        ]
+      ],
+      "reading": "The opposing cushions balance the moving strip near the focal plane. The drive acts at the perforations outside the supported region. The scan area is designed to run without plate contact."
+    }
+  ],
+  "US6304315B2": [
+    {
+      "page": 5,
+      "figure": "Figs. 4A–4B",
+      "title": "Conjugate scan lines on curved stock",
+      "crop": [
+        1,
+        0,
+        99,
+        98
+      ],
+      "marks": [
+        [
+          49,
+          31,
+          "The two slit images are placed on adjacent film tracks in the optical field."
+        ],
+        [
+          69,
+          73,
+          "The paired curves represent the two film surfaces around the common transport axis."
+        ]
+      ],
+      "reading": "A common shaft synchronizes the film movement. The image transfers line by line between the curved supports. These optical views establish the relevant relationship without implying a full-frame planar clamp."
+    }
+  ],
+  "US6501530B2": [
+    {
+      "page": 7,
+      "figure": "Figs. 6A–6B",
+      "title": "Out-of-plane buckle during projection",
+      "crop": [
+        2,
+        0,
+        98,
+        100
+      ],
+      "marks": [
+        [
+          40,
+          39,
+          "The frame lies at the projection aperture with a free image span inside the margin."
+        ],
+        [
+          37,
+          84,
+          "The side view relates the deflected film surface to the fixed optical axis and projection lens."
+        ]
+      ],
+      "reading": "The patent controls the heat gradient by redirecting light toward selected frame edges. The film bows and relaxes thermally. The gate provides its existing restraint without a new moving tension linkage."
+    }
+  ],
+  "US7106480B2": [
+    {
+      "page": 5,
+      "figure": "Figs. 3-2 and 3-3",
+      "title": "Lever load keeps the optical guide seated",
+      "crop": [
+        0,
+        1,
+        98,
+        99
+      ],
+      "marks": [
+        [
+          57,
+          29,
+          "The illustrated tension device acts through the module and its fulcrum to bias the guide toward the holder."
+        ],
+        [
+          57,
+          75,
+          "The alternative arrangement relocates the supporting or loading points while preserving the working pressure at the guide."
+        ]
+      ],
+      "reading": "The module can rock to follow the holder as the scanning stroke progresses. The load is a normal force on the carrier interface, distinct from film tension inside a carrier."
+    }
+  ],
+  "US7210259B2": [
+    {
+      "page": 7,
+      "figure": "Figs. 6 and 8",
+      "title": "A shaped slot turns lid travel into traction",
+      "crop": [
+        0,
+        0,
+        99,
+        99
+      ],
+      "marks": [
+        [
+          75,
+          40,
+          "The cylindrical follower 334 bears on the inclined wall of slot 313 in the base."
+        ],
+        [
+          75,
+          84,
+          "The second cross-section shows the contact rod in its shifted position and film F seated."
+        ]
+      ],
+      "reading": "The lid slides along its guide. The follower displaces the spring-biased rod transverse to that slide, so rubber contact plate 333 moves the film edge. The drawings establish the sign of the motion, not a calibrated slope or stroke."
+    }
+  ],
+  "US20240364825A1": [
+    {
+      "page": 4,
+      "figure": "Fig. 3",
+      "title": "Cap, negative and scanner glass",
+      "crop": [
+        0,
+        23,
+        100,
+        58
+      ],
+      "marks": [
+        [
+          51,
+          40,
+          "The flat bottom of cap 20 loads the negative film 40 against scanning glass 50."
+        ],
+        [
+          20,
+          43,
+          "The elastic retaining pads 30 sit at the edges of the holder opening."
+        ]
+      ],
+      "reading": "The optical plane comes from contact against the glass. The removable cap supplies the load over the negative. The perimeter pads locate and retain it without a transverse pulling mechanism."
+    }
+  ]
+}

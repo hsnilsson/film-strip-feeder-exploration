@@ -14,6 +14,7 @@ export function legalStatusLink(patent) {
   const status = patent.legalStatus;
   if (!status) return '';
   const details = [status.jurisdiction, evidenceLabels[status.basis], 'Checked ' + status.checkedOn];
+  if (status.grant && status.grant !== patent.id) details.push('Grant ' + status.grant);
   if (status.expiresOn) {
     const label = status.expiryBasis === 'recorded' ? 'Expiry' : 'Estimated expiry';
     details.push(label + ' ' + status.expiresOn);
