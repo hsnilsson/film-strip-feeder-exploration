@@ -29,7 +29,7 @@ Many people have been custructing parts of this flow, but there are always short
 | [Pacific Image PowerFilm Plus](https://www.scanace.com/product/film-scanners/powerfilm-plus)                     | <ul><li>The only film batch feeder I've found</li><li>Up to 10 strips</li><li>Down to 2 frames per strip</li><li>ICE</li></ul> | <ul><li>24 MP scanner</li><li>Slow (CCD scanner)</li></ul>                                                                                               |
 | [SlideSnap Strip](https://slidesnap.com/product/slidesnap-strip/)            | <ul><li>Transports single frames</li><li>Handles many different film sizes</li></ul>                               | <ul><li>Does not provide unattended feeding from a stack of loose strips</li><li>Cannot guarantee flatness of edge frames</li></ul> |
 | [toneCarrier 35 mm](https://tonephotographic.com/products/tonecarrier-35-mm) | <ul><li>Synchronized edge rollers</li></ul>                                                                        | <ul><li>Minimum four frames per strip</li></ul>                                                                                                        |
-| [Filmomat Autocarrier](https://shop.filmomat.eu/)                            | <ul><li>Keeps film very flat</li><li>IR light</li></ul>                                            | <ul><li>Independent batch separator is missing for this concept</li><li>Cannot handle fewer than three frames</li></ul>                                |
+| [Filmomat Autocarrier](https://shop.filmomat.eu/products/135-autocarrier)     | <ul><li>Keeps film very flat</li><li>IR light</li></ul>                                            | <ul><li>Independent batch separator is missing for this concept</li><li>Cannot handle fewer than three frames</li></ul>                                |
 | [Lento Dock 35](https://lento.fun/shop/dock-35/)                             | <ul><li>Automated film transport</li><li>RGB scanning</li></ul>                                                 | <ul><li>Flatness not confirmed</li><li>Strip length of minimum 123 mm</li></ul>                          |
 
 ## Independent and DIY scanning projects
@@ -57,13 +57,8 @@ flowchart LR
 
 ## Transport and flatten single frames
 
-Use two narrow, continuously driven rubber belts along the film's perforated edges so even one frame remains under drive inside the gate. At capture, clamp the edges against the belts and apply a **small outward displacement** to reduce transverse curl without touching the image area. Film deformation and longitudinal curl remain open questions.
+Use two narrow, continuously driven rubber belts along the film's perforated edges so even one frame remains under drive inside the gate. [Edge-belt transport and its SlideSnap reference](docs/3-transport.md#proposed-continuous-edge-belts)
 
-Related: [SlideSnap Strip](https://slidesnap.com/product/slidesnap-strip/) · [Kodak film-flattening patent](https://patents.google.com/patent/EP0660170A1/en)
-
-## References
-
-- [MakerBeamXL modular framing](https://www.makerbeam.com/makerbeamxl/)
-- [Pololu micro gearmotors](https://www.pololu.com/category/60/micro-metal-gearmotors)
+At capture, clamp the edges against the belts and apply a **small outward displacement** to reduce transverse curl without touching the image area. Film deformation and longitudinal curl remain open questions. [Proposed clamping sequence](docs/4-flattening-and-capture.md#proposed-edge-clamping-and-lateral-tension) · [Kodak clamp precedents](docs/4-flattening-and-capture.md#kodak-film-clamps)
 
 Feedback, experiments, corrections, and alternative designs are welcome.

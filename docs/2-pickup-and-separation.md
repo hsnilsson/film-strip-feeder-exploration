@@ -6,7 +6,7 @@ Extract one strip, clear it from the stack and hand it off to transport. A loose
 
 ## Passive separation inspired by PowerFilm Plus
 
-**Observed in footage.** Two initial rubber rollers rotate through a mechanical link. Their housing lifts for cleaning. The entrance shows two felt-like supports below the stack, an angled entrance with a retaining edge, and further rollers inside near the scanner sensor.
+**Observed in footage.** Two initial rubber rollers rotate through a mechanical link. Their housing lifts for cleaning. The entrance shows two felt-like supports below the stack, an angled entrance with a retaining edge, and further rollers inside near the scanner sensor. [PowerFilm Plus feeding footage at 1:22](https://youtu.be/FA9UKOKTuyk?t=82) · [Roller cleaning and internal view](https://www.youtube.com/watch?v=_j4d6bKq0QE)
 
 **Unverified hypothesis.** The supports spring upward and press the stack against the upper pickup roller. The angled edge and friction retain the remaining strips while the roller advances the top strip. The supports could take up the difference as the stack empties. The support material, spring action and actual separation mechanism remain open.
 
@@ -64,13 +64,6 @@ For both roller concepts, check that downstream traction begins before upstream 
 1. Build a hand-operated adjustable rig. Vary stack angle, pickup height and pressure, support compliance and lip position for the passive concept, and secondary roller position for the two-stage concept.
 2. Run mixed test film from single frames to longer strips across different stack sizes and curvatures. Handle misses, double feeds, jams, handoff failures and new scratches. Inspect both the extracted piece and the next strip before and after runs and make sure there won't be any scratches.
 3. Aim for say "**100 consecutive successful feeds**" with one strip handed off per attempt, without intervention or introduced scratches. In separate fault trials, verify detection and recovery from a double feed. Motorize after the manual rig trials.
-
-## References
-
-- [PowerFilm Plus feeding footage at 1:22](https://youtu.be/FA9UKOKTuyk?t=82)
-- [PowerFilm Plus roller cleaning and internal view](https://www.youtube.com/watch?v=_j4d6bKq0QE)
-- [Xerox separator patent](https://patents.google.com/patent/EP1721846B1/en)
-- [Brother scanner separation pad](https://store.brother.se/accessories/scanners/sp2001c) (probably not film though)
 
 ---
 

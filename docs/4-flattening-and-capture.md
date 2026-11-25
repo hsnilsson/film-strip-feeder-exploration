@@ -51,11 +51,6 @@ In the proposed gate, the belts serve as the clamping surfaces, so belt deflecti
 - Measure the lateral movement of both film edges relative to the clamp travel to see how much of the motion reaches the film.
 - Include film curled in different directions. Check that clamps release cleanly before transport resumes.
 
-## References
-
-- [Kodak film clamp with pivoting arms and end clamps (EP0660170A1)](https://patents.google.com/patent/EP0660170A1/en)
-- [Kodak film clamp with a transport belt (US5028956A)](https://patents.google.com/patent/US5028956A/en)
-
 ---
 
 [Overview](../README.md#overview) · Previous [Transport](3-transport.md) · Next [Output](5-output.md)
