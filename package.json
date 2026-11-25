@@ -1,0 +1,17 @@
+{
+  "name": "film-strip-feeder-exploration",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "build": "node site/build.mjs",
+    "check": "node site/check.mjs"
+  },
+  "dependencies": {
+    "github-slugger": "2.0.0",
+    "markdown-it": "14.1.1",
+    "mermaid": "11.15.0",
+    "parse5": "8.0.0"
+  }
+}
