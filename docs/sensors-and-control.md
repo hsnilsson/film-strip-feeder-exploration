@@ -22,7 +22,7 @@ Perforation sensing provides a movement reference. Camera-based detection can lo
 ## References
 
 - [Independent transport projects with perforation and frame detection](../INDEPENDENT_PROJECTS.md#camera-based-film-transports)
-- [Repository prototype sequence](../README.md#prototype-plan)
+- [Repository prototype sequence](../README.md#overview)
 
 ---
 
