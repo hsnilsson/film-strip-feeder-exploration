@@ -1,17 +1,12 @@
 import { readFile } from 'node:fs/promises';
-import { createHash } from 'node:crypto';
 import { resolve } from 'node:path';
 import { createPatentModels } from './patent-models.mjs';
 
 export async function createMechanismViews({ root, archive, directory, patents, href, escape }) {
   const assets = directory + '/assets/';
-  const [raw, models, versions] = await Promise.all([
+  const [raw, models] = await Promise.all([
     readFile(resolve(root, directory, 'views.json'), 'utf8'),
     createPatentModels({ root, archive, directory, patents, href, escape }),
-    Promise.all(['mechanisms.css', 'models/viewer.js'].map(async (name) => {
-      const contents = await readFile(resolve(root, assets, name));
-      return [name, createHash('sha256').update(contents).digest('hex').slice(0, 12)];
-    })).then((entries) => new Map(entries)),
   ]);
   const entries = JSON.parse(raw);
   const figures = new Map();
@@ -63,7 +58,7 @@ export async function createMechanismViews({ root, archive, directory, patents, 
     }
   }
 
-  const asset = (from, name) => href(from, assets + name) + (versions.has(name) ? '?v=' + versions.get(name) : '');
+  const asset = (from, name) => href(from, assets + name);
   function annotatedView(from, patent, view) {
     const { file } = patent.figures.find((figure) => figure.page === view.page);
     const drawing = href(from, archive + '/figures/' + file);
@@ -113,15 +108,7 @@ export async function createMechanismViews({ root, archive, directory, patents, 
         <div class="mechanism-view-list">${views}</div>
       </section>${models.render(from, patent)}`;
     },
-    index(from) {
-      return '<ol class="mechanism-index">' + patents.map((patent) =>
-        `<li><a href="${href(from, archive + '/patents/' + patent.id + '.md')}#patent-model">${escape(patent.title)}</a> <span>${escape(patent.id)}</span></li>`).join('') + '</ol>';
-    },
-    resources(from, patent) {
-      if (!patent && from !== directory + '/index.md') return '';
-      const stylesheet = '<link rel="stylesheet" href="' + asset(from, 'mechanisms.css') + '">';
-      const script = patent ? '<script type="module" src="' + asset(from, 'models/viewer.js') + '"></script>' : '';
-      return stylesheet + script;
-    },
+    index: models.index,
+    resources: models.resources,
   };
 }

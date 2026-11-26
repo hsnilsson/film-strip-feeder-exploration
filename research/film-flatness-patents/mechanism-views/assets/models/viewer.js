@@ -1,4 +1,3 @@
-import { getModel } from './index.js';
 import { makeRenderer } from './renderer.js';
 
 async function start(viewer) {
@@ -13,7 +12,9 @@ async function start(viewer) {
   let renderer = makeRenderer(canvas);
   if (!renderer) return;
 
-  const model = await getModel(viewer.dataset.patent);
+  const source = viewer.dataset.modelModule;
+  const { getModel } = await import(source ? new URL(source, document.baseURI) : './index.js');
+  const model = getModel(viewer.dataset.patent);
   let active;
   let drag;
   const render = () => renderer.draw(rotation.valueAsNumber, tilt.valueAsNumber, zoom.valueAsNumber/100);
@@ -96,6 +97,7 @@ async function start(viewer) {
   fallback.hidden = true;
   const requested = Array.from(figure.options).findIndex((option) => '#' + option.value === location.hash);
   choose(requested < 0 ? model.start : requested);
+  if (requested >= 0) viewer.scrollIntoView({ block: 'start' });
   new ResizeObserver(() => {
     if (viewer.classList.contains('model-ready')) render();
   }).observe(canvas);

@@ -6,6 +6,7 @@ import GithubSlugger from 'github-slugger';
 import MarkdownIt from 'markdown-it';
 import { parseFragment, serialize } from 'parse5';
 import { createMechanismViews } from './mechanism-views.mjs';
+import { createPatentModels } from './patent-models.mjs';
 import { legalStatusLink, statusOptions } from './patent-status.mjs';
 
 const root = resolve(import.meta.dirname, '..');
@@ -13,6 +14,9 @@ const out = resolve(root, 'dist');
 const flatnessDirectory = 'research/film-flatness-patents';
 const mechanismDirectory = flatnessDirectory + '/mechanism-views';
 const mechanismPage = mechanismDirectory + '/index.md';
+const pickupDirectory = 'research/film-pickup-and-separation-patents';
+const pickupModelsDirectory = pickupDirectory + '/mechanism-views';
+const pickupModelsPage = pickupModelsDirectory + '/index.md';
 const repository = 'https://github.com/hsnilsson/film-strip-feeder-exploration';
 const markdown = new MarkdownIt({ html: true });
 const exists = async (file) => stat(file).then(() => true, () => false);
@@ -34,7 +38,7 @@ const projectNav = [
 ];
 const archiveDefinitions = [
   { directory: flatnessDirectory, title: 'Film-flatness archive', gallery: 'Patent gallery' },
-  { directory: 'research/film-pickup-and-separation-patents', title: 'Pickup & separation archive', gallery: 'Pickup patent gallery' },
+  { directory: pickupDirectory, title: 'Pickup & separation archive', gallery: 'Pickup patent gallery' },
 ];
 const patentPage = (archive, entry) => archive.directory + '/patents/' + entry.id + '.md';
 const archives = [];
@@ -49,7 +53,7 @@ for (const definition of archiveDefinitions) {
     [gallery, directory + '/index.md'],
     ['History', directory + '/history.md'],
     ['Mechanisms', directory + '/mechanisms.md'],
-    ...(directory === flatnessDirectory ? [['Mechanism views', mechanismPage]] : []),
+    ['Mechanism views', directory === flatnessDirectory ? mechanismPage : pickupModelsPage],
     ['Research method', directory + '/methodology.md'],
   ];
   const archive = { ...definition, catalogFile, catalog, nav };
@@ -71,8 +75,13 @@ function href(from, to) {
 }
 
 const flatnessArchive = archives.find(({ directory }) => directory === flatnessDirectory);
+const pickupArchive = archives.find(({ directory }) => directory === pickupDirectory);
 const mechanics = outputs.has(mechanismPage) ? await createMechanismViews({
   root, archive: flatnessDirectory, directory: mechanismDirectory, patents: flatnessArchive.catalog.patents, href, escape,
+}) : null;
+const pickupModels = outputs.has(pickupModelsPage) ? await createPatentModels({
+  root, archive: pickupDirectory, directory: pickupModelsDirectory, patents: pickupArchive.catalog.patents, href, escape,
+  registry: await import('../research/film-pickup-and-separation-patents/mechanism-views/assets/models/index.js'),
 }) : null;
 
 function link(from, to, label) {
@@ -243,7 +252,8 @@ async function filesIn(dir) {
 const figureDirectories = archives.map(({ directory }) => directory + '/figures');
 const sourceDirectories = archives.map(({ directory }) => directory + '/sources');
 const imageDirectories = ['images', 'assets', ...figureDirectories];
-if (mechanics) imageDirectories.push(mechanismDirectory + '/assets');
+if (mechanics || pickupModels) imageDirectories.push(mechanismDirectory + '/assets');
+if (pickupModels) imageDirectories.push(pickupModelsDirectory + '/assets');
 const imageFiles = new Set((await Promise.all(imageDirectories.map(filesIn))).flat());
 const assetVersions = new Map(await Promise.all(['site.js', 'style.css'].map(async (name) => {
   const contents = await readFile(resolve(root, 'site', name));
@@ -268,13 +278,14 @@ for (const [file, output] of outputs) {
   const index = archive?.catalog.patents.findIndex((entry) => patentPage(archive, entry) === file) ?? -1;
   const patent = archive?.catalog.patents[index];
   const { content, headings, title, mermaid } = renderMarkdown(file, await read(file), patent);
-  const flatnessPatent = archive === flatnessArchive ? patent : undefined;
-  const views = flatnessPatent ? mechanics?.render(file, flatnessPatent) : undefined;
+  const viewsForArchive = archive === flatnessArchive ? mechanics : archive === pickupArchive ? pickupModels : null;
+  const views = patent ? viewsForArchive?.render(file, patent) : undefined;
   let pageContent = content;
   if (views) {
     const publication = headings.findIndex(([id]) => id === 'publication');
-    headings.splice(publication < 0 ? headings.length : publication, 0,
-      ['mechanism-views', 'Read the mechanism'], ['patent-model', 'Explore in 3D']);
+    const sections = archive === flatnessArchive ? [['mechanism-views', 'Read the mechanism']] : [];
+    sections.push(['patent-model', 'Explore in 3D']);
+    headings.splice(publication < 0 ? headings.length : publication, 0, ...sections);
     pageContent = publication < 0 ? content + views : content.replace('<h2 id="publication">', (heading) => views + '\n' + heading);
   }
   const toc = headings.length > 0 ? '<nav class="toc" aria-label="On this page"><h2>On this page</h2>' +
@@ -283,7 +294,8 @@ for (const [file, output] of outputs) {
     (assetVersions.has(name) ? '?v=' + assetVersions.get(name) : '');
   const research = archives.map(({ title, nav }) => '<h2>' + escape(title) + '</h2>' + menu(file, nav)).join('');
   const defaultArchive = archives[0]?.nav[0][1];
-  const visualResources = mechanics?.resources(file, flatnessPatent) ?? '';
+  const visualResources = viewsForArchive?.resources(file, patent) ?? '';
+  const modelIndex = file === mechanismPage || file === pickupModelsPage ? viewsForArchive?.index(file) : '';
   const html = `<!doctype html>
 <html lang="${file === productTrace ? 'sv' : 'en'}">
 <head>
@@ -316,7 +328,7 @@ for (const [file, output] of outputs) {
     </aside>
     <main id="main">${pageContent}
       ${archiveHome ? archiveGallery(file, archive) : ''}
-      ${file === mechanismPage ? mechanics.index(file) : ''}
+      ${modelIndex ?? ''}
       ${index >= 0 ? patentNavigation(file, archive, index) : ''}
       <footer class="page-footer"><a href="${sourceLink(file)}">View source on GitHub</a></footer>
     </main>
@@ -341,5 +353,6 @@ if (mechanics) {
     '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=../mechanism-views/"><title>Mechanism views</title></head><body><a href="../mechanism-views/">Open the mechanism views</a></body></html>\n');
 }
 const patentCount = archives.reduce((total, archive) => total + archive.catalog.patents.length, 0);
-const modelCount = mechanics ? ' with ' + mechanics.count + ' figure views' : '';
+const figureCount = (mechanics?.count ?? 0) + (pickupModels?.count ?? 0);
+const modelCount = figureCount ? ' with ' + figureCount + ' figure views' : '';
 console.log('Built ' + outputs.size + ' documentation pages and ' + patentCount + ' patent records' + modelCount + '.');

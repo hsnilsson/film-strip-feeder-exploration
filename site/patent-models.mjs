@@ -1,12 +1,20 @@
-import { stat } from 'node:fs/promises';
+import { readFile, stat } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { resolve } from 'node:path';
-import { getModel, modelIds } from '../research/film-flatness-patents/mechanism-views/assets/models/index.js';
+import * as flatnessModels from '../research/film-flatness-patents/mechanism-views/assets/models/index.js';
+
+const sharedAssets = 'research/film-flatness-patents/mechanism-views/assets/';
 
 const key = (page, label) => 'model-view-' + page + '-' + label.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const labelOf = (label) => label === 'drawing' ? 'Unnumbered drawing' :
-  'Fig. ' + label.replace(/ cover$/, ' on cover');
+  label === 'drawing cover' ? 'Cover drawing' : 'Fig. ' + label.replace(/ cover$/, ' on cover');
 
-export async function createPatentModels({ root, archive, directory, patents, href, escape }) {
+export async function createPatentModels({ root, archive, directory, patents, href, escape, registry = flatnessModels }) {
+  const { getModel, modelIds } = registry;
+  const versions = await Promise.all(['mechanisms.css', 'models/viewer.js'].map(async (name) => {
+    const contents = await readFile(resolve(root, sharedAssets, name));
+    return '?v=' + createHash('sha256').update(contents).digest('hex').slice(0, 12);
+  }));
   let count = 0;
   const records = new Map();
   const suffix = (patent, page) => {
@@ -56,7 +64,8 @@ export async function createPatentModels({ root, archive, directory, patents, hr
       `<li id="${id}"><a href="${pdf}">${escape(name)} · PDF p. ${page}</a>
         <button type="button" data-model-view="${i}">Show in 3D</button>
         <p>${escape(caption)}</p></li>`).join('');
-    return `<section class="patent-model" id="patent-model" data-patent="${escape(patent.id)}" aria-labelledby="patent-model-heading">
+    const modelModule = registry === flatnessModels ? '' : ` data-model-module="${href(from, directory + '/assets/models/index.js')}"`;
+    return `<section class="patent-model" id="patent-model" data-patent="${escape(patent.id)}"${modelModule} aria-labelledby="patent-model-heading">
       ${patent.id === 'US2824491A' ? '<span id="hoffmaster-model"></span>' : ''}
       <h2 id="patent-model-heading">Explore in 3D</h2>
       <p>Use the figure list to switch between documented configurations and viewpoints. Reconstruction dimensions, unlisted angles and clearances are schematic.</p>
@@ -89,5 +98,18 @@ export async function createPatentModels({ root, archive, directory, patents, hr
     </section>`;
   }
 
-  return { count, render };
+  return {
+    count,
+    render,
+    index(from) {
+      return '<ol class="mechanism-index">' + patents.map((patent) =>
+        `<li><a href="${href(from, archive + '/patents/' + patent.id + '.md')}#patent-model">${escape(patent.title)}</a> <span>${escape(patent.id)}</span></li>`).join('') + '</ol>';
+    },
+    resources(from, patent) {
+      if (!patent && from !== directory + '/index.md') return '';
+      const stylesheet = `<link rel="stylesheet" href="${href(from, sharedAssets + 'mechanisms.css')}${versions[0]}">`;
+      const script = patent ? `<script type="module" src="${href(from, sharedAssets + 'models/viewer.js')}${versions[1]}"></script>` : '';
+      return stylesheet + script;
+    },
+  };
 }
