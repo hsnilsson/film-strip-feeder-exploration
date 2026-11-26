@@ -1,4 +1,5 @@
 import { f, record, sheet, roller, shaft, end, side, iso, plan, detail, pile, tray, film, cup, belt, jet, gear } from './shared.js';
+import { asymmetricCup } from './cup-lip.js';
 
 function airKnife(g,y,z,{ auxiliary=false, fluffer=true, away=-1, alternative=false }={}) {
   g.box('support',0,y,z-.30,5.01,.52,.50);
@@ -192,22 +193,7 @@ export const models = {
     const z=cupOnly?.12:state==='lift'?1.03:state==='transport'?1.15:base;
     const r=cupOnly?1.6:.55;
     const scale=cupOnly?2.4:1;
-    const head=(x)=>{
-      // The thin half can rise locally while the opposite half retains the cup shape.
-      const ring=(radius,h,flex)=>Array.from({length:32},(_,i)=>{
-        const angle=i*Math.PI/16, sy=Math.sin(angle);
-        const elevation=curled&&flex?Math.max(0,sy)*.17:0;
-        return [x+radius*Math.cos(angle),(cupOnly?0:y)+radius*sy,z+h*scale+elevation];
-      });
-      const rows=[ring(r,0,true),ring(r*.86,.11,false),ring(r*.40,.48,false),ring(r*.23,.48,false),
-        ring(r*.34,.21,false),ring(r*.80,.028,true)];
-      rows.push(rows[0]);
-      for(let j=1;j<rows.length;j++) for(let i=0;i<32;i++){
-        const next=(i+1)%32;
-        g.face('spring',[rows[j-1][i],rows[j-1][next],rows[j][next],rows[j][i]],false);
-      }
-      g.cylinder('steel',[x,cupOnly?0:y,z+.43*scale],[x,cupOnly?0:y,z+.90*scale],r*.22,r*.12);
-    };
+    const head=(x)=>asymmetricCup(g,x,cupOnly?0:y,z,r,scale,curled?.17:0);
     if(cupOnly) { head(0);return; }
     tray(g,{z:0,y:-.42,length:5.25,wall:.20});
     sheet(g,'glass',0,-.56,.243,4.84,4.64);

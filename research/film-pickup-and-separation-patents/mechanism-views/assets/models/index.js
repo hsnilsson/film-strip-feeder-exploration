@@ -4,6 +4,7 @@ import { models as pneumatics } from './pneumatics.js';
 import { models as media } from './media.js';
 import { models as pickers } from './film-pickers.js';
 import { models as modern } from './modern.js';
+import { playback } from './cycles.js';
 
 const records = { ...historical, ...separators, ...pneumatics, ...media, ...pickers, ...modern };
 const startingFigures = {
@@ -20,6 +21,7 @@ for (const [id, model] of Object.entries(records)) {
   const label = startingFigures[id];
   model.start = label ? model.figures.findIndex((view) => view.label === label) : 0;
   if (model.start < 0) throw new Error('Unknown starting figure for ' + id);
+  if (playback[id]) model.playback = playback[id];
 }
 
 export const getModel = (id) => records[id];

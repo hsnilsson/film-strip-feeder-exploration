@@ -8,13 +8,24 @@ const sharedAssets = 'research/film-flatness-patents/mechanism-views/assets/';
 const key = (page, label) => 'model-view-' + page + '-' + label.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const labelOf = (label) => label === 'drawing' ? 'Unnumbered drawing' :
   label === 'drawing cover' ? 'Cover drawing' : 'Fig. ' + label.replace(/ cover$/, ' on cover');
+const versionFor = async (root, path) => '?v=' + createHash('sha256')
+  .update(await readFile(resolve(root, path))).digest('hex').slice(0, 12);
+
+function validateMesh(faces, context) {
+  if (!faces.length || faces.some(({ vertices, fill }) =>
+    !/^#[0-9a-f]{6}$/i.test(fill) || vertices.length < 3 ||
+    vertices.some((point) => point.length !== 3 || !point.every(Number.isFinite)))) {
+    throw new Error('Invalid model geometry for ' + context);
+  }
+}
 
 export async function createPatentModels({ root, archive, directory, patents, href, escape, registry = flatnessModels }) {
   const { getModel, modelIds } = registry;
-  const versions = await Promise.all(['mechanisms.css', 'models/viewer.js'].map(async (name) => {
-    const contents = await readFile(resolve(root, sharedAssets, name));
-    return '?v=' + createHash('sha256').update(contents).digest('hex').slice(0, 12);
-  }));
+  const modelModulePath = registry === flatnessModels ? '' : directory + '/assets/models/index.js';
+  const [styleVersion, viewerVersion, moduleVersion] = await Promise.all([
+    versionFor(root, sharedAssets + 'mechanisms.css'), versionFor(root, sharedAssets + 'models/viewer.js'),
+    modelModulePath ? versionFor(root, modelModulePath) : '',
+  ]);
   let count = 0;
   const records = new Map();
   const suffix = (patent, page) => {
@@ -34,13 +45,18 @@ export async function createPatentModels({ root, archive, directory, patents, hr
       throw new Error('Missing or repeated source views for ' + patent.id);
     }
     const states = new Set(model.figures.map(({ state }) => state));
-    for (const state of states) {
-      const faces = model.build(state);
-      if (!faces.length || faces.some(({ vertices, fill }) =>
-        !/^#[0-9a-f]{6}$/i.test(fill) || vertices.length < 3 ||
-        vertices.some((point) => point.length !== 3 || !point.every(Number.isFinite)))) {
-        throw new Error('Invalid model geometry for ' + patent.id + ' (' + state + ')');
+    for (const state of states) validateMesh(model.build(state), patent.id + ' (' + state + ')');
+    if (model.playback) {
+      const { stages, duration, frame } = model.playback;
+      if (stages[0]?.time !== 0 || duration <= stages.at(-1).time || stages.some(({ time, figure }, i) =>
+        !model.figures.some(({ label }) => label === figure) || (i > 0 && time <= stages[i - 1].time))) {
+        throw new Error('Invalid playback stages for ' + patent.id);
       }
+      for (const [i, { time }] of stages.entries()) {
+        validateMesh(frame(time), patent.id + ' at ' + time + 's');
+        validateMesh(frame((time + (stages[i + 1]?.time ?? duration)) / 2), patent.id + ' in stage ' + (i + 1));
+      }
+      validateMesh(frame(duration), patent.id + ' at the end of playback');
     }
     for (const page of pages) await stat(resolve(root, suffix(patent, page)));
     records.set(patent.id, model);
@@ -64,7 +80,16 @@ export async function createPatentModels({ root, archive, directory, patents, hr
       `<li id="${id}"><a href="${pdf}">${escape(name)} · PDF p. ${page}</a>
         <button type="button" data-model-view="${i}">Show in 3D</button>
         <p>${escape(caption)}</p></li>`).join('');
-    const modelModule = registry === flatnessModels ? '' : ` data-model-module="${href(from, directory + '/assets/models/index.js')}"`;
+    const modelModule = modelModulePath ? ` data-model-module="${href(from, modelModulePath)}${moduleVersion}"` : '';
+    const playback = model.playback ? `<div class="model-playback" hidden aria-label="Pickup cycle">
+      <div class="playback-controls">
+        <button type="button" class="playback-toggle">Play pickup cycle</button>
+        <label>Cycle position <input type="range" class="playback-position" min="0" max="${model.playback.duration}" step="0.01" value="0"></label>
+      </div>
+      <div class="playback-stages" role="group" aria-label="Cycle steps">${model.playback.stages.map(({ title }, i) =>
+        `<button type="button" data-playback-stage="${i}" aria-pressed="false">${escape(title)}</button>`).join('')}</div>
+      <p>Timing and movement between the patent figures are illustrative.</p>
+    </div>` : '';
     return `<section class="patent-model" id="patent-model" data-patent="${escape(patent.id)}"${modelModule} aria-labelledby="patent-model-heading">
       ${patent.id === 'US2824491A' ? '<span id="hoffmaster-model"></span>' : ''}
       <h2 id="patent-model-heading">Explore in 3D</h2>
@@ -78,6 +103,7 @@ export async function createPatentModels({ root, archive, directory, patents, hr
           <label>Zoom <input name="zoom" type="range" min="55" max="185" value="100"></label>
           <button type="button" class="model-reset">Reset view</button>
         </form>
+        ${playback}
         <div class="model-display">
           <div class="model-render">
             <canvas width="800" height="600" role="img" aria-describedby="model-state"></canvas>
@@ -107,8 +133,8 @@ export async function createPatentModels({ root, archive, directory, patents, hr
     },
     resources(from, patent) {
       if (!patent && from !== directory + '/index.md') return '';
-      const stylesheet = `<link rel="stylesheet" href="${href(from, sharedAssets + 'mechanisms.css')}${versions[0]}">`;
-      const script = patent ? `<script type="module" src="${href(from, sharedAssets + 'models/viewer.js')}${versions[1]}"></script>` : '';
+      const stylesheet = `<link rel="stylesheet" href="${href(from, sharedAssets + 'mechanisms.css')}${styleVersion}">`;
+      const script = patent ? `<script type="module" src="${href(from, sharedAssets + 'models/viewer.js')}${viewerVersion}"></script>` : '';
       return stylesheet + script;
     },
   };

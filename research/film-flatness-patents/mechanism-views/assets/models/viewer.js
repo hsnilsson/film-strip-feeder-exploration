@@ -1,4 +1,5 @@
 import { makeRenderer } from './renderer.js';
+import { setupPlayback } from './playback.js';
 
 async function start(viewer) {
   const canvas = viewer.querySelector('canvas');
@@ -18,34 +19,46 @@ async function start(viewer) {
   let active;
   let drag;
   const render = () => renderer.draw(rotation.valueAsNumber, tilt.valueAsNumber, zoom.valueAsNumber/100);
-  const reset = () => {
-    const [yaw, pitch, scale] = active.camera;
+  const setCamera = ([yaw, pitch, scale]) => {
     rotation.value = yaw;
     tilt.value = pitch;
     zoom.value = Math.round(scale*100);
-    render();
   };
 
-  function choose(index) {
+  function showFigure(index, caption) {
     const option = figure.options[index];
     figure.selectedIndex = index;
     active = model.figures[index];
-    renderer.mesh(model.build(active.state), active.camera[3]);
     canvas.setAttribute('aria-label', model.title + ', ' + option.textContent);
-    status.textContent = active.caption;
+    status.textContent = caption ?? active.caption;
     if (preview.getAttribute('src') !== option.dataset.image) preview.src = option.dataset.image;
     preview.alt = 'Original patent drawing sheet containing ' + option.textContent;
     openSheet.href = option.dataset.image;
     openPdf.href = option.dataset.pdf;
     openPdf.textContent = 'Open original PDF, page ' + active.page;
-    reset();
+  }
+
+  function showFrame(faces, focus) {
+    renderer.mesh(faces, focus);
+    render();
+  }
+
+  const playback = setupPlayback(viewer, model, { showFigure, showFrame, setCamera });
+  function choose(index) {
+    playback?.clear();
+    showFigure(index);
+    setCamera(active.camera);
+    showFrame(model.build(active.state), active.camera[3]);
   }
 
   form.addEventListener('input', (event) => {
     if (event.target === figure) choose(figure.selectedIndex);
     else render();
   });
-  form.querySelector('.model-reset').addEventListener('click', reset);
+  form.querySelector('.model-reset').addEventListener('click', () => {
+    setCamera(playback?.camera ?? active.camera);
+    render();
+  });
   viewer.querySelectorAll('[data-model-view]').forEach((button) => {
     button.addEventListener('click', () => {
       choose(Number(button.dataset.modelView));
@@ -82,6 +95,7 @@ async function start(viewer) {
   }, { passive: false });
   canvas.addEventListener('webglcontextlost', (event) => {
     event.preventDefault();
+    playback?.clear();
     viewer.classList.remove('model-ready');
     fallback.hidden = false;
   });
