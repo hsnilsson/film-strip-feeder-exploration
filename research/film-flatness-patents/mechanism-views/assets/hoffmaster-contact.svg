@@ -14,7 +14,7 @@
   <g transform="translate(0 40)">
     <path class="body" d="M28 101h250v20H28Z M328 101h262v20H328Z"/>
     <path class="film" d="M40 98h119m181 0h119"/>
-    <path class="flange" d="M156 57l10 10h16l19 30h62M444 58l10 10h16l19 29h82"/>
+    <path class="flange" d="M150 65l9 8h23l19 24h62M444 58l10 10h16l19 29h82"/>
     <path d="M52 43l91 29 16 5-7 20-22-2-10-13-75-25Z M346 72h107l9 4v21H346Z" fill="#edaa59" stroke="#70471e" stroke-width="2"/>
     <path d="M130 95l3 3 3-2 4 2 3-2 4 2 3-2" fill="none" stroke="#70471e" stroke-width="2"/>
     <path class="leader" d="M96 151l40-50m383 49-54-80"/>

@@ -270,8 +270,13 @@ for (const [file, output] of outputs) {
   const { content, headings, title, mermaid } = renderMarkdown(file, await read(file), patent);
   const flatnessPatent = archive === flatnessArchive ? patent : undefined;
   const views = flatnessPatent ? mechanics?.render(file, flatnessPatent) : undefined;
-  if (views) headings.splice(1, 0, ['mechanism-views', 'Read the mechanism']);
-  const pageContent = views ? content.replace('<h2 id="publication">', views + '\n<h2 id="publication">') : content;
+  let pageContent = content;
+  if (views) {
+    const publication = headings.findIndex(([id]) => id === 'publication');
+    headings.splice(publication < 0 ? headings.length : publication, 0,
+      ['mechanism-views', 'Read the mechanism'], ['patent-model', 'Explore in 3D']);
+    pageContent = publication < 0 ? content + views : content.replace('<h2 id="publication">', (heading) => views + '\n' + heading);
+  }
   const toc = headings.length > 0 ? '<nav class="toc" aria-label="On this page"><h2>On this page</h2>' +
     headings.map(([id, label]) => '<a href="#' + escape(id) + '">' + escape(label) + '</a>').join('') + '</nav>' : '';
   const asset = (name) => href(file, 'site-assets/' + name) +
@@ -336,4 +341,5 @@ if (mechanics) {
     '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=../mechanism-views/"><title>Mechanism views</title></head><body><a href="../mechanism-views/">Open the mechanism views</a></body></html>\n');
 }
 const patentCount = archives.reduce((total, archive) => total + archive.catalog.patents.length, 0);
-console.log('Built ' + outputs.size + ' documentation pages and ' + patentCount + ' patent records.');
+const modelCount = mechanics ? ' with ' + mechanics.count + ' figure views' : '';
+console.log('Built ' + outputs.size + ' documentation pages and ' + patentCount + ' patent records' + modelCount + '.');

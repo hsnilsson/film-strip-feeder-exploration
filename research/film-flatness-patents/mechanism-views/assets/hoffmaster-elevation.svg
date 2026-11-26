@@ -20,7 +20,6 @@
     </marker>
     <g id="base">
       <rect x="45" y="109" width="530" height="21" rx="2" class="body"/>
-      <path class="flange" d="M65 105h28l17-26h34m332 0h34l17 26h28"/>
     </g>
   </defs>
 
@@ -31,6 +30,7 @@
     <text x="29" y="-31" class="heading">2 · Toggle raised</text>
     <text x="29" y="-6" class="small">The bars rest on the long margins.</text>
     <use href="#base"/>
+    <path class="flange" d="M65 105h28l17-26h34m332 0h34l17 26h28"/>
     <path class="film" d="M137 106c65 0 105-12 173-12s108 12 173 12"/>
     <path class="arm-outline" d="M156 98 310 51 464 98"/>
     <path class="arm" d="M156 98 310 51 464 98"/>
@@ -49,7 +49,8 @@
     <path class="film" d="M126 106H494"/>
     <path class="arm-outline" d="M139 97H481"/>
     <path class="arm" d="M139 97H481"/>
-    <path d="M120 86h33v19h-34Z M500 86h-33v19h34Z" fill="#edaa59" stroke="#70471e" stroke-width="2"/>
+    <path d="M120 82h24l9 4v19h-34Z M500 82h-24l-9 4v19h34Z" fill="#edaa59" stroke="#70471e" stroke-width="2"/>
+    <path class="flange" d="M65 105h28l17-27h34m332 0h34l17 27h28"/>
     <circle cx="310" cy="99" r="5" class="pin"/>
     <path class="force" d="M305 48v31"/>
     <path class="force" d="M210 64h-40"/>
