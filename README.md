@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is an exploration of automatic film scanning and a collection ideas for how to build something like "the best possible automatic batch film strip feeder and autocarrier for cut and uncut strips". It is my very informal braindump of how to possibly solve some shortcomings of the current intents.
+This is an exploration of automatic film scanning and a collection ideas for how to build something like "the best possible automatic film strip (batch) feeder, probably including carrier and light source, for cut and uncut strips". It is my very informal braindump of how to possibly solve some shortcomings of the current intents.
 
 The film scanning workflow is often seen from two slightly different perspectives; one from people shooting new film and scan rolls, and another from people scanning and archiving film in the form of cut strips.
 
